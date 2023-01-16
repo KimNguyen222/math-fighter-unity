@@ -1,0 +1,757 @@
+fileFormatVersion: 2
+guid: 9e1cad3b8dd46564ca9336509163f0b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1573224996702478819
+    second: Einstein - WIN_0
+  - first:
+      213: -2239978433539157587
+    second: Einstein - WIN_1
+  - first:
+      213: -4759897412753361627
+    second: Einstein - WIN_2
+  - first:
+      213: -7511605330156867210
+    second: Einstein - WIN_3
+  - first:
+      213: -4878590375681739796
+    second: Einstein - WIN_4
+  - first:
+      213: 1246423641140419196
+    second: Einstein - WIN_5
+  - first:
+      213: 5414018143777320279
+    second: Einstein - WIN_6
+  - first:
+      213: 6548415412483008852
+    second: Einstein - WIN_7
+  - first:
+      213: -1114302191955591502
+    second: Einstein - WIN_8
+  - first:
+      213: 1248706731781436853
+    second: Einstein - WIN_9
+  - first:
+      213: 7268503344811313628
+    second: Einstein - WIN_10
+  - first:
+      213: 3250517077861185757
+    second: Einstein - WIN_11
+  - first:
+      213: 5990659518219542991
+    second: Einstein - WIN_12
+  - first:
+      213: -1083484363888474918
+    second: Einstein - WIN_13
+  - first:
+      213: 4226643912536010439
+    second: Einstein - WIN_14
+  - first:
+      213: 8614285654555055074
+    second: Einstein - WIN_15
+  - first:
+      213: -4318302541955819470
+    second: Einstein - WIN_16
+  - first:
+      213: -5034274368466566592
+    second: Einstein - WIN_17
+  - first:
+      213: -2955266760698330270
+    second: Einstein - WIN_18
+  - first:
+      213: -3770278039349709806
+    second: Einstein - WIN_19
+  - first:
+      213: -7420933694226972347
+    second: Einstein - WIN_20
+  - first:
+      213: 7085939230805419352
+    second: Einstein - WIN_21
+  - first:
+      213: -1696296029338130817
+    second: Einstein - WIN_22
+  - first:
+      213: -6261076943050105810
+    second: Einstein - WIN_23
+  - first:
+      213: -3730401811639810928
+    second: Einstein - WIN_24
+  - first:
+      213: -3150682216698841108
+    second: Einstein - WIN_25
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Einstein - WIN_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2666
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e98c76338ca2ae0800000000000000
+      internalID: -1573224996702478819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_1
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2666
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1dc5c8b7ff9e0e0800000000000000
+      internalID: -2239978433539157587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_2
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 2666
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525f889a58271fdb0800000000000000
+      internalID: -4759897412753361627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_3
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 2666
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671b11b10ca61c790800000000000000
+      internalID: -7511605330156867210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2227
+        width: 391
+        height: 411
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3b9d4b6e3cb4cb0800000000000000
+      internalID: -4878590375681739796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_5
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2227
+        width: 389
+        height: 411
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ad2d1a2bf2c4110800000000000000
+      internalID: 1246423641140419196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_6
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 2227
+        width: 391
+        height: 411
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ded5b21d4722b40800000000000000
+      internalID: 5414018143777320279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_7
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 2227
+        width: 389
+        height: 411
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4592eb66f15a0ea50800000000000000
+      internalID: 6548415412483008852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1786
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3c0c6f043980f0800000000000000
+      internalID: -1114302191955591502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_9
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1786
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5b878182c445110800000000000000
+      internalID: 1248706731781436853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_10
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1786
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9873c2849eed460800000000000000
+      internalID: 7268503344811313628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_11
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1786
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8b1427f082c1d20800000000000000
+      internalID: 3250517077861185757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1347
+        width: 391
+        height: 410
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1e9c98719132350800000000000000
+      internalID: 5990659518219542991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1347
+        width: 389
+        height: 410
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4ccba26b0b6f0f0800000000000000
+      internalID: -1083484363888474918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_14
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1347
+        width: 391
+        height: 410
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cea6c6ae3e08aa30800000000000000
+      internalID: 4226643912536010439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_15
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1347
+        width: 389
+        height: 410
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e35f7199271c8770800000000000000
+      internalID: 8614285654555055074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 906
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2389e0aa7be4214c0800000000000000
+      internalID: -4318302541955819470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_17
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 906
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04242b5722aa22ab0800000000000000
+      internalID: -5034274368466566592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_18
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 906
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2638e00f988ccf6d0800000000000000
+      internalID: -2955266760698330270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_19
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 906
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214ba1859184dabc0800000000000000
+      internalID: -3770278039349709806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 466
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541cfd57f1c830990800000000000000
+      internalID: -7420933694226972347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_21
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 466
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85569200030565260800000000000000
+      internalID: 7085939230805419352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_22
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 466
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f762569afbb8578e0800000000000000
+      internalID: -1696296029338130817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_23
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 466
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c1c1261bf2c19a0800000000000000
+      internalID: -6261076943050105810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 26
+        width: 391
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0944cbb1153fa3cc0800000000000000
+      internalID: -3730401811639810928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - WIN_25
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 26
+        width: 389
+        height: 412
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7768987378644d0800000000000000
+      internalID: -3150682216698841108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

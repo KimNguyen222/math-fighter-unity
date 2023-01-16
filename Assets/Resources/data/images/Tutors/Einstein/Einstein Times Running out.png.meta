@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 95731e2333ef82849a84ae897a5cc159
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5576052141287877134
+    second: Einstein Times Running out_0
+  - first:
+      213: 1250601029510936455
+    second: Einstein Times Running out_1
+  - first:
+      213: -8738917277814822637
+    second: Einstein Times Running out_2
+  - first:
+      213: 7943397065557440754
+    second: Einstein Times Running out_3
+  - first:
+      213: 1195173596582575675
+    second: Einstein Times Running out_4
+  - first:
+      213: 6544138893931662723
+    second: Einstein Times Running out_5
+  - first:
+      213: 3713466087134401873
+    second: Einstein Times Running out_6
+  - first:
+      213: 4623635136641398861
+    second: Einstein Times Running out_7
+  - first:
+      213: -7947853133396311405
+    second: Einstein Times Running out_8
+  - first:
+      213: 2811960173074273935
+    second: Einstein Times Running out_9
+  - first:
+      213: 3603419331736135453
+    second: Einstein Times Running out_10
+  - first:
+      213: -4382228996622617345
+    second: Einstein Times Running out_11
+  - first:
+      213: 6985778317870105527
+    second: Einstein Times Running out_12
+  - first:
+      213: -782214702774838807
+    second: Einstein Times Running out_13
+  - first:
+      213: -4712159141645333625
+    second: Einstein Times Running out_14
+  - first:
+      213: -717160467707518474
+    second: Einstein Times Running out_15
+  - first:
+      213: 8387269930955902774
+    second: Einstein Times Running out_16
+  - first:
+      213: -7427006851128273298
+    second: Einstein Times Running out_17
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Einstein Times Running out_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2238
+        width: 183
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a258a11ed126d40800000000000000
+      internalID: 5576052141287877134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2238
+        width: 183
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787bcb7a2070b5110800000000000000
+      internalID: 1250601029510936455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_2
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2238
+        width: 183
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319e25e590129b680800000000000000
+      internalID: -8738917277814822637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1799
+        width: 232
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f87e629b8d9c3e60800000000000000
+      internalID: 7943397065557440754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1799
+        width: 202
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3efa35cd0c169010800000000000000
+      internalID: 1195173596582575675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_5
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1799
+        width: 202
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d4d95d6a371da50800000000000000
+      internalID: 6544138893931662723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1359
+        width: 201
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1551b114bb1e88330800000000000000
+      internalID: 3713466087134401873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_7
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1359
+        width: 201
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d487682e8a37a2040800000000000000
+      internalID: 4623635136641398861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_8
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1359
+        width: 202
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39200f84fad83b190800000000000000
+      internalID: -7947853133396311405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 918
+        width: 201
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8653a601e6160720800000000000000
+      internalID: 2811960173074273935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_10
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 918
+        width: 201
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1768ec5acae10230800000000000000
+      internalID: 3603419331736135453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_11
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 918
+        width: 202
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff474e312f13f23c0800000000000000
+      internalID: -4382228996622617345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 479
+        width: 201
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3064c2e5872f060800000000000000
+      internalID: 6985778317870105527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_13
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 479
+        width: 202
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e994074fd30525f0800000000000000
+      internalID: -782214702774838807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_14
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 479
+        width: 233
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bce1d0a3c0b9eb0800000000000000
+      internalID: -4712159141645333625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_15
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 39
+        width: 183
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f12753ba522c06f0800000000000000
+      internalID: -717160467707518474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 39
+        width: 182
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f01f58091956470800000000000000
+      internalID: 8387269930955902774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Times Running out_17
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 39
+        width: 183
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e665b1e6e98fde890800000000000000
+      internalID: -7427006851128273298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

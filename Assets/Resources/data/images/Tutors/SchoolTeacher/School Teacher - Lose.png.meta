@@ -1,0 +1,733 @@
+fileFormatVersion: 2
+guid: 81d2cf51b9ed1e24f81fb1839363be71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3455402158681987495
+    second: School Teacher - Lose_0
+  - first:
+      213: -6504961385209230953
+    second: School Teacher - Lose_1
+  - first:
+      213: -419031309504442845
+    second: School Teacher - Lose_2
+  - first:
+      213: -3558007337611627232
+    second: School Teacher - Lose_3
+  - first:
+      213: -3554354941757822392
+    second: School Teacher - Lose_4
+  - first:
+      213: 2663898438893183968
+    second: School Teacher - Lose_5
+  - first:
+      213: -7652156997928187760
+    second: School Teacher - Lose_6
+  - first:
+      213: -3820578072194672660
+    second: School Teacher - Lose_7
+  - first:
+      213: 1449738093955225970
+    second: School Teacher - Lose_8
+  - first:
+      213: -2868713304691516882
+    second: School Teacher - Lose_9
+  - first:
+      213: 1183329364692153604
+    second: School Teacher - Lose_10
+  - first:
+      213: -8804664070633642008
+    second: School Teacher - Lose_11
+  - first:
+      213: 5142080322434881185
+    second: School Teacher - Lose_12
+  - first:
+      213: 2491781999468841545
+    second: School Teacher - Lose_13
+  - first:
+      213: 1554146622850455071
+    second: School Teacher - Lose_14
+  - first:
+      213: -3125624109455721860
+    second: School Teacher - Lose_15
+  - first:
+      213: 3423927345406145237
+    second: School Teacher - Lose_16
+  - first:
+      213: 5181544003015822156
+    second: School Teacher - Lose_17
+  - first:
+      213: 432612944574770416
+    second: School Teacher - Lose_18
+  - first:
+      213: 5261502525911799100
+    second: School Teacher - Lose_19
+  - first:
+      213: 250086809633889791
+    second: School Teacher - Lose_20
+  - first:
+      213: -3207795834284029187
+    second: School Teacher - Lose_21
+  - first:
+      213: 7441919811655579222
+    second: School Teacher - Lose_22
+  - first:
+      213: -5075161718048512223
+    second: School Teacher - Lose_23
+  - first:
+      213: 8216473576963685861
+    second: School Teacher - Lose_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: School Teacher - Lose_0
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1795
+        width: 106
+        height: 375
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95664af4b02fb00d0800000000000000
+      internalID: -3455402158681987495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_1
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1795
+        width: 199
+        height: 348
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79988fcb51cb9b5a0800000000000000
+      internalID: -6504961385209230953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_2
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1793
+        width: 198
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e883f7e3d4f2af0800000000000000
+      internalID: -419031309504442845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_3
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1793
+        width: 196
+        height: 280
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025fc657d2b6f9ec0800000000000000
+      internalID: -3558007337611627232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_4
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 1791
+        width: 230
+        height: 282
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84aeed223056caec0800000000000000
+      internalID: -3554354941757822392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1345
+        width: 219
+        height: 268
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e322f7248118f420800000000000000
+      internalID: 2663898438893183968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_6
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1345
+        width: 253
+        height: 264
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09888f4d0c31ec590800000000000000
+      internalID: -7652156997928187760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_7
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1342
+        width: 218
+        height: 267
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce790325c749afac0800000000000000
+      internalID: -3820578072194672660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_8
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1342
+        width: 215
+        height: 258
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2799d8b8d118e1410800000000000000
+      internalID: 1449738093955225970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_9
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1342
+        width: 193
+        height: 254
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2adc6fc2784038d0800000000000000
+      internalID: -2868713304691516882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 902
+        width: 139
+        height: 258
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405b3c2a9c70c6010800000000000000
+      internalID: 1183329364692153604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_11
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 902
+        width: 123
+        height: 267
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7ac374dac8fc580800000000000000
+      internalID: -8804664070633642008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_12
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 902
+        width: 136
+        height: 350
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6d1413fc65c5740800000000000000
+      internalID: 5142080322434881185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_13
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 902
+        width: 158
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a8d08c686949220800000000000000
+      internalID: 2491781999468841545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_14
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 902
+        width: 277
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16dfd78e10719510800000000000000
+      internalID: 1554146622850455071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 462
+        width: 132
+        height: 318
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7abe76ce6d8f94d0800000000000000
+      internalID: -3125624109455721860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_16
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 462
+        width: 131
+        height: 318
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2fda7a7cb348f20800000000000000
+      internalID: 3423927345406145237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_17
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 462
+        width: 120
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b40d751da88e740800000000000000
+      internalID: 5181544003015822156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_18
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 462
+        width: 121
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc6d965e23f00600800000000000000
+      internalID: 432612944574770416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_19
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 462
+        width: 134
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c351bc1bbac940940800000000000000
+      internalID: 5261502525911799100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 22
+        width: 132
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd1d3bd0ac787300800000000000000
+      internalID: 250086809633889791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_21
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 22
+        width: 120
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfac5813fae9b73d0800000000000000
+      internalID: -3207795834284029187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_22
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 22
+        width: 120
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6563ca4c3a2074760800000000000000
+      internalID: 7441919811655579222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_23
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 22
+        width: 132
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127ae0a8e476199b0800000000000000
+      internalID: -5075161718048512223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - Lose_24
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 22
+        width: 134
+        height: 319
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edbd4d7f27c60270800000000000000
+      internalID: 8216473576963685861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

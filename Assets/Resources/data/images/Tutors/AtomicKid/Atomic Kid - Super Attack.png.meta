@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 1330ebe0d93c7db43845ef1491de1ca5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6294522484495895852
+    second: Atomic Kid - Super Attack_0
+  - first:
+      213: -1251340555011852517
+    second: Atomic Kid - Super Attack_1
+  - first:
+      213: -9091498811021107545
+    second: Atomic Kid - Super Attack_2
+  - first:
+      213: -8982927857532593635
+    second: Atomic Kid - Super Attack_3
+  - first:
+      213: -1901735854309167976
+    second: Atomic Kid - Super Attack_4
+  - first:
+      213: -5182691487225781290
+    second: Atomic Kid - Super Attack_5
+  - first:
+      213: 8148535281001638224
+    second: Atomic Kid - Super Attack_6
+  - first:
+      213: -6235793914895678445
+    second: Atomic Kid - Super Attack_7
+  - first:
+      213: 782725291427647860
+    second: Atomic Kid - Super Attack_8
+  - first:
+      213: 1778480902057971846
+    second: Atomic Kid - Super Attack_9
+  - first:
+      213: -6971326998386769830
+    second: Atomic Kid - Super Attack_10
+  - first:
+      213: 2104897295647283188
+    second: Atomic Kid - Super Attack_11
+  - first:
+      213: 1667386960024452665
+    second: Atomic Kid - Super Attack_12
+  - first:
+      213: -4388225198388596185
+    second: Atomic Kid - Super Attack_13
+  - first:
+      213: 5451855416316876251
+    second: Atomic Kid - Super Attack_14
+  - first:
+      213: -2660237977348035487
+    second: Atomic Kid - Super Attack_15
+  - first:
+      213: -4652421053896534753
+    second: Atomic Kid - Super Attack_16
+  - first:
+      213: -1511465609405818167
+    second: Atomic Kid - Super Attack_17
+  - first:
+      213: 4367643297185153253
+    second: Atomic Kid - Super Attack_18
+  - first:
+      213: -798631611769993439
+    second: Atomic Kid - Super Attack_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2231
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d461f89d2aa5750800000000000000
+      internalID: 6294522484495895852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 2231
+        width: 386
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b177a75256852aee0800000000000000
+      internalID: -1251340555011852517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_2
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 2231
+        width: 334
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae533d000284d180800000000000000
+      internalID: -9091498811021107545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1791
+        width: 378
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a1fc805ba365380800000000000000
+      internalID: -8982927857532593635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_4
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1791
+        width: 276
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c274bf05dab95e0800000000000000
+      internalID: -1901735854309167976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_5
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1791
+        width: 194
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3677b2d816318b0800000000000000
+      internalID: -5182691487225781290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1970
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05927df4aa9651170800000000000000
+      internalID: 8148535281001638224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1934
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314c91a19720679a0800000000000000
+      internalID: -6235793914895678445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1350
+        width: 163
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4715248618cccda00800000000000000
+      internalID: 782725291427647860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1350
+        width: 181
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6805bf625fe6ea810800000000000000
+      internalID: 1778480902057971846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_10
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1350
+        width: 243
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a500118d70fd04f90800000000000000
+      internalID: -6971326998386769830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 911
+        width: 279
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f79cbb20f8163d10800000000000000
+      internalID: 2104897295647283188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_12
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 911
+        width: 276
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e306f1b9fb32710800000000000000
+      internalID: 1667386960024452665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_13
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 911
+        width: 243
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72231af8e64e913c0800000000000000
+      internalID: -4388225198388596185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 471
+        width: 279
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd55b50bd91e8ab40800000000000000
+      internalID: 5451855416316876251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 471
+        width: 276
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16caa2677afe41bd0800000000000000
+      internalID: -2660237977348035487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_16
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 471
+        width: 215
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15d2f873b74f6fb0800000000000000
+      internalID: -4652421053896534753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 30
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca952d4902360be0800000000000000
+      internalID: -1511465609405818167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_18
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 30
+        width: 161
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e04652207cfc9c30800000000000000
+      internalID: 4367643297185153253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Super Attack_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 30
+        width: 161
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1274d0ac7c0bae4f0800000000000000
+      internalID: -798631611769993439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

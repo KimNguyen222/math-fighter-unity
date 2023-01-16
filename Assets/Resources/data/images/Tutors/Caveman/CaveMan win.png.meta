@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 8d7c921d23a6ccd47acaae57a03e4b62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5855741573580742224
+    second: CaveMan win_0
+  - first:
+      213: -6755521719814473544
+    second: CaveMan win_1
+  - first:
+      213: -8005474156432574285
+    second: CaveMan win_2
+  - first:
+      213: 7325416220693217371
+    second: CaveMan win_3
+  - first:
+      213: 8157970940461624976
+    second: CaveMan win_4
+  - first:
+      213: 559111888104216231
+    second: CaveMan win_5
+  - first:
+      213: 7027934426259153079
+    second: CaveMan win_6
+  - first:
+      213: 9121015245158569401
+    second: CaveMan win_7
+  - first:
+      213: 4544686553704362664
+    second: CaveMan win_8
+  - first:
+      213: -4149469034512788395
+    second: CaveMan win_9
+  - first:
+      213: 4000877904233857674
+    second: CaveMan win_10
+  - first:
+      213: 8669682629594866944
+    second: CaveMan win_11
+  - first:
+      213: 6519121436873489888
+    second: CaveMan win_12
+  - first:
+      213: -7200677511579200203
+    second: CaveMan win_13
+  - first:
+      213: 8585009557775695844
+    second: CaveMan win_14
+  - first:
+      213: -2731682539600831041
+    second: CaveMan win_15
+  - first:
+      213: 4638839629796353924
+    second: CaveMan win_16
+  - first:
+      213: 5140938730345749538
+    second: CaveMan win_17
+  - first:
+      213: 2665434298776782522
+    second: CaveMan win_18
+  - first:
+      213: 903846710155778082
+    second: CaveMan win_19
+  - first:
+      213: -9017342211881811817
+    second: CaveMan win_20
+  - first:
+      213: -8153003041000243677
+    second: CaveMan win_21
+  - first:
+      213: -571986610258830831
+    second: CaveMan win_22
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CaveMan win_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2235
+        width: 295
+        height: 371
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1ab3a501a3cbea0800000000000000
+      internalID: -5855741573580742224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 2232
+        width: 255
+        height: 363
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8b502c9c09f32a0800000000000000
+      internalID: -6755521719814473544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_2
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 2235
+        width: 231
+        height: 348
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b834476ba7d6e090800000000000000
+      internalID: -8005474156432574285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_3
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 2232
+        width: 290
+        height: 364
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50cd42bd3b19a560800000000000000
+      internalID: 7325416220693217371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1795
+        width: 330
+        height: 347
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eac2af85fe63170800000000000000
+      internalID: 8157970940461624976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_5
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1791
+        width: 248
+        height: 365
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a65628cc4d52c700800000000000000
+      internalID: 559111888104216231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_6
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1795
+        width: 232
+        height: 347
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b06ae5002d388160800000000000000
+      internalID: 7027934426259153079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_7
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1791
+        width: 290
+        height: 365
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5599e4a0b549e70800000000000000
+      internalID: 9121015245158569401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1354
+        width: 330
+        height: 348
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2fa018758f11f30800000000000000
+      internalID: 4544686553704362664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1352
+        width: 248
+        height: 363
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554d16fd5ef1a66c0800000000000000
+      internalID: -4149469034512788395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_10
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1354
+        width: 240
+        height: 348
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82819f9149f58730800000000000000
+      internalID: 4000877904233857674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_11
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1352
+        width: 298
+        height: 363
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005606cea66e05870800000000000000
+      internalID: 8669682629594866944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 915
+        width: 343
+        height: 359
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed7a743862987a50800000000000000
+      internalID: 6519121436873489888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_13
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 912
+        width: 266
+        height: 370
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5359d2c34fd021c90800000000000000
+      internalID: -7200677511579200203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_14
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 915
+        width: 246
+        height: 359
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efbd8c15b4142770800000000000000
+      internalID: 8585009557775695844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_15
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 912
+        width: 310
+        height: 370
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd94fb043d171ad0800000000000000
+      internalID: -2731682539600831041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 475
+        width: 343
+        height: 360
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4872400d018706040800000000000000
+      internalID: 4638839629796353924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_17
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 471
+        width: 263
+        height: 371
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c5e429988485740800000000000000
+      internalID: 5140938730345749538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_18
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 475
+        width: 246
+        height: 360
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab68bb66f568df420800000000000000
+      internalID: 2665434298776782522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_19
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 471
+        width: 310
+        height: 371
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2289d3a4bcb1b8c00800000000000000
+      internalID: 903846710155778082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 34
+        width: 343
+        height: 361
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79046a2c807fbd280800000000000000
+      internalID: -9017342211881811817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_21
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 32
+        width: 258
+        height: 372
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e30804ee6bade80800000000000000
+      internalID: -8153003041000243677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan win_22
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 34
+        width: 295
+        height: 371
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a1e3f5535ef08f0800000000000000
+      internalID: -571986610258830831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

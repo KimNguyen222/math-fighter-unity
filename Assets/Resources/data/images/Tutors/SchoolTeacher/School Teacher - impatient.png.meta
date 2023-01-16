@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: d6739cd068ba3b24fb8da6055c2a949b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4882215821681135848
+    second: School Teacher - impatient_0
+  - first:
+      213: 3347459637227799372
+    second: School Teacher - impatient_1
+  - first:
+      213: 6733342634804567371
+    second: School Teacher - impatient_2
+  - first:
+      213: -8675880821471654522
+    second: School Teacher - impatient_3
+  - first:
+      213: -8475602111892909004
+    second: School Teacher - impatient_4
+  - first:
+      213: 215256581601800681
+    second: School Teacher - impatient_5
+  - first:
+      213: -7701748654307412038
+    second: School Teacher - impatient_6
+  - first:
+      213: 1051908149240644203
+    second: School Teacher - impatient_7
+  - first:
+      213: 9002103354117993700
+    second: School Teacher - impatient_8
+  - first:
+      213: -8095548871419991045
+    second: School Teacher - impatient_9
+  - first:
+      213: -3593563562373144508
+    second: School Teacher - impatient_10
+  - first:
+      213: -8028871297551960048
+    second: School Teacher - impatient_11
+  - first:
+      213: -208807439148460537
+    second: School Teacher - impatient_12
+  - first:
+      213: 6848347311114649172
+    second: School Teacher - impatient_13
+  - first:
+      213: -4496709545781182630
+    second: School Teacher - impatient_14
+  - first:
+      213: -779533208679061163
+    second: School Teacher - impatient_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: School Teacher - impatient_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1356
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e098183c6d11c340800000000000000
+      internalID: 4882215821681135848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1356
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43cbe0fdc0947e20800000000000000
+      internalID: 3347459637227799372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_2
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1356
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dd48a9373a17d50800000000000000
+      internalID: 6733342634804567371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_3
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 1356
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dce821c54199780800000000000000
+      internalID: -8675880821471654522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 916
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434921fe8cc906a80800000000000000
+      internalID: -8475602111892909004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_5
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 916
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1b0f178bebcf200800000000000000
+      internalID: 215256581601800681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_6
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 916
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7f9ae8764ed1590800000000000000
+      internalID: -7701748654307412038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_7
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 916
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62c3d373e0299e00800000000000000
+      internalID: 1051908149240644203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 476
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e43e8d2e45edec70800000000000000
+      internalID: 9002103354117993700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_9
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 476
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb62398135d6af80800000000000000
+      internalID: -8095548871419991045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_10
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 476
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44026f2caf8112ec0800000000000000
+      internalID: -3593563562373144508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_11
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 476
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018f51af718b39090800000000000000
+      internalID: -8028871297551960048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 36
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706d81b8dba2a1df0800000000000000
+      internalID: -208807439148460537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 36
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e7d7968973a0f50800000000000000
+      internalID: 6848347311114649172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_14
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 36
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fba912e7a7891c0800000000000000
+      internalID: -4496709545781182630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School Teacher - impatient_15
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 36
+        width: 104
+        height: 373
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55960164daa8e25f0800000000000000
+      internalID: -779533208679061163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

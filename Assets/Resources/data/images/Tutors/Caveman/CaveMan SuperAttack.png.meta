@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 752590e27c632bb4f92bacff45a1b682
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 409436800192091697
+    second: CaveMan SuperAttack_0
+  - first:
+      213: -2871982716879968570
+    second: CaveMan SuperAttack_1
+  - first:
+      213: 4655799813641049665
+    second: CaveMan SuperAttack_2
+  - first:
+      213: 414284882601091848
+    second: CaveMan SuperAttack_3
+  - first:
+      213: -5810896626791112175
+    second: CaveMan SuperAttack_4
+  - first:
+      213: -299563135969506354
+    second: CaveMan SuperAttack_5
+  - first:
+      213: -4921722766358761492
+    second: CaveMan SuperAttack_6
+  - first:
+      213: -7981473058915733655
+    second: CaveMan SuperAttack_7
+  - first:
+      213: -5756509227713755900
+    second: CaveMan SuperAttack_8
+  - first:
+      213: 5994252938109574726
+    second: CaveMan SuperAttack_9
+  - first:
+      213: -2870231682828170714
+    second: CaveMan SuperAttack_10
+  - first:
+      213: 6070296046359361901
+    second: CaveMan SuperAttack_11
+  - first:
+      213: -7072480786961379034
+    second: CaveMan SuperAttack_12
+  - first:
+      213: 5677771550850264940
+    second: CaveMan SuperAttack_13
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1356
+        width: 292
+        height: 368
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1361c69b99c9ea500800000000000000
+      internalID: 409436800192091697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_1
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1355
+        width: 289
+        height: 375
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6ee477feaa428d0800000000000000
+      internalID: -2871982716879968570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_2
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1399
+        width: 335
+        height: 332
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14697655349bc9040800000000000000
+      internalID: 4655799813641049665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1384
+        width: 229
+        height: 344
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803a04fd7e5dfb500800000000000000
+      internalID: 414284882601091848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 984
+        width: 294
+        height: 317
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112a99d2e4c8b5fa0800000000000000
+      internalID: -5810896626791112175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_5
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 946
+        width: 305
+        height: 255
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb4cbc3aecb7dbf0800000000000000
+      internalID: -299563135969506354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_6
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 895
+        width: 331
+        height: 299
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefab3c683782bbb0800000000000000
+      internalID: -4921722766358761492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_7
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 895
+        width: 331
+        height: 299
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f2af26a8c1c3190800000000000000
+      internalID: -7981473058915733655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 455
+        width: 331
+        height: 299
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4050ddf4b55cc10b0800000000000000
+      internalID: -5756509227713755900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 455
+        width: 331
+        height: 299
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64edcddc94ddf2350800000000000000
+      internalID: 5994252938109574726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_10
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 506
+        width: 305
+        height: 255
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a84f9dd73ea28d0800000000000000
+      internalID: -2870231682828170714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_11
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 490
+        width: 294
+        height: 317
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6935b4a7160e3450800000000000000
+      internalID: 6070296046359361901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 35
+        width: 289
+        height: 375
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6215464223089dd90800000000000000
+      internalID: -7072480786961379034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveMan SuperAttack_13
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 36
+        width: 292
+        height: 368
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6faf34b42f7bce40800000000000000
+      internalID: 5677771550850264940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

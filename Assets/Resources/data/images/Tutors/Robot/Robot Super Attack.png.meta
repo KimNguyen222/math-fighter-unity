@@ -1,0 +1,1141 @@
+fileFormatVersion: 2
+guid: 638d7880c7156b2498ec1fba5fdd5ec0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7924785814134349087
+    second: Robot Super Attack_0
+  - first:
+      213: -4057348706318595146
+    second: Robot Super Attack_1
+  - first:
+      213: -1221399693409468099
+    second: Robot Super Attack_2
+  - first:
+      213: -3705442342200385458
+    second: Robot Super Attack_3
+  - first:
+      213: -328345194802376463
+    second: Robot Super Attack_4
+  - first:
+      213: -8979493294661194353
+    second: Robot Super Attack_5
+  - first:
+      213: 989681667495765457
+    second: Robot Super Attack_6
+  - first:
+      213: 5656428073511293231
+    second: Robot Super Attack_7
+  - first:
+      213: 2056487525033726053
+    second: Robot Super Attack_8
+  - first:
+      213: 7635339095892043192
+    second: Robot Super Attack_9
+  - first:
+      213: -7863706628953264782
+    second: Robot Super Attack_10
+  - first:
+      213: -8920742921745370684
+    second: Robot Super Attack_11
+  - first:
+      213: -5060468092728699939
+    second: Robot Super Attack_12
+  - first:
+      213: -697444892116350668
+    second: Robot Super Attack_13
+  - first:
+      213: 1743058444466393962
+    second: Robot Super Attack_14
+  - first:
+      213: 2280230926629607434
+    second: Robot Super Attack_15
+  - first:
+      213: 7274163327394202484
+    second: Robot Super Attack_16
+  - first:
+      213: -1951585189914504685
+    second: Robot Super Attack_17
+  - first:
+      213: -5527920439846995591
+    second: Robot Super Attack_18
+  - first:
+      213: -6945174365517302780
+    second: Robot Super Attack_19
+  - first:
+      213: 1320144457772325981
+    second: Robot Super Attack_20
+  - first:
+      213: -3920840661901551869
+    second: Robot Super Attack_21
+  - first:
+      213: -406881215392080409
+    second: Robot Super Attack_22
+  - first:
+      213: -4735181406194019757
+    second: Robot Super Attack_23
+  - first:
+      213: -7585129822700600335
+    second: Robot Super Attack_24
+  - first:
+      213: -6279764777203634549
+    second: Robot Super Attack_25
+  - first:
+      213: -8519739998023758360
+    second: Robot Super Attack_26
+  - first:
+      213: -3378458725084057007
+    second: Robot Super Attack_27
+  - first:
+      213: -8720619024877273939
+    second: Robot Super Attack_28
+  - first:
+      213: -5084191969156579965
+    second: Robot Super Attack_29
+  - first:
+      213: 7281063228600351418
+    second: Robot Super Attack_30
+  - first:
+      213: -1184222945982210259
+    second: Robot Super Attack_31
+  - first:
+      213: -6244127449046786888
+    second: Robot Super Attack_32
+  - first:
+      213: -48184103048896648
+    second: Robot Super Attack_33
+  - first:
+      213: -8253642987250420921
+    second: Robot Super Attack_34
+  - first:
+      213: -1869750941165012153
+    second: Robot Super Attack_35
+  - first:
+      213: -4488535760578410525
+    second: Robot Super Attack_36
+  - first:
+      213: 479577611758698494
+    second: Robot Super Attack_37
+  - first:
+      213: 5570390245697729495
+    second: Robot Super Attack_38
+  - first:
+      213: -6844990008007186431
+    second: Robot Super Attack_39
+  - first:
+      213: 5776354467021577160
+    second: Robot Super Attack_40
+  - first:
+      213: 8571818412078440819
+    second: Robot Super Attack_41
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot Super Attack_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2227
+        width: 211
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d588ce5be7afd60800000000000000
+      internalID: 7924785814134349087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2227
+        width: 212
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb4dfd29d661b7c0800000000000000
+      internalID: -4057348706318595146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_2
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 2227
+        width: 220
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31ce893377bc0fe0800000000000000
+      internalID: -1221399693409468099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 2227
+        width: 232
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40647172df939cc0800000000000000
+      internalID: -3705442342200385458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_4
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 2227
+        width: 237
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f01914f8cb717bf0800000000000000
+      internalID: -328345194802376463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1787
+        width: 177
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8da7b48c6e626380800000000000000
+      internalID: -8979493294661194353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_6
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1787
+        width: 183
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d52dc7ab3e0cbd00800000000000000
+      internalID: 989681667495765457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1787
+        width: 184
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2110332d5baf7e40800000000000000
+      internalID: 5656428073511293231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1787
+        width: 273
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56058ae128c1a8c10800000000000000
+      internalID: 2056487525033726053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1787
+        width: 317
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b52c46347c26f960800000000000000
+      internalID: 7635339095892043192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1572
+        width: 16
+        height: 27
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d2b531c708ed290800000000000000
+      internalID: -7863706628953264782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1346
+        width: 303
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c179c8a397233480800000000000000
+      internalID: -8920742921745370684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_12
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1576
+        width: 18
+        height: 62
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd315b7c41b95c9b0800000000000000
+      internalID: -5060468092728699939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_13
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1346
+        width: 303
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4398efad09d2256f0800000000000000
+      internalID: -697444892116350668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_14
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1572
+        width: 33
+        height: 43
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a631a2d8b66903810800000000000000
+      internalID: 1743058444466393962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_15
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1346
+        width: 320
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a081e9352f105af10800000000000000
+      internalID: 2280230926629607434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_16
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1572
+        width: 15
+        height: 27
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473418f810503f460800000000000000
+      internalID: 7274163327394202484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_17
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1346
+        width: 303
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3129b361c939ae4e0800000000000000
+      internalID: -1951585189914504685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_18
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1576
+        width: 18
+        height: 62
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9797c4ce5a1e843b0800000000000000
+      internalID: -5527920439846995591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_19
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1346
+        width: 303
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404313036b8cd9f90800000000000000
+      internalID: -6945174365517302780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1486
+        width: 27
+        height: 68
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c58b1d368125210800000000000000
+      internalID: 1320144457772325981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1531
+        width: 20
+        height: 27
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307537601306699c0800000000000000
+      internalID: -3920840661901551869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_22
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1486
+        width: 27
+        height: 68
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed96cab0b77a5af0800000000000000
+      internalID: -406881215392080409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_23
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1531
+        width: 20
+        height: 27
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35255c06991494eb0800000000000000
+      internalID: -4735181406194019757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 907
+        width: 303
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f385be2d943cb690800000000000000
+      internalID: -7585129822700600335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_25
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1132
+        width: 32
+        height: 43
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e64cde43bc9d8a0800000000000000
+      internalID: -6279764777203634549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_26
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 907
+        width: 321
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed4b1f7c9dc3c980800000000000000
+      internalID: -8519739998023758360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_27
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1132
+        width: 16
+        height: 27
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152bb0b70bd4d11d0800000000000000
+      internalID: -3378458725084057007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 907
+        width: 303
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac3da063332af680800000000000000
+      internalID: -8720619024877273939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_29
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 907
+        width: 303
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d378c57525179b0800000000000000
+      internalID: -5084191969156579965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_30
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 907
+        width: 317
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaf1effd688b0560800000000000000
+      internalID: 7281063228600351418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1091
+        width: 22
+        height: 26
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f1dd1418bc09fe0800000000000000
+      internalID: -1184222945982210259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_32
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1046
+        width: 27
+        height: 67
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcdc4bfa276859a0800000000000000
+      internalID: -6244127449046786888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_33
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 467
+        width: 272
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f13f540d0d45ff0800000000000000
+      internalID: -48184103048896648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_34
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 467
+        width: 186
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7437b0ace6b257d80800000000000000
+      internalID: -8253642987250420921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_35
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 467
+        width: 183
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3865ec6f4d06e0800000000000000
+      internalID: -1869750941165012153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_36
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 467
+        width: 178
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7061dc18485b1c0800000000000000
+      internalID: -4488535760578410525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_37
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 467
+        width: 237
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff7b170c4dc7a600800000000000000
+      internalID: 479577611758698494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_38
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 26
+        width: 232
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d33d1f4a600e4d40800000000000000
+      internalID: 5570390245697729495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_39
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 26
+        width: 222
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10822a1aad5b101a0800000000000000
+      internalID: -6844990008007186431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_40
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 26
+        width: 210
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbdf8788cbb92050800000000000000
+      internalID: 5776354467021577160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Super Attack_41
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 26
+        width: 213
+        height: 311
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371a61b2e6735f670800000000000000
+      internalID: 8571818412078440819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

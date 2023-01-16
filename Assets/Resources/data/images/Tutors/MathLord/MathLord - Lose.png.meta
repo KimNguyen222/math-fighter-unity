@@ -1,0 +1,1948 @@
+fileFormatVersion: 2
+guid: acafcf63207398f41a25ac1df5fa783a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8139801902897892772
+    second: MathLord - Lose_0
+  - first:
+      213: -5801343752641902387
+    second: MathLord - Lose_1
+  - first:
+      213: -2446080396781496288
+    second: MathLord - Lose_2
+  - first:
+      213: -8121194774533710497
+    second: MathLord - Lose_3
+  - first:
+      213: 1387744073637039564
+    second: MathLord - Lose_4
+  - first:
+      213: 7350114482473584264
+    second: MathLord - Lose_5
+  - first:
+      213: -1834655102336667281
+    second: MathLord - Lose_6
+  - first:
+      213: 6834413328226460562
+    second: MathLord - Lose_7
+  - first:
+      213: -1790739759416279695
+    second: MathLord - Lose_8
+  - first:
+      213: 8624062438857675159
+    second: MathLord - Lose_9
+  - first:
+      213: -2302229969310323665
+    second: MathLord - Lose_10
+  - first:
+      213: -2646072796167387902
+    second: MathLord - Lose_11
+  - first:
+      213: -1815608679085126120
+    second: MathLord - Lose_12
+  - first:
+      213: -5454006918457422435
+    second: MathLord - Lose_13
+  - first:
+      213: 615810872013668140
+    second: MathLord - Lose_14
+  - first:
+      213: 2143578682694224150
+    second: MathLord - Lose_15
+  - first:
+      213: -2825521210824907064
+    second: MathLord - Lose_16
+  - first:
+      213: 5644451225126809798
+    second: MathLord - Lose_17
+  - first:
+      213: 7754100804160554202
+    second: MathLord - Lose_18
+  - first:
+      213: 5094546595833651585
+    second: MathLord - Lose_19
+  - first:
+      213: 2609941617759646347
+    second: MathLord - Lose_20
+  - first:
+      213: -1501432188672575349
+    second: MathLord - Lose_21
+  - first:
+      213: -2234225470195486088
+    second: MathLord - Lose_22
+  - first:
+      213: 4592022736648937469
+    second: MathLord - Lose_23
+  - first:
+      213: -7647210669658364029
+    second: MathLord - Lose_24
+  - first:
+      213: 8458469913828567730
+    second: MathLord - Lose_25
+  - first:
+      213: -1205883137083554958
+    second: MathLord - Lose_26
+  - first:
+      213: 498514355099363748
+    second: MathLord - Lose_27
+  - first:
+      213: -6423638713222995023
+    second: MathLord - Lose_28
+  - first:
+      213: 7653313354651802352
+    second: MathLord - Lose_29
+  - first:
+      213: 1068289512977623889
+    second: MathLord - Lose_30
+  - first:
+      213: -5407655062305614105
+    second: MathLord - Lose_31
+  - first:
+      213: -2481600594188182436
+    second: MathLord - Lose_32
+  - first:
+      213: 7399536954739143783
+    second: MathLord - Lose_33
+  - first:
+      213: 8254325960671836797
+    second: MathLord - Lose_34
+  - first:
+      213: 1941036513124770772
+    second: MathLord - Lose_35
+  - first:
+      213: 7239288344604744661
+    second: MathLord - Lose_36
+  - first:
+      213: -6819628106483936227
+    second: MathLord - Lose_37
+  - first:
+      213: -5324722249053149411
+    second: MathLord - Lose_38
+  - first:
+      213: -2274210270638923881
+    second: MathLord - Lose_39
+  - first:
+      213: -8009770629224394381
+    second: MathLord - Lose_40
+  - first:
+      213: -2776775123834652463
+    second: MathLord - Lose_41
+  - first:
+      213: -5981831414616677346
+    second: MathLord - Lose_42
+  - first:
+      213: -4995764412534769244
+    second: MathLord - Lose_43
+  - first:
+      213: 505782348087523360
+    second: MathLord - Lose_44
+  - first:
+      213: -683511302318363532
+    second: MathLord - Lose_45
+  - first:
+      213: 9078354926088290421
+    second: MathLord - Lose_46
+  - first:
+      213: 2199452637938055283
+    second: MathLord - Lose_47
+  - first:
+      213: -592252811450431259
+    second: MathLord - Lose_48
+  - first:
+      213: 6869085771094168653
+    second: MathLord - Lose_49
+  - first:
+      213: 6309192982209497275
+    second: MathLord - Lose_50
+  - first:
+      213: 7453518348432347283
+    second: MathLord - Lose_51
+  - first:
+      213: 6165007227242513828
+    second: MathLord - Lose_52
+  - first:
+      213: 5967342182182834256
+    second: MathLord - Lose_53
+  - first:
+      213: -7894622347862519516
+    second: MathLord - Lose_54
+  - first:
+      213: 3997469953782507806
+    second: MathLord - Lose_55
+  - first:
+      213: 1200052155150825734
+    second: MathLord - Lose_56
+  - first:
+      213: 6628184117289183527
+    second: MathLord - Lose_57
+  - first:
+      213: 489734852575857971
+    second: MathLord - Lose_58
+  - first:
+      213: 3385807711756926134
+    second: MathLord - Lose_59
+  - first:
+      213: -3471295605398683294
+    second: MathLord - Lose_60
+  - first:
+      213: -761113948943515506
+    second: MathLord - Lose_61
+  - first:
+      213: -1598972747318338301
+    second: MathLord - Lose_62
+  - first:
+      213: 7097459911739545366
+    second: MathLord - Lose_63
+  - first:
+      213: 901115458178835629
+    second: MathLord - Lose_64
+  - first:
+      213: -1545328454997614068
+    second: MathLord - Lose_65
+  - first:
+      213: -2906999021980672870
+    second: MathLord - Lose_66
+  - first:
+      213: 2179582676805397529
+    second: MathLord - Lose_67
+  - first:
+      213: 8419569420213398131
+    second: MathLord - Lose_68
+  - first:
+      213: -262087787114298811
+    second: MathLord - Lose_69
+  - first:
+      213: 1493457075341020963
+    second: MathLord - Lose_70
+  - first:
+      213: 7879564682342169993
+    second: MathLord - Lose_71
+  - first:
+      213: 3684299218833770393
+    second: MathLord - Lose_72
+  - first:
+      213: 562323732964621021
+    second: MathLord - Lose_73
+  - first:
+      213: -7749638418779424607
+    second: MathLord - Lose_74
+  - first:
+      213: 6470052717420370947
+    second: MathLord - Lose_75
+  - first:
+      213: 5582829773546389489
+    second: MathLord - Lose_76
+  - first:
+      213: 2510772215410116183
+    second: MathLord - Lose_77
+  - first:
+      213: -762525521633750263
+    second: MathLord - Lose_78
+  - first:
+      213: 1869719206459863289
+    second: MathLord - Lose_79
+  - first:
+      213: -5972119155820632960
+    second: MathLord - Lose_80
+  - first:
+      213: 1257000172312046096
+    second: MathLord - Lose_81
+  - first:
+      213: -4233105847516452218
+    second: MathLord - Lose_82
+  - first:
+      213: 5353361771635310873
+    second: MathLord - Lose_83
+  - first:
+      213: 5103203510247934979
+    second: MathLord - Lose_84
+  - first:
+      213: 1030509245188800137
+    second: MathLord - Lose_85
+  - first:
+      213: 2237146055875833078
+    second: MathLord - Lose_86
+  - first:
+      213: -8074784015785435470
+    second: MathLord - Lose_87
+  - first:
+      213: 5652594736777210306
+    second: MathLord - Lose_88
+  - first:
+      213: -2669151224193330333
+    second: MathLord - Lose_89
+  - first:
+      213: 8488921228766502484
+    second: MathLord - Lose_90
+  - first:
+      213: 1626378676152220697
+    second: MathLord - Lose_91
+  - first:
+      213: 8928990470844794818
+    second: MathLord - Lose_92
+  - first:
+      213: 7345578499620961027
+    second: MathLord - Lose_93
+  - first:
+      213: 5702116141187684107
+    second: MathLord - Lose_94
+  - first:
+      213: 835708948713833422
+    second: MathLord - Lose_95
+  - first:
+      213: 9108293991171888132
+    second: MathLord - Lose_96
+  - first:
+      213: 6520315617875099142
+    second: MathLord - Lose_97
+  - first:
+      213: 5254058945286411665
+    second: MathLord - Lose_98
+  - first:
+      213: -8565063427805638209
+    second: MathLord - Lose_99
+  - first:
+      213: -3035811839968084728
+    second: MathLord - Lose_100
+  - first:
+      213: -3586696936058197968
+    second: MathLord - Lose_101
+  - first:
+      213: -3629703336304910429
+    second: MathLord - Lose_102
+  - first:
+      213: -2865581222792281448
+    second: MathLord - Lose_103
+  - first:
+      213: -6303332395569180678
+    second: MathLord - Lose_104
+  - first:
+      213: 8080139125094328738
+    second: MathLord - Lose_105
+  - first:
+      213: -9039307647949675195
+    second: MathLord - Lose_106
+  - first:
+      213: -6526353053478009468
+    second: MathLord - Lose_107
+  - first:
+      213: -2463400539712738921
+    second: MathLord - Lose_108
+  - first:
+      213: 3750591655614755307
+    second: MathLord - Lose_109
+  - first:
+      213: 4287816755295829177
+    second: MathLord - Lose_110
+  - first:
+      213: 22688748051143858
+    second: MathLord - Lose_111
+  - first:
+      213: 7664525325384212897
+    second: MathLord - Lose_112
+  - first:
+      213: 3896763513712173675
+    second: MathLord - Lose_113
+  - first:
+      213: -4022252128573098566
+    second: MathLord - Lose_114
+  - first:
+      213: -423886386405602511
+    second: MathLord - Lose_115
+  - first:
+      213: 2363295141872331850
+    second: MathLord - Lose_116
+  - first:
+      213: 1530697701894029916
+    second: MathLord - Lose_117
+  - first:
+      213: 2003632622420044490
+    second: MathLord - Lose_118
+  - first:
+      213: -8273690480718931638
+    second: MathLord - Lose_119
+  - first:
+      213: -6174104878303185726
+    second: MathLord - Lose_120
+  - first:
+      213: 3432137532517324751
+    second: MathLord - Lose_121
+  - first:
+      213: -7702354517848542635
+    second: MathLord - Lose_122
+  - first:
+      213: 493456590217400798
+    second: MathLord - Lose_123
+  - first:
+      213: -8515606809060169099
+    second: MathLord - Lose_124
+  - first:
+      213: 6744840442313384760
+    second: MathLord - Lose_125
+  - first:
+      213: 5760799068058679047
+    second: MathLord - Lose_126
+  - first:
+      213: -8156730380754188353
+    second: MathLord - Lose_127
+  - first:
+      213: -6012037601339085397
+    second: MathLord - Lose_128
+  - first:
+      213: -6504417019942085831
+    second: MathLord - Lose_129
+  - first:
+      213: 6330733870412224354
+    second: MathLord - Lose_130
+  - first:
+      213: 2843124917625026669
+    second: MathLord - Lose_131
+  - first:
+      213: -3812436298774141832
+    second: MathLord - Lose_132
+  - first:
+      213: 6913914478537848880
+    second: MathLord - Lose_133
+  - first:
+      213: -5821318178659094824
+    second: MathLord - Lose_134
+  - first:
+      213: 5494961265285628224
+    second: MathLord - Lose_135
+  - first:
+      213: 3654231520670464420
+    second: MathLord - Lose_136
+  - first:
+      213: 4841487900925617769
+    second: MathLord - Lose_137
+  - first:
+      213: -8815817408084913962
+    second: MathLord - Lose_138
+  - first:
+      213: -4406777071554256357
+    second: MathLord - Lose_139
+  - first:
+      213: 5755306894839107579
+    second: MathLord - Lose_140
+  - first:
+      213: 924111686059826663
+    second: MathLord - Lose_141
+  - first:
+      213: -1334225673899275351
+    second: MathLord - Lose_142
+  - first:
+      213: 2775691379069107357
+    second: MathLord - Lose_143
+  - first:
+      213: -1785501106270526555
+    second: MathLord - Lose_144
+  - first:
+      213: 1992081144155663441
+    second: MathLord - Lose_145
+  - first:
+      213: 7677005088384533435
+    second: MathLord - Lose_146
+  - first:
+      213: 2634909559899480307
+    second: MathLord - Lose_147
+  - first:
+      213: -4199718037090795556
+    second: MathLord - Lose_148
+  - first:
+      213: -3879436865758597804
+    second: MathLord - Lose_149
+  - first:
+      213: -9010849724752012931
+    second: MathLord - Lose_150
+  - first:
+      213: -8541872552142286383
+    second: MathLord - Lose_151
+  - first:
+      213: 4003617498560410101
+    second: MathLord - Lose_152
+  - first:
+      213: -929995173774888777
+    second: MathLord - Lose_153
+  - first:
+      213: 3432633495935742114
+    second: MathLord - Lose_154
+  - first:
+      213: -1425202442883902812
+    second: MathLord - Lose_155
+  - first:
+      213: -3797323408492316905
+    second: MathLord - Lose_156
+  - first:
+      213: 2586814047357017962
+    second: MathLord - Lose_157
+  - first:
+      213: 6398722169646385004
+    second: MathLord - Lose_158
+  - first:
+      213: -2152695351883981028
+    second: MathLord - Lose_159
+  - first:
+      213: -6903705215427926211
+    second: MathLord - Lose_160
+  - first:
+      213: -2826235421752248931
+    second: MathLord - Lose_161
+  - first:
+      213: 5406317994182074064
+    second: MathLord - Lose_162
+  - first:
+      213: 6742498244095915145
+    second: MathLord - Lose_163
+  - first:
+      213: -2705229101141986990
+    second: MathLord - Lose_164
+  - first:
+      213: -6410309428281432503
+    second: MathLord - Lose_165
+  - first:
+      213: 4835332565002493758
+    second: MathLord - Lose_166
+  - first:
+      213: 2459050853545450854
+    second: MathLord - Lose_167
+  - first:
+      213: -6733358858603907396
+    second: MathLord - Lose_168
+  - first:
+      213: 6392310429765276338
+    second: MathLord - Lose_169
+  - first:
+      213: -4426303837779748231
+    second: MathLord - Lose_170
+  - first:
+      213: -508285094982168387
+    second: MathLord - Lose_171
+  - first:
+      213: 8171807929345611078
+    second: MathLord - Lose_172
+  - first:
+      213: -3393917304733451801
+    second: MathLord - Lose_173
+  - first:
+      213: 2929112558671695806
+    second: MathLord - Lose_174
+  - first:
+      213: -3401838618367442473
+    second: MathLord - Lose_175
+  - first:
+      213: 9017212700855878660
+    second: MathLord - Lose_176
+  - first:
+      213: 2911312731256825867
+    second: MathLord - Lose_177
+  - first:
+      213: 3846576709748118621
+    second: MathLord - Lose_178
+  - first:
+      213: 8661092532281044571
+    second: MathLord - Lose_179
+  - first:
+      213: 918775842928806046
+    second: MathLord - Lose_180
+  - first:
+      213: 5139862455447415347
+    second: MathLord - Lose_181
+  - first:
+      213: -7359592099628180212
+    second: MathLord - Lose_182
+  - first:
+      213: 6005238380567524359
+    second: MathLord - Lose_183
+  - first:
+      213: -1161590743477392455
+    second: MathLord - Lose_184
+  - first:
+      213: -7311323101952378381
+    second: MathLord - Lose_185
+  - first:
+      213: 2366306136147502885
+    second: MathLord - Lose_186
+  - first:
+      213: 7140512404060814733
+    second: MathLord - Lose_187
+  - first:
+      213: -2545108484418663829
+    second: MathLord - Lose_188
+  - first:
+      213: -78373577402414286
+    second: MathLord - Lose_189
+  - first:
+      213: -2658127796811590111
+    second: MathLord - Lose_190
+  - first:
+      213: 5780354484462899936
+    second: MathLord - Lose_191
+  - first:
+      213: 801608684328417654
+    second: MathLord - Lose_192
+  - first:
+      213: 1393542183352923173
+    second: MathLord - Lose_193
+  - first:
+      213: -632670666221022891
+    second: MathLord - Lose_194
+  - first:
+      213: -5835939636277623127
+    second: MathLord - Lose_195
+  - first:
+      213: 5795187172765562826
+    second: MathLord - Lose_196
+  - first:
+      213: -8986084215978837726
+    second: MathLord - Lose_197
+  - first:
+      213: -8686305788936225286
+    second: MathLord - Lose_198
+  - first:
+      213: -7692821692345459923
+    second: MathLord - Lose_199
+  - first:
+      213: 1162940679129463154
+    second: MathLord - Lose_200
+  - first:
+      213: 3366808053184538491
+    second: MathLord - Lose_201
+  - first:
+      213: -4153651950806662952
+    second: MathLord - Lose_202
+  - first:
+      213: -4193945502351892434
+    second: MathLord - Lose_203
+  - first:
+      213: -8436039348696711895
+    second: MathLord - Lose_204
+  - first:
+      213: -6015088046017021676
+    second: MathLord - Lose_205
+  - first:
+      213: 6615317921675762980
+    second: MathLord - Lose_206
+  - first:
+      213: -483422775136739929
+    second: MathLord - Lose_207
+  - first:
+      213: -833633522696789541
+    second: MathLord - Lose_208
+  - first:
+      213: -2508399364898152111
+    second: MathLord - Lose_209
+  - first:
+      213: -58409660362584984
+    second: MathLord - Lose_210
+  - first:
+      213: -3291166089502083748
+    second: MathLord - Lose_211
+  - first:
+      213: 2557658041809692566
+    second: MathLord - Lose_212
+  - first:
+      213: -7516307389374522804
+    second: MathLord - Lose_213
+  - first:
+      213: 7105152487139253589
+    second: MathLord - Lose_214
+  - first:
+      213: -6846024184159307200
+    second: MathLord - Lose_215
+  - first:
+      213: -1308808468267831439
+    second: MathLord - Lose_216
+  - first:
+      213: -6786594193603529494
+    second: MathLord - Lose_217
+  - first:
+      213: -4795381306174843160
+    second: MathLord - Lose_218
+  - first:
+      213: 7476748723863700563
+    second: MathLord - Lose_219
+  - first:
+      213: -59243817232714982
+    second: MathLord - Lose_220
+  - first:
+      213: -579301350895797637
+    second: MathLord - Lose_221
+  - first:
+      213: -4284389586877295041
+    second: MathLord - Lose_222
+  - first:
+      213: 2414091043137505024
+    second: MathLord - Lose_223
+  - first:
+      213: -2017313678411802838
+    second: MathLord - Lose_224
+  - first:
+      213: 8022874422736333057
+    second: MathLord - Lose_225
+  - first:
+      213: -2847744933643386687
+    second: MathLord - Lose_226
+  - first:
+      213: -7546296913738359283
+    second: MathLord - Lose_227
+  - first:
+      213: 7597815307959810035
+    second: MathLord - Lose_228
+  - first:
+      213: -1797571652033643829
+    second: MathLord - Lose_229
+  - first:
+      213: 2782059445536037866
+    second: MathLord - Lose_230
+  - first:
+      213: -604988746234117217
+    second: MathLord - Lose_231
+  - first:
+      213: 2973363001698559038
+    second: MathLord - Lose_232
+  - first:
+      213: -8186625406825690955
+    second: MathLord - Lose_233
+  - first:
+      213: -3219082739026383869
+    second: MathLord - Lose_234
+  - first:
+      213: -5767603388894011175
+    second: MathLord - Lose_235
+  - first:
+      213: -755650876670480873
+    second: MathLord - Lose_236
+  - first:
+      213: 7354354379267154008
+    second: MathLord - Lose_237
+  - first:
+      213: -2867402660071021354
+    second: MathLord - Lose_238
+  - first:
+      213: 3309085545583633957
+    second: MathLord - Lose_239
+  - first:
+      213: 821863298084096184
+    second: MathLord - Lose_240
+  - first:
+      213: -3524561261269382235
+    second: MathLord - Lose_241
+  - first:
+      213: 5560295699817501052
+    second: MathLord - Lose_242
+  - first:
+      213: -4949538628553784006
+    second: MathLord - Lose_243
+  - first:
+      213: -7701794184546506561
+    second: MathLord - Lose_244
+  - first:
+      213: -9166042103999013041
+    second: MathLord - Lose_245
+  - first:
+      213: -6483854667965689578
+    second: MathLord - Lose_246
+  - first:
+      213: -7893576780296242836
+    second: MathLord - Lose_247
+  - first:
+      213: -880926969629720260
+    second: MathLord - Lose_248
+  - first:
+      213: 4237774223827495152
+    second: MathLord - Lose_249
+  - first:
+      213: 6736803788526731354
+    second: MathLord - Lose_250
+  - first:
+      213: -1670844837949720621
+    second: MathLord - Lose_251
+  - first:
+      213: -1825267829517910728
+    second: MathLord - Lose_252
+  - first:
+      213: -3193733092553853780
+    second: MathLord - Lose_253
+  - first:
+      213: -7040321141028475692
+    second: MathLord - Lose_254
+  - first:
+      213: 3809803850916689626
+    second: MathLord - Lose_255
+  - first:
+      213: -1361481096891277864
+    second: MathLord - Lose_256
+  - first:
+      213: 3756623860116469904
+    second: MathLord - Lose_257
+  - first:
+      213: -3160131760419721018
+    second: MathLord - Lose_258
+  - first:
+      213: -8928031073621477254
+    second: MathLord - Lose_259
+  - first:
+      213: 5881269223866363404
+    second: MathLord - Lose_260
+  - first:
+      213: 3076336466050397533
+    second: MathLord - Lose_261
+  - first:
+      213: 6949317360334476328
+    second: MathLord - Lose_262
+  - first:
+      213: 6638076468367199395
+    second: MathLord - Lose_263
+  - first:
+      213: 7323086655830421692
+    second: MathLord - Lose_264
+  - first:
+      213: -8214426308642835437
+    second: MathLord - Lose_265
+  - first:
+      213: 2669931795909764923
+    second: MathLord - Lose_266
+  - first:
+      213: -4745928206197013839
+    second: MathLord - Lose_267
+  - first:
+      213: 8465225185716887687
+    second: MathLord - Lose_268
+  - first:
+      213: -9042219825436548781
+    second: MathLord - Lose_269
+  - first:
+      213: -1429827107675013114
+    second: MathLord - Lose_270
+  - first:
+      213: 71991306862573703
+    second: MathLord - Lose_271
+  - first:
+      213: 9219190010074536028
+    second: MathLord - Lose_272
+  - first:
+      213: 5635408377688138155
+    second: MathLord - Lose_273
+  - first:
+      213: -3384267049109203977
+    second: MathLord - Lose_274
+  - first:
+      213: -4157222025652785169
+    second: MathLord - Lose_275
+  - first:
+      213: 5648362405285140615
+    second: MathLord - Lose_276
+  - first:
+      213: -8582342835860833705
+    second: MathLord - Lose_277
+  - first:
+      213: 4921100505125762540
+    second: MathLord - Lose_278
+  - first:
+      213: 4433048520831830989
+    second: MathLord - Lose_279
+  - first:
+      213: -5505707466734797432
+    second: MathLord - Lose_280
+  - first:
+      213: -622838865464513714
+    second: MathLord - Lose_281
+  - first:
+      213: 6638999973941064315
+    second: MathLord - Lose_282
+  - first:
+      213: -8324491211069377969
+    second: MathLord - Lose_283
+  - first:
+      213: 3283684212286474026
+    second: MathLord - Lose_284
+  - first:
+      213: 4533863163098262442
+    second: MathLord - Lose_285
+  - first:
+      213: 6785221505572351441
+    second: MathLord - Lose_286
+  - first:
+      213: 8242447874064115821
+    second: MathLord - Lose_287
+  - first:
+      213: -1646508700160616183
+    second: MathLord - Lose_288
+  - first:
+      213: -7702344453782194350
+    second: MathLord - Lose_289
+  - first:
+      213: 4618362907955830993
+    second: MathLord - Lose_290
+  - first:
+      213: 6219437102619277570
+    second: MathLord - Lose_291
+  - first:
+      213: 1830968126829380741
+    second: MathLord - Lose_292
+  - first:
+      213: -8622521896898051932
+    second: MathLord - Lose_293
+  - first:
+      213: 308599645760317794
+    second: MathLord - Lose_294
+  - first:
+      213: 1607485630605897150
+    second: MathLord - Lose_295
+  - first:
+      213: -1930208731286599805
+    second: MathLord - Lose_296
+  - first:
+      213: -7069613396787316480
+    second: MathLord - Lose_297
+  - first:
+      213: -1392013558615335440
+    second: MathLord - Lose_298
+  - first:
+      213: 2324763248268428912
+    second: MathLord - Lose_299
+  - first:
+      213: 4433736024559767271
+    second: MathLord - Lose_300
+  - first:
+      213: 8172775234810325248
+    second: MathLord - Lose_301
+  - first:
+      213: -2425289730015184298
+    second: MathLord - Lose_302
+  - first:
+      213: 3290129022133118073
+    second: MathLord - Lose_303
+  - first:
+      213: -2795055640120031504
+    second: MathLord - Lose_304
+  - first:
+      213: 61579370497414753
+    second: MathLord - Lose_305
+  - first:
+      213: 7430215285352689204
+    second: MathLord - Lose_306
+  - first:
+      213: 310931439329032841
+    second: MathLord - Lose_307
+  - first:
+      213: -220809192682495295
+    second: MathLord - Lose_308
+  - first:
+      213: 2579185411012008221
+    second: MathLord - Lose_309
+  - first:
+      213: 2985831498326800621
+    second: MathLord - Lose_310
+  - first:
+      213: -3044334518696201500
+    second: MathLord - Lose_311
+  - first:
+      213: -7749341536728297122
+    second: MathLord - Lose_312
+  - first:
+      213: -510075280352285125
+    second: MathLord - Lose_313
+  - first:
+      213: 8839180510916827315
+    second: MathLord - Lose_314
+  - first:
+      213: -4045274254244361873
+    second: MathLord - Lose_315
+  - first:
+      213: 2162429694619742483
+    second: MathLord - Lose_316
+  - first:
+      213: -5134617829731569670
+    second: MathLord - Lose_317
+  - first:
+      213: 7037920080348291988
+    second: MathLord - Lose_318
+  - first:
+      213: -4409402026632186315
+    second: MathLord - Lose_319
+  - first:
+      213: -3352647522933586162
+    second: MathLord - Lose_320
+  - first:
+      213: 3605755675920341756
+    second: MathLord - Lose_321
+  - first:
+      213: 6946789976599497294
+    second: MathLord - Lose_322
+  - first:
+      213: 8359236197841180874
+    second: MathLord - Lose_323
+  - first:
+      213: -6292087682618656619
+    second: MathLord - Lose_324
+  - first:
+      213: -6041062600621866963
+    second: MathLord - Lose_325
+  - first:
+      213: 403362116152376167
+    second: MathLord - Lose_326
+  - first:
+      213: 275597836825974273
+    second: MathLord - Lose_327
+  - first:
+      213: -5679437958391543179
+    second: MathLord - Lose_328
+  - first:
+      213: 446432346357662980
+    second: MathLord - Lose_329
+  - first:
+      213: 103847898488803596
+    second: MathLord - Lose_330
+  - first:
+      213: -1569258753098128727
+    second: MathLord - Lose_331
+  - first:
+      213: 3788668058783061243
+    second: MathLord - Lose_332
+  - first:
+      213: -1918104269503452620
+    second: MathLord - Lose_333
+  - first:
+      213: -4544082873827213804
+    second: MathLord - Lose_334
+  - first:
+      213: 3408989621580985728
+    second: MathLord - Lose_335
+  - first:
+      213: -2553788539688176644
+    second: MathLord - Lose_336
+  - first:
+      213: -7003743874561261538
+    second: MathLord - Lose_337
+  - first:
+      213: -2684265322861404651
+    second: MathLord - Lose_338
+  - first:
+      213: -422662756050670640
+    second: MathLord - Lose_339
+  - first:
+      213: -997133021529330573
+    second: MathLord - Lose_340
+  - first:
+      213: 740442665326817174
+    second: MathLord - Lose_341
+  - first:
+      213: -733165286617930296
+    second: MathLord - Lose_342
+  - first:
+      213: 1698481824754580569
+    second: MathLord - Lose_343
+  - first:
+      213: -7264914795731537255
+    second: MathLord - Lose_344
+  - first:
+      213: 4668988033106874729
+    second: MathLord - Lose_345
+  - first:
+      213: 1561834122386173052
+    second: MathLord - Lose_346
+  - first:
+      213: -2907383160608013305
+    second: MathLord - Lose_347
+  - first:
+      213: 7851218674276189571
+    second: MathLord - Lose_348
+  - first:
+      213: -6855870105112702630
+    second: MathLord - Lose_349
+  - first:
+      213: 3870381719520507296
+    second: MathLord - Lose_350
+  - first:
+      213: -8152463070616844044
+    second: MathLord - Lose_351
+  - first:
+      213: 3307517873923778067
+    second: MathLord - Lose_352
+  - first:
+      213: -6317025046098240116
+    second: MathLord - Lose_353
+  - first:
+      213: -7781131189791027480
+    second: MathLord - Lose_354
+  - first:
+      213: -2037510459177563052
+    second: MathLord - Lose_355
+  - first:
+      213: -627516807223241272
+    second: MathLord - Lose_356
+  - first:
+      213: 2042738233626096150
+    second: MathLord - Lose_357
+  - first:
+      213: -3437549233597306171
+    second: MathLord - Lose_358
+  - first:
+      213: -6796050988250985734
+    second: MathLord - Lose_359
+  - first:
+      213: 8367109560241186515
+    second: MathLord - Lose_360
+  - first:
+      213: -2998941316583858362
+    second: MathLord - Lose_361
+  - first:
+      213: 8467868145018107733
+    second: MathLord - Lose_362
+  - first:
+      213: 8390622580706173233
+    second: MathLord - Lose_363
+  - first:
+      213: 6252013748088212539
+    second: MathLord - Lose_364
+  - first:
+      213: 8747763743881687054
+    second: MathLord - Lose_365
+  - first:
+      213: -4084909823534407399
+    second: MathLord - Lose_366
+  - first:
+      213: -7919803386992906863
+    second: MathLord - Lose_367
+  - first:
+      213: -8598174845340442587
+    second: MathLord - Lose_368
+  - first:
+      213: 4523571736900700177
+    second: MathLord - Lose_369
+  - first:
+      213: 8340037033657781319
+    second: MathLord - Lose_370
+  - first:
+      213: 1951535948622640098
+    second: MathLord - Lose_371
+  - first:
+      213: 6862547073224838457
+    second: MathLord - Lose_372
+  - first:
+      213: 5132548489762765255
+    second: MathLord - Lose_373
+  - first:
+      213: -2139647015575614158
+    second: MathLord - Lose_374
+  - first:
+      213: -8587537722433463288
+    second: MathLord - Lose_375
+  - first:
+      213: -4478206422097847456
+    second: MathLord - Lose_376
+  - first:
+      213: -3895353297633762404
+    second: MathLord - Lose_377
+  - first:
+      213: -6014205160836133421
+    second: MathLord - Lose_378
+  - first:
+      213: -9032552710209270564
+    second: MathLord - Lose_379
+  - first:
+      213: 5981081780029572368
+    second: MathLord - Lose_380
+  - first:
+      213: -6514235640334281553
+    second: MathLord - Lose_381
+  - first:
+      213: -6654795785262412768
+    second: MathLord - Lose_382
+  - first:
+      213: -8525741342740817388
+    second: MathLord - Lose_383
+  - first:
+      213: 1081757528086612720
+    second: MathLord - Lose_384
+  - first:
+      213: -532322082151174194
+    second: MathLord - Lose_385
+  - first:
+      213: -6242576461107197958
+    second: MathLord - Lose_386
+  - first:
+      213: -2910103629406128921
+    second: MathLord - Lose_387
+  - first:
+      213: -1607906784546932793
+    second: MathLord - Lose_388
+  - first:
+      213: 1994050012946343350
+    second: MathLord - Lose_389
+  - first:
+      213: -1197187889284647936
+    second: MathLord - Lose_390
+  - first:
+      213: 7526670347987377153
+    second: MathLord - Lose_391
+  - first:
+      213: 4688969205101648805
+    second: MathLord - Lose_392
+  - first:
+      213: 6029737973858744128
+    second: MathLord - Lose_393
+  - first:
+      213: -7794669951668717349
+    second: MathLord - Lose_394
+  - first:
+      213: -6590647131217406477
+    second: MathLord - Lose_395
+  - first:
+      213: -7680294000040705756
+    second: MathLord - Lose_396
+  - first:
+      213: -521391345091217371
+    second: MathLord - Lose_397
+  - first:
+      213: 7526141155460180418
+    second: MathLord - Lose_398
+  - first:
+      213: 3498773111947418954
+    second: MathLord - Lose_399
+  - first:
+      213: -2672203153278222198
+    second: MathLord - Lose_400
+  - first:
+      213: 5653795522624586252
+    second: MathLord - Lose_401
+  - first:
+      213: 5582415457491358408
+    second: MathLord - Lose_402
+  - first:
+      213: -2803343011119088726
+    second: MathLord - Lose_403
+  - first:
+      213: -7559864946490807104
+    second: MathLord - Lose_404
+  - first:
+      213: -6612758541303003446
+    second: MathLord - Lose_405
+  - first:
+      213: 695464496828335245
+    second: MathLord - Lose_406
+  - first:
+      213: -2538910378578874779
+    second: MathLord - Lose_407
+  - first:
+      213: -3108348072752124305
+    second: MathLord - Lose_408
+  - first:
+      213: -3165725776941995741
+    second: MathLord - Lose_409
+  - first:
+      213: -4181058465489793536
+    second: MathLord - Lose_410
+  - first:
+      213: -5879272569929426508
+    second: MathLord - Lose_411
+  - first:
+      213: -6706630807584781284
+    second: MathLord - Lose_412
+  - first:
+      213: 3656339896626271454
+    second: MathLord - Lose_413
+  - first:
+      213: -874163796954589124
+    second: MathLord - Lose_414
+  - first:
+      213: 1444498766733662721
+    second: MathLord - Lose_415
+  - first:
+      213: 4287594213579029469
+    second: MathLord - Lose_416
+  - first:
+      213: 5430491062706790174
+    second: MathLord - Lose_417
+  - first:
+      213: -4297150991127816337
+    second: MathLord - Lose_418
+  - first:
+      213: -5717859118049327324
+    second: MathLord - Lose_419
+  - first:
+      213: -7722880760291734782
+    second: MathLord - Lose_420
+  - first:
+      213: 8745121451888131794
+    second: MathLord - Lose_421
+  - first:
+      213: -3212470669260816895
+    second: MathLord - Lose_422
+  - first:
+      213: -2199868210578466514
+    second: MathLord - Lose_423
+  - first:
+      213: 7037785791883163035
+    second: MathLord - Lose_424
+  - first:
+      213: -5055756090773300354
+    second: MathLord - Lose_425
+  - first:
+      213: -2082924373713828473
+    second: MathLord - Lose_426
+  - first:
+      213: 8018107826530115938
+    second: MathLord - Lose_427
+  - first:
+      213: 7583462699412383993
+    second: MathLord - Lose_428
+  - first:
+      213: 6769773291985799472
+    second: MathLord - Lose_429
+  - first:
+      213: -2251321202095245068
+    second: MathLord - Lose_430
+  - first:
+      213: -8118319716978102394
+    second: MathLord - Lose_431
+  - first:
+      213: -1340092581093244471
+    second: MathLord - Lose_432
+  - first:
+      213: -669946166509396634
+    second: MathLord - Lose_433
+  - first:
+      213: 6567891803366373024
+    second: MathLord - Lose_434
+  - first:
+      213: 5198721604589672950
+    second: MathLord - Lose_435
+  - first:
+      213: -5271255433424441865
+    second: MathLord - Lose_436
+  - first:
+      213: -4989297575490683736
+    second: MathLord - Lose_437
+  - first:
+      213: -2760858140454308957
+    second: MathLord - Lose_438
+  - first:
+      213: -1836388691612082398
+    second: MathLord - Lose_439
+  - first:
+      213: 5006917252538834088
+    second: MathLord - Lose_440
+  - first:
+      213: 3550949803824139694
+    second: MathLord - Lose_441
+  - first:
+      213: 7039111700721017723
+    second: MathLord - Lose_442
+  - first:
+      213: -4611420236694556863
+    second: MathLord - Lose_443
+  - first:
+      213: -8190745235983382577
+    second: MathLord - Lose_444
+  - first:
+      213: 881948813881433103
+    second: MathLord - Lose_445
+  - first:
+      213: 1234691800624489857
+    second: MathLord - Lose_446
+  - first:
+      213: -8264910132133539477
+    second: MathLord - Lose_447
+  - first:
+      213: -1838894216847300366
+    second: MathLord - Lose_448
+  - first:
+      213: 1974858687857594870
+    second: MathLord - Lose_449
+  - first:
+      213: 2554088983825908907
+    second: MathLord - Lose_450
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MathLord - Lose_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2212
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad074444b266f070800000000000000
+      internalID: 8139801902897892772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_1
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2212
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc809d3089c7d7fa0800000000000000
+      internalID: -5801343752641902387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_2
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2212
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028dac9c6d6cd0ed0800000000000000
+      internalID: -2446080396781496288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_3
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 2207
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dd8286168bb4f80800000000000000
+      internalID: -8121194774533710497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1784
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd0a44e1e1424310800000000000000
+      internalID: 1387744073637039564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_5
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1784
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886ca42ed2ad00660800000000000000
+      internalID: 7350114482473584264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_6
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1789
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f617dd3a7eef986e0800000000000000
+      internalID: -1834655102336667281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_7
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1784
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293222536b6b8de50800000000000000
+      internalID: 6834413328226460562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1361
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17df2d23da30627e0800000000000000
+      internalID: -1790739759416279695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_9
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1346
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79196ec8813dea770800000000000000
+      internalID: 8624062438857675159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_10
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1356
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ceff76a06dc00e0800000000000000
+      internalID: -2302229969310323665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_11
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1356
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2054e96bfc2474bd0800000000000000
+      internalID: -2646072796167387902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 928
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ec300a689adc6e0800000000000000
+      internalID: -1815608679085126120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 918
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d82deaa997f44b0800000000000000
+      internalID: -5454006918457422435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 923
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb233b9bccb8800800000000000000
+      internalID: 615810872013668140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_15
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 923
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619c61a64758fbd10800000000000000
+      internalID: 2143578682694224150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 500
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c62373dd6bb9c8d0800000000000000
+      internalID: -2825521210824907064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 490
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0b3b1db7e155e40800000000000000
+      internalID: 5644451225126809798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_18
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 490
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad48f8039991c9b60800000000000000
+      internalID: 7754100804160554202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_19
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 500
+        width: 430
+        height: 428
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1812758032773b640800000000000000
+      internalID: 5094546595833651585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 93
+        width: 372
+        height: 330
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b827213c210683420800000000000000
+      internalID: 2609941617759646347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Lose_21
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 134
+        width: 240
+        height: 238
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8875db1167d92be0800000000000000
+      internalID: -1501432188672575349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

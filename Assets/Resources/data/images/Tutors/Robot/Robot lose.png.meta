@@ -1,0 +1,877 @@
+fileFormatVersion: 2
+guid: 44c778652dff3114f9a94e07637e5b94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7768096729919922324
+    second: Robot lose_0
+  - first:
+      213: 5452321567547871357
+    second: Robot lose_1
+  - first:
+      213: -8512895077046333456
+    second: Robot lose_2
+  - first:
+      213: -5016014030904634479
+    second: Robot lose_3
+  - first:
+      213: -7198007073646150616
+    second: Robot lose_4
+  - first:
+      213: 3665233335999226362
+    second: Robot lose_5
+  - first:
+      213: 1024680655605455179
+    second: Robot lose_6
+  - first:
+      213: -7131151264125329785
+    second: Robot lose_7
+  - first:
+      213: 1428157247576943180
+    second: Robot lose_8
+  - first:
+      213: 4800008783390860198
+    second: Robot lose_9
+  - first:
+      213: 7062714042250382524
+    second: Robot lose_10
+  - first:
+      213: 7224032393367232290
+    second: Robot lose_11
+  - first:
+      213: -1794856159149329432
+    second: Robot lose_12
+  - first:
+      213: -1452252217401199884
+    second: Robot lose_13
+  - first:
+      213: -1581554593620639909
+    second: Robot lose_14
+  - first:
+      213: 6925620139184300502
+    second: Robot lose_15
+  - first:
+      213: -8110604446204638097
+    second: Robot lose_16
+  - first:
+      213: -7257283782909780885
+    second: Robot lose_17
+  - first:
+      213: -6277134784698994622
+    second: Robot lose_18
+  - first:
+      213: -2630159023230202495
+    second: Robot lose_19
+  - first:
+      213: -397071434147686913
+    second: Robot lose_20
+  - first:
+      213: -1171521274414011855
+    second: Robot lose_21
+  - first:
+      213: 2175450432380746945
+    second: Robot lose_22
+  - first:
+      213: -1410419937556879202
+    second: Robot lose_23
+  - first:
+      213: -1292379688539090546
+    second: Robot lose_24
+  - first:
+      213: 5321064409140285227
+    second: Robot lose_25
+  - first:
+      213: 2511693687214057147
+    second: Robot lose_26
+  - first:
+      213: 4941749268020183450
+    second: Robot lose_27
+  - first:
+      213: -7605185973256471836
+    second: Robot lose_28
+  - first:
+      213: -8170191903152787470
+    second: Robot lose_29
+  - first:
+      213: 4360931125320174460
+    second: Robot lose_30
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot lose_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1787
+        width: 211
+        height: 310
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fdf386e2d223490800000000000000
+      internalID: -7768096729919922324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_1
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1787
+        width: 210
+        height: 310
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7054eaf3998aab40800000000000000
+      internalID: 5452321567547871357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_2
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1787
+        width: 210
+        height: 310
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff4b7ad70f1cd980800000000000000
+      internalID: -8512895077046333456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_3
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1787
+        width: 211
+        height: 310
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193dd8b90d9836ab0800000000000000
+      internalID: -5016014030904634479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_4
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1787
+        width: 209
+        height: 310
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c729404ba8b1c90800000000000000
+      internalID: -7198007073646150616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1348
+        width: 210
+        height: 309
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af16723cc468dd230800000000000000
+      internalID: 3665233335999226362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1348
+        width: 210
+        height: 309
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49d39590a5683e00800000000000000
+      internalID: 1024680655605455179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_7
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1348
+        width: 210
+        height: 309
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e5b3e25bf090d90800000000000000
+      internalID: -7131151264125329785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_8
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1348
+        width: 211
+        height: 309
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a29313375d1d310800000000000000
+      internalID: 1428157247576943180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_9
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1348
+        width: 209
+        height: 309
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a364c49e8e0d9240800000000000000
+      internalID: 4800008783390860198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 907
+        width: 301
+        height: 326
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc4f76600dc30260800000000000000
+      internalID: 7062714042250382524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_11
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 907
+        width: 395
+        height: 382
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f919cef2be04460800000000000000
+      internalID: 7224032393367232290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_12
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 907
+        width: 382
+        height: 388
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e37bf235d36717e0800000000000000
+      internalID: -1794856159149329432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_13
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 907
+        width: 381
+        height: 389
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f237897d4098dbe0800000000000000
+      internalID: -1452252217401199884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_14
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 907
+        width: 385
+        height: 397
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fba5ef9703d0ae0800000000000000
+      internalID: -1581554593620639909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 467
+        width: 382
+        height: 389
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d12f55b2debc1060800000000000000
+      internalID: 6925620139184300502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_16
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 467
+        width: 382
+        height: 388
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cc44e5a38517f80800000000000000
+      internalID: -8110604446204638097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_17
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 467
+        width: 395
+        height: 396
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c9575a9d2f84b90800000000000000
+      internalID: -7257283782909780885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_18
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 467
+        width: 327
+        height: 379
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b4c6cb2323e8a0800000000000000
+      internalID: -6277134784698994622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_19
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 467
+        width: 164
+        height: 174
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d4395bd4ccf7bd0800000000000000
+      internalID: -2630159023230202495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_20
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 634
+        width: 25
+        height: 111
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff51c2962a15d7af0800000000000000
+      internalID: -397071434147686913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_21
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 634
+        width: 33
+        height: 110
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a6dbf9b9bedbfe0800000000000000
+      internalID: -1171521274414011855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_22
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 638
+        width: 36
+        height: 108
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc368864a0c03e10800000000000000
+      internalID: 2175450432380746945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 27
+        width: 164
+        height: 292
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e982bcd1a8e2d6ce0800000000000000
+      internalID: -1410419937556879202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_24
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 27
+        width: 165
+        height: 292
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8192b5458b801ee0800000000000000
+      internalID: -1292379688539090546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_25
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 27
+        width: 164
+        height: 278
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fc7cd43e738d940800000000000000
+      internalID: 5321064409140285227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_26
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 27
+        width: 163
+        height: 173
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb62cfad9145bd220800000000000000
+      internalID: 2511693687214057147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_27
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 194
+        width: 24
+        height: 111
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c369d6ce949440800000000000000
+      internalID: 4941749268020183450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_28
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 194
+        width: 33
+        height: 109
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eab34db6a3f47690800000000000000
+      internalID: -7605185973256471836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_29
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 198
+        width: 36
+        height: 109
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff2ec960c5ad9e80800000000000000
+      internalID: -8170191903152787470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot lose_30
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 27
+        width: 164
+        height: 292
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b47a6d0c3258c30800000000000000
+      internalID: 4360931125320174460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

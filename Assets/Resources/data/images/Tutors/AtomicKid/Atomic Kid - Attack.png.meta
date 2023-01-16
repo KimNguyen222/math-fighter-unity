@@ -1,0 +1,1141 @@
+fileFormatVersion: 2
+guid: 2c9de78f8c7db3e43be0ab56512d2d11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6225967064174103141
+    second: Atomic Kid - Attack_0
+  - first:
+      213: -2744394973101817209
+    second: Atomic Kid - Attack_1
+  - first:
+      213: 145517284252269810
+    second: Atomic Kid - Attack_2
+  - first:
+      213: -2078442532907035749
+    second: Atomic Kid - Attack_3
+  - first:
+      213: 3780194421619599085
+    second: Atomic Kid - Attack_4
+  - first:
+      213: 8635370442013655684
+    second: Atomic Kid - Attack_5
+  - first:
+      213: -6765825978210981126
+    second: Atomic Kid - Attack_6
+  - first:
+      213: -8226679863416352843
+    second: Atomic Kid - Attack_7
+  - first:
+      213: -1719974651701305709
+    second: Atomic Kid - Attack_8
+  - first:
+      213: 3839049865676171955
+    second: Atomic Kid - Attack_9
+  - first:
+      213: -7405568041309042190
+    second: Atomic Kid - Attack_10
+  - first:
+      213: 4527966049109399916
+    second: Atomic Kid - Attack_11
+  - first:
+      213: -7478556258233437415
+    second: Atomic Kid - Attack_12
+  - first:
+      213: -1913277841419331839
+    second: Atomic Kid - Attack_13
+  - first:
+      213: -8741831708649257398
+    second: Atomic Kid - Attack_14
+  - first:
+      213: -7412486187851893582
+    second: Atomic Kid - Attack_15
+  - first:
+      213: -1779730723256091742
+    second: Atomic Kid - Attack_16
+  - first:
+      213: -8883037225421388867
+    second: Atomic Kid - Attack_17
+  - first:
+      213: -8549391472465884879
+    second: Atomic Kid - Attack_18
+  - first:
+      213: -4771291365237651521
+    second: Atomic Kid - Attack_19
+  - first:
+      213: -1364938862267411008
+    second: Atomic Kid - Attack_20
+  - first:
+      213: 5155360541194392995
+    second: Atomic Kid - Attack_21
+  - first:
+      213: -4254440557174538166
+    second: Atomic Kid - Attack_22
+  - first:
+      213: -8379885294326445113
+    second: Atomic Kid - Attack_23
+  - first:
+      213: -2525364663875802277
+    second: Atomic Kid - Attack_24
+  - first:
+      213: -4565752934016834072
+    second: Atomic Kid - Attack_25
+  - first:
+      213: 6791229305532368326
+    second: Atomic Kid - Attack_26
+  - first:
+      213: -2756816180797850265
+    second: Atomic Kid - Attack_27
+  - first:
+      213: 6145995374443241784
+    second: Atomic Kid - Attack_28
+  - first:
+      213: 7763444549839133283
+    second: Atomic Kid - Attack_29
+  - first:
+      213: -8141772971905171735
+    second: Atomic Kid - Attack_30
+  - first:
+      213: -2051492408739230632
+    second: Atomic Kid - Attack_31
+  - first:
+      213: -6816074014129216546
+    second: Atomic Kid - Attack_32
+  - first:
+      213: -26745348728232222
+    second: Atomic Kid - Attack_33
+  - first:
+      213: 7091011862762399656
+    second: Atomic Kid - Attack_34
+  - first:
+      213: 8856541019356677358
+    second: Atomic Kid - Attack_35
+  - first:
+      213: -1468599007080567530
+    second: Atomic Kid - Attack_36
+  - first:
+      213: -1694328837132476925
+    second: Atomic Kid - Attack_37
+  - first:
+      213: 2521996484029714516
+    second: Atomic Kid - Attack_38
+  - first:
+      213: 4018122742164551891
+    second: Atomic Kid - Attack_39
+  - first:
+      213: -8289584245591703352
+    second: Atomic Kid - Attack_40
+  - first:
+      213: 1981545996385211372
+    second: Atomic Kid - Attack_41
+  - first:
+      213: 5989297310642389668
+    second: Atomic Kid - Attack_42
+  - first:
+      213: -7842893615296282419
+    second: Atomic Kid - Attack_43
+  - first:
+      213: -5260216866543766022
+    second: Atomic Kid - Attack_44
+  - first:
+      213: 6117008884793391427
+    second: Atomic Kid - Attack_45
+  - first:
+      213: 5750800881780201827
+    second: Atomic Kid - Attack_46
+  - first:
+      213: -1032701648128216391
+    second: Atomic Kid - Attack_47
+  - first:
+      213: 3107963823719532941
+    second: Atomic Kid - Attack_48
+  - first:
+      213: -6269881351341262266
+    second: Atomic Kid - Attack_49
+  - first:
+      213: 6667215027187437898
+    second: Atomic Kid - Attack_50
+  - first:
+      213: -164940089119863769
+    second: Atomic Kid - Attack_51
+  - first:
+      213: -1380091157007041915
+    second: Atomic Kid - Attack_52
+  - first:
+      213: 1196418554725041815
+    second: Atomic Kid - Attack_53
+  - first:
+      213: -5902704620863187716
+    second: Atomic Kid - Attack_54
+  - first:
+      213: -4277114187289513702
+    second: Atomic Kid - Attack_55
+  - first:
+      213: -2248448211149789292
+    second: Atomic Kid - Attack_56
+  - first:
+      213: -1399391992846900933
+    second: Atomic Kid - Attack_57
+  - first:
+      213: -301838473837541348
+    second: Atomic Kid - Attack_58
+  - first:
+      213: 7438212694490849914
+    second: Atomic Kid - Attack_59
+  - first:
+      213: 9176652662358975205
+    second: Atomic Kid - Attack_60
+  - first:
+      213: -5736638567342876791
+    second: Atomic Kid - Attack_61
+  - first:
+      213: -8555834922913717191
+    second: Atomic Kid - Attack_62
+  - first:
+      213: 3424502747016835905
+    second: Atomic Kid - Attack_63
+  - first:
+      213: -2568537227327700557
+    second: Atomic Kid - Attack_64
+  - first:
+      213: 6139730327954845645
+    second: Atomic Kid - Attack_65
+  - first:
+      213: -2242581493823419720
+    second: Atomic Kid - Attack_66
+  - first:
+      213: 5592176065975658897
+    second: Atomic Kid - Attack_67
+  - first:
+      213: -7636811435958043862
+    second: Atomic Kid - Attack_68
+  - first:
+      213: 67221499163995458
+    second: Atomic Kid - Attack_69
+  - first:
+      213: 5274238087237573579
+    second: Atomic Kid - Attack_70
+  - first:
+      213: 7226487043704880968
+    second: Atomic Kid - Attack_71
+  - first:
+      213: -9093985890255866369
+    second: Atomic Kid - Attack_72
+  - first:
+      213: 6343998770425141009
+    second: Atomic Kid - Attack_73
+  - first:
+      213: 3369085616863651130
+    second: Atomic Kid - Attack_74
+  - first:
+      213: -7819453703529122685
+    second: Atomic Kid - Attack_75
+  - first:
+      213: 2034591796800338382
+    second: Atomic Kid - Attack_76
+  - first:
+      213: 9179857776156731903
+    second: Atomic Kid - Attack_77
+  - first:
+      213: -5513307940044035790
+    second: Atomic Kid - Attack_78
+  - first:
+      213: 188056766677704053
+    second: Atomic Kid - Attack_79
+  - first:
+      213: 5081710726012061304
+    second: Atomic Kid - Attack_80
+  - first:
+      213: -2755442301590194116
+    second: Atomic Kid - Attack_81
+  - first:
+      213: 7437117352539369653
+    second: Atomic Kid - Attack_82
+  - first:
+      213: 1954970525206643929
+    second: Atomic Kid - Attack_83
+  - first:
+      213: 4779590206444137712
+    second: Atomic Kid - Attack_84
+  - first:
+      213: 6056455126897377596
+    second: Atomic Kid - Attack_85
+  - first:
+      213: -7289644698868110481
+    second: Atomic Kid - Attack_86
+  - first:
+      213: 1656095430274394216
+    second: Atomic Kid - Attack_87
+  - first:
+      213: 9214339536180733770
+    second: Atomic Kid - Attack_88
+  - first:
+      213: -3652371958940407443
+    second: Atomic Kid - Attack_89
+  - first:
+      213: -5540513284916327727
+    second: Atomic Kid - Attack_90
+  - first:
+      213: 4467603134443604238
+    second: Atomic Kid - Attack_91
+  - first:
+      213: -4763435505665517920
+    second: Atomic Kid - Attack_92
+  - first:
+      213: -4198906880681212613
+    second: Atomic Kid - Attack_93
+  - first:
+      213: 1724485386260021489
+    second: Atomic Kid - Attack_94
+  - first:
+      213: -2975363884687817439
+    second: Atomic Kid - Attack_95
+  - first:
+      213: 3498268213867609024
+    second: Atomic Kid - Attack_96
+  - first:
+      213: -6932550061326975912
+    second: Atomic Kid - Attack_97
+  - first:
+      213: 2585559253772836523
+    second: Atomic Kid - Attack_98
+  - first:
+      213: 2738012938904882418
+    second: Atomic Kid - Attack_99
+  - first:
+      213: 3959250964343062503
+    second: Atomic Kid - Attack_100
+  - first:
+      213: -8859518191082178534
+    second: Atomic Kid - Attack_101
+  - first:
+      213: 7685360228885239316
+    second: Atomic Kid - Attack_102
+  - first:
+      213: -4551073380275939951
+    second: Atomic Kid - Attack_103
+  - first:
+      213: -5775717233441161665
+    second: Atomic Kid - Attack_104
+  - first:
+      213: 5368531276871907023
+    second: Atomic Kid - Attack_105
+  - first:
+      213: 8296828237685344302
+    second: Atomic Kid - Attack_106
+  - first:
+      213: 773427775634336643
+    second: Atomic Kid - Attack_107
+  - first:
+      213: 3339453837516306747
+    second: Atomic Kid - Attack_108
+  - first:
+      213: 2224050211542194623
+    second: Atomic Kid - Attack_109
+  - first:
+      213: 8445801973863371834
+    second: Atomic Kid - Attack_110
+  - first:
+      213: -2308003653670237183
+    second: Atomic Kid - Attack_111
+  - first:
+      213: 4997095321310374872
+    second: Atomic Kid - Attack_112
+  - first:
+      213: 4202918962890869420
+    second: Atomic Kid - Attack_113
+  - first:
+      213: -648097420545668521
+    second: Atomic Kid - Attack_114
+  - first:
+      213: -2270704152007359526
+    second: Atomic Kid - Attack_115
+  - first:
+      213: 2545394019622885280
+    second: Atomic Kid - Attack_116
+  - first:
+      213: 3008434006418883572
+    second: Atomic Kid - Attack_117
+  - first:
+      213: 1414107229257531860
+    second: Atomic Kid - Attack_118
+  - first:
+      213: 6640563660710461960
+    second: Atomic Kid - Attack_119
+  - first:
+      213: -2482483291835418241
+    second: Atomic Kid - Attack_120
+  - first:
+      213: -4651819196802460721
+    second: Atomic Kid - Attack_121
+  - first:
+      213: -36310117460434099
+    second: Atomic Kid - Attack_122
+  - first:
+      213: -3487973860649898792
+    second: Atomic Kid - Attack_123
+  - first:
+      213: -5297308163856658079
+    second: Atomic Kid - Attack_124
+  - first:
+      213: -2273429675972653131
+    second: Atomic Kid - Attack_125
+  - first:
+      213: -850281826495392847
+    second: Atomic Kid - Attack_126
+  - first:
+      213: -2502524539400377118
+    second: Atomic Kid - Attack_127
+  - first:
+      213: 6035215124737043832
+    second: Atomic Kid - Attack_128
+  - first:
+      213: -8133859978388971103
+    second: Atomic Kid - Attack_129
+  - first:
+      213: 46144704534822276
+    second: Atomic Kid - Attack_130
+  - first:
+      213: 156512215680586954
+    second: Atomic Kid - Attack_131
+  - first:
+      213: 1211703314240796401
+    second: Atomic Kid - Attack_132
+  - first:
+      213: 5170310519213142670
+    second: Atomic Kid - Attack_133
+  - first:
+      213: 2476588393102587799
+    second: Atomic Kid - Attack_134
+  - first:
+      213: -4840890208975579204
+    second: Atomic Kid - Attack_135
+  - first:
+      213: -2516894212510542897
+    second: Atomic Kid - Attack_136
+  - first:
+      213: -5822695908820009486
+    second: Atomic Kid - Attack_137
+  - first:
+      213: -5784347627006053825
+    second: Atomic Kid - Attack_138
+  - first:
+      213: 2048630945971835408
+    second: Atomic Kid - Attack_139
+  - first:
+      213: -348606724188600799
+    second: Atomic Kid - Attack_140
+  - first:
+      213: -5610768947042695102
+    second: Atomic Kid - Attack_141
+  - first:
+      213: -1846361840669086762
+    second: Atomic Kid - Attack_142
+  - first:
+      213: 8952572983752640160
+    second: Atomic Kid - Attack_143
+  - first:
+      213: -6567482997961183730
+    second: Atomic Kid - Attack_144
+  - first:
+      213: 6734267855993229285
+    second: Atomic Kid - Attack_145
+  - first:
+      213: -6945440920400314288
+    second: Atomic Kid - Attack_146
+  - first:
+      213: 963693196888206410
+    second: Atomic Kid - Attack_147
+  - first:
+      213: 6804164941926037102
+    second: Atomic Kid - Attack_148
+  - first:
+      213: -4622750591802888994
+    second: Atomic Kid - Attack_149
+  - first:
+      213: -999016568803166486
+    second: Atomic Kid - Attack_150
+  - first:
+      213: 2792613750777104447
+    second: Atomic Kid - Attack_151
+  - first:
+      213: 8385322329930639343
+    second: Atomic Kid - Attack_152
+  - first:
+      213: 2823825916649414659
+    second: Atomic Kid - Attack_153
+  - first:
+      213: -2205082403625960313
+    second: Atomic Kid - Attack_154
+  - first:
+      213: 8230662146887382643
+    second: Atomic Kid - Attack_155
+  - first:
+      213: 8545052037069355802
+    second: Atomic Kid - Attack_156
+  - first:
+      213: -7580379082037379279
+    second: Atomic Kid - Attack_157
+  - first:
+      213: 3740425967683017373
+    second: Atomic Kid - Attack_158
+  - first:
+      213: -1313318828121259355
+    second: Atomic Kid - Attack_159
+  - first:
+      213: -2466438024246050962
+    second: Atomic Kid - Attack_160
+  - first:
+      213: 7661912017254245568
+    second: Atomic Kid - Attack_161
+  - first:
+      213: -8360055172136567839
+    second: Atomic Kid - Attack_162
+  - first:
+      213: 403585535536818057
+    second: Atomic Kid - Attack_163
+  - first:
+      213: 5778422642558175782
+    second: Atomic Kid - Attack_164
+  - first:
+      213: -107860452179774404
+    second: Atomic Kid - Attack_165
+  - first:
+      213: -7741694196463113098
+    second: Atomic Kid - Attack_166
+  - first:
+      213: 6993991526972034472
+    second: Atomic Kid - Attack_167
+  - first:
+      213: 4863744887401877333
+    second: Atomic Kid - Attack_168
+  - first:
+      213: -7821391623320292837
+    second: Atomic Kid - Attack_169
+  - first:
+      213: 4123194398678134208
+    second: Atomic Kid - Attack_170
+  - first:
+      213: 7295101525849732872
+    second: Atomic Kid - Attack_171
+  - first:
+      213: -8005244409878000371
+    second: Atomic Kid - Attack_172
+  - first:
+      213: -6980750298949176361
+    second: Atomic Kid - Attack_173
+  - first:
+      213: 4931139820901027984
+    second: Atomic Kid - Attack_174
+  - first:
+      213: 4538372188471805758
+    second: Atomic Kid - Attack_175
+  - first:
+      213: 7318396645463376301
+    second: Atomic Kid - Attack_176
+  - first:
+      213: -3294483810674531706
+    second: Atomic Kid - Attack_177
+  - first:
+      213: 3953361749500502933
+    second: Atomic Kid - Attack_178
+  - first:
+      213: -5442599123641922169
+    second: Atomic Kid - Attack_179
+  - first:
+      213: -5950274509196529882
+    second: Atomic Kid - Attack_180
+  - first:
+      213: -408796628527279123
+    second: Atomic Kid - Attack_181
+  - first:
+      213: -1984201694767566817
+    second: Atomic Kid - Attack_182
+  - first:
+      213: 8721998098493831821
+    second: Atomic Kid - Attack_183
+  - first:
+      213: 815943511191918637
+    second: Atomic Kid - Attack_184
+  - first:
+      213: 8895322320776918897
+    second: Atomic Kid - Attack_185
+  - first:
+      213: -3184126378872025591
+    second: Atomic Kid - Attack_186
+  - first:
+      213: 4598558999038144273
+    second: Atomic Kid - Attack_187
+  - first:
+      213: -1785804735088647881
+    second: Atomic Kid - Attack_188
+  - first:
+      213: -4593070553221507524
+    second: Atomic Kid - Attack_189
+  - first:
+      213: 8489354102358836523
+    second: Atomic Kid - Attack_190
+  - first:
+      213: -4611666218432711671
+    second: Atomic Kid - Attack_191
+  - first:
+      213: -125259984154754982
+    second: Atomic Kid - Attack_192
+  - first:
+      213: -8823862088525642937
+    second: Atomic Kid - Attack_193
+  - first:
+      213: -6109612917877364269
+    second: Atomic Kid - Attack_194
+  - first:
+      213: -6606384212535605866
+    second: Atomic Kid - Attack_195
+  - first:
+      213: -4966150245961941219
+    second: Atomic Kid - Attack_196
+  - first:
+      213: 6126708526097928657
+    second: Atomic Kid - Attack_197
+  - first:
+      213: 167635349670788997
+    second: Atomic Kid - Attack_198
+  - first:
+      213: -4395832397205963674
+    second: Atomic Kid - Attack_199
+  - first:
+      213: -5258935741129897417
+    second: Atomic Kid - Attack_200
+  - first:
+      213: 8733962625958828660
+    second: Atomic Kid - Attack_201
+  - first:
+      213: 8138446664212800659
+    second: Atomic Kid - Attack_202
+  - first:
+      213: 6429452365477499612
+    second: Atomic Kid - Attack_203
+  - first:
+      213: -7356628589227079111
+    second: Atomic Kid - Attack_204
+  - first:
+      213: 5012713580432465348
+    second: Atomic Kid - Attack_205
+  - first:
+      213: 2525692552816398528
+    second: Atomic Kid - Attack_206
+  - first:
+      213: 7260857689613882170
+    second: Atomic Kid - Attack_207
+  - first:
+      213: 2668982125042430654
+    second: Atomic Kid - Attack_208
+  - first:
+      213: 729099217181893915
+    second: Atomic Kid - Attack_209
+  - first:
+      213: 7783551508476887660
+    second: Atomic Kid - Attack_210
+  - first:
+      213: -8220782515708981043
+    second: Atomic Kid - Attack_211
+  - first:
+      213: -7999395373399615438
+    second: Atomic Kid - Attack_212
+  - first:
+      213: -3351069816854239558
+    second: Atomic Kid - Attack_213
+  - first:
+      213: 4256021887359117355
+    second: Atomic Kid - Attack_214
+  - first:
+      213: -1368738801630475751
+    second: Atomic Kid - Attack_215
+  - first:
+      213: -2384866597696659742
+    second: Atomic Kid - Attack_216
+  - first:
+      213: 1582240469185587662
+    second: Atomic Kid - Attack_217
+  - first:
+      213: 978445522535821268
+    second: Atomic Kid - Attack_218
+  - first:
+      213: 8846512421251688120
+    second: Atomic Kid - Attack_219
+  - first:
+      213: 7186393810015370614
+    second: Atomic Kid - Attack_220
+  - first:
+      213: 8195008915170203886
+    second: Atomic Kid - Attack_221
+  - first:
+      213: 4196101050423891926
+    second: Atomic Kid - Attack_222
+  - first:
+      213: -2943962994337106112
+    second: Atomic Kid - Attack_223
+  - first:
+      213: 7221542923233331091
+    second: Atomic Kid - Attack_224
+  - first:
+      213: -2899503788261183567
+    second: Atomic Kid - Attack_225
+  - first:
+      213: 6473087150902454387
+    second: Atomic Kid - Attack_226
+  - first:
+      213: 4245866888387877213
+    second: Atomic Kid - Attack_227
+  - first:
+      213: 1115158294617393069
+    second: Atomic Kid - Attack_228
+  - first:
+      213: -2986578654919674890
+    second: Atomic Kid - Attack_229
+  - first:
+      213: -910286923559098325
+    second: Atomic Kid - Attack_230
+  - first:
+      213: -1261490759172092325
+    second: Atomic Kid - Attack_231
+  - first:
+      213: 3570677721234390159
+    second: Atomic Kid - Attack_232
+  - first:
+      213: 6906309156469490441
+    second: Atomic Kid - Attack_233
+  - first:
+      213: 4859667265880396464
+    second: Atomic Kid - Attack_234
+  - first:
+      213: -8090955192569984642
+    second: Atomic Kid - Attack_235
+  - first:
+      213: -2371199236598181111
+    second: Atomic Kid - Attack_236
+  - first:
+      213: -9220125725125931824
+    second: Atomic Kid - Attack_237
+  - first:
+      213: -1839635512714029955
+    second: Atomic Kid - Attack_238
+  - first:
+      213: 8502767188109366519
+    second: Atomic Kid - Attack_239
+  - first:
+      213: 3065438343741642697
+    second: Atomic Kid - Attack_240
+  - first:
+      213: 2247319243027704425
+    second: Atomic Kid - Attack_241
+  - first:
+      213: -5141177877544721917
+    second: Atomic Kid - Attack_242
+  - first:
+      213: -2118173388226947575
+    second: Atomic Kid - Attack_243
+  - first:
+      213: 9148959088597388674
+    second: Atomic Kid - Attack_244
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1790
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a016bee04176650800000000000000
+      internalID: 6225967064174103141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1791
+        width: 200
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78206e8ff43f9e9d0800000000000000
+      internalID: -2744394973101817209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_2
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1791
+        width: 193
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc3984f23bf40200800000000000000
+      internalID: 145517284252269810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1351
+        width: 195
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9353044783e723e0800000000000000
+      internalID: -2078442532907035749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1352
+        width: 242
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6ac825cc2f57430800000000000000
+      internalID: 3780194421619599085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_5
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1357
+        width: 263
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c1243aaff6d770800000000000000
+      internalID: 8635370442013655684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 917
+        width: 269
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaef94ae15fa12a0800000000000000
+      internalID: -6765825978210981126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 917
+        width: 276
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf85344046f4dd80800000000000000
+      internalID: -8226679863416352843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_8
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 917
+        width: 252
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39edaa6ca2c6128e0800000000000000
+      internalID: -1719974651701305709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 476
+        width: 252
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baa3ae338b074530800000000000000
+      internalID: 3839049865676171955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 472
+        width: 220
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f90ac15a132a3990800000000000000
+      internalID: -7405568041309042190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 472
+        width: 167
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69d138a12196de30800000000000000
+      internalID: 4527966049109399916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Attack_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 30
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913b83bc4b4d63890800000000000000
+      internalID: -7478556258233437415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

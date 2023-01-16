@@ -1,0 +1,757 @@
+fileFormatVersion: 2
+guid: c5a0aa5ec231cb644876ee29b5c0a63b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 537150207410609107
+    second: Einstein - Super Attack_0
+  - first:
+      213: 3649042275862549348
+    second: Einstein - Super Attack_1
+  - first:
+      213: 3150981495952473866
+    second: Einstein - Super Attack_2
+  - first:
+      213: 8202204995435424787
+    second: Einstein - Super Attack_3
+  - first:
+      213: 6657935067674766489
+    second: Einstein - Super Attack_4
+  - first:
+      213: -4029336967445667267
+    second: Einstein - Super Attack_5
+  - first:
+      213: -1812975554617024900
+    second: Einstein - Super Attack_6
+  - first:
+      213: -6378990748365613532
+    second: Einstein - Super Attack_7
+  - first:
+      213: -7913535200786996178
+    second: Einstein - Super Attack_8
+  - first:
+      213: 3592986345031923952
+    second: Einstein - Super Attack_9
+  - first:
+      213: 2797610574436232347
+    second: Einstein - Super Attack_10
+  - first:
+      213: -4931129202914497998
+    second: Einstein - Super Attack_11
+  - first:
+      213: -5772606653108819517
+    second: Einstein - Super Attack_12
+  - first:
+      213: 2334803347240470984
+    second: Einstein - Super Attack_13
+  - first:
+      213: 8829243540375476167
+    second: Einstein - Super Attack_14
+  - first:
+      213: 7020257300758632685
+    second: Einstein - Super Attack_15
+  - first:
+      213: 2499086775313986183
+    second: Einstein - Super Attack_16
+  - first:
+      213: 8658835294659997282
+    second: Einstein - Super Attack_17
+  - first:
+      213: 5982484660624082050
+    second: Einstein - Super Attack_18
+  - first:
+      213: 5286164635608361457
+    second: Einstein - Super Attack_19
+  - first:
+      213: 4714817739346025870
+    second: Einstein - Super Attack_20
+  - first:
+      213: -2815777278726876785
+    second: Einstein - Super Attack_21
+  - first:
+      213: -6878526011275498519
+    second: Einstein - Super Attack_22
+  - first:
+      213: 2047607384321084301
+    second: Einstein - Super Attack_23
+  - first:
+      213: 3773945333084921782
+    second: Einstein - Super Attack_24
+  - first:
+      213: 4985050083845541929
+    second: Einstein - Super Attack_25
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Einstein - Super Attack_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2678
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db9cb78447547700800000000000000
+      internalID: 537150207410609107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2678
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4639b2fcd9004a230800000000000000
+      internalID: 3649042275862549348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_2
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2678
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f7318d9f88abb20800000000000000
+      internalID: 3150981495952473866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2678
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cecd77cf514d170800000000000000
+      internalID: 8202204995435424787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2239
+        width: 184
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cee563bacb56c50800000000000000
+      internalID: 6657935067674766489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_5
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2239
+        width: 184
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d322d0f506be418c0800000000000000
+      internalID: -4029336967445667267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2239
+        width: 184
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ed590b65407d6e0800000000000000
+      internalID: -1812975554617024900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2239
+        width: 184
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4261a2236b54977a0800000000000000
+      internalID: -6378990748365613532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1798
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24aa8f99a97d2290800000000000000
+      internalID: -7913535200786996178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_9
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1798
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8f47a5b0adcd130800000000000000
+      internalID: 3592986345031923952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_10
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1798
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ce52dbefb13d620800000000000000
+      internalID: 2797610574436232347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1798
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ae9bebd1c119bb0800000000000000
+      internalID: -4931129202914497998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1359
+        width: 184
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9646565d493efa0800000000000000
+      internalID: -5772606653108819517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_13
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1359
+        width: 184
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c949a42643e66020800000000000000
+      internalID: 2334803347240470984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1359
+        width: 184
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c71e7b7836c78a70800000000000000
+      internalID: 8829243540375476167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1359
+        width: 184
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de89f83f1d6fc6160800000000000000
+      internalID: 7020257300758632685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 918
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78277717e2a8ea220800000000000000
+      internalID: 2499086775313986183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_17
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 918
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ee2d2f2dc5a2870800000000000000
+      internalID: 8658835294659997282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_18
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 918
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284c8be2a1e060350800000000000000
+      internalID: 5982484660624082050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_19
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 918
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f92ba19aba3c5940800000000000000
+      internalID: 5286164635608361457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_20
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 478
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d1e66f0c56e6140800000000000000
+      internalID: 4714817739346025870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_21
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 478
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f815edecb795ce8d0800000000000000
+      internalID: -2815777278726876785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_22
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 478
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eba3a769019a80a0800000000000000
+      internalID: -6878526011275498519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_23
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 478
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bcced31109a6c10800000000000000
+      internalID: 2047607384321084301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_24
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 38
+        width: 184
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf1544094fbf5430800000000000000
+      internalID: 3773945333084921782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein - Super Attack_25
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 38
+        width: 184
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920152ba3a47e2540800000000000000
+      internalID: 4985050083845541929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

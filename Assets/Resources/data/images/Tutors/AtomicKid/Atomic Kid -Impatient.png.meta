@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 13c8606b62119274dbebd0eca07f7971
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2403962031966150804
+    second: Atomic Kid -Impatient_0
+  - first:
+      213: -4407721711064468672
+    second: Atomic Kid -Impatient_1
+  - first:
+      213: -5863773913568816638
+    second: Atomic Kid -Impatient_2
+  - first:
+      213: 2619569915198900449
+    second: Atomic Kid -Impatient_3
+  - first:
+      213: 4168845304548810992
+    second: Atomic Kid -Impatient_4
+  - first:
+      213: 6416515479653805910
+    second: Atomic Kid -Impatient_5
+  - first:
+      213: 2792214304362738564
+    second: Atomic Kid -Impatient_6
+  - first:
+      213: 5218034656117885621
+    second: Atomic Kid -Impatient_7
+  - first:
+      213: 8877033251498113536
+    second: Atomic Kid -Impatient_8
+  - first:
+      213: -2188381487311614804
+    second: Atomic Kid -Impatient_9
+  - first:
+      213: 4127268470136264488
+    second: Atomic Kid -Impatient_10
+  - first:
+      213: 2304926003719552007
+    second: Atomic Kid -Impatient_11
+  - first:
+      213: -5080137975388063228
+    second: Atomic Kid -Impatient_12
+  - first:
+      213: 2304692325276416936
+    second: Atomic Kid -Impatient_13
+  - first:
+      213: -2917093350367332667
+    second: Atomic Kid -Impatient_14
+  - first:
+      213: -4794838773881166251
+    second: Atomic Kid -Impatient_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1351
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4906ed83bb69c5120800000000000000
+      internalID: 2403962031966150804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1351
+        width: 185
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043b937f470a4d2c0800000000000000
+      internalID: -4407721711064468672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_2
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1351
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202578671b0bf9ea0800000000000000
+      internalID: -5863773913568816638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_3
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1351
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e80bb375f49a5420800000000000000
+      internalID: 2619569915198900449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 911
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0ef2d87b6bad930800000000000000
+      internalID: 4168845304548810992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_5
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 911
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f6f8425da0c0950800000000000000
+      internalID: 6416515479653805910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_6
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 911
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4833e44bd10ffb620800000000000000
+      internalID: 2792214304362738564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_7
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 911
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba85979fde2a6840800000000000000
+      internalID: 5218034656117885621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 471
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a30eea5be813b70800000000000000
+      internalID: 8877033251498113536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 471
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac00cfb1ae41a1e0800000000000000
+      internalID: -2188381487311614804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_10
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 471
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827542f6ec0074930800000000000000
+      internalID: 4127268470136264488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_11
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 471
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb3450dfdbcff10800000000000000
+      internalID: 2304926003719552007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 31
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ab5075d69bf79b0800000000000000
+      internalID: -5080137975388063228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_13
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 31
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab7ba48579ebff10800000000000000
+      internalID: 2304692325276416936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 31
+        width: 185
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c673b2ad076487d0800000000000000
+      internalID: -2917093350367332667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid -Impatient_15
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 31
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5562b8f0a8f457db0800000000000000
+      internalID: -4794838773881166251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

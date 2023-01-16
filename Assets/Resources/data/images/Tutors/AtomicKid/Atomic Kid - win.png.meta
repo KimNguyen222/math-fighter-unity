@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: b0c46bf459df55e40b33f2f0af7078aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3347396753640117041
+    second: Atomic Kid - win_0
+  - first:
+      213: 424662742124007746
+    second: Atomic Kid - win_1
+  - first:
+      213: -6238468911779507804
+    second: Atomic Kid - win_2
+  - first:
+      213: -87060359258061516
+    second: Atomic Kid - win_3
+  - first:
+      213: -8400755617710998688
+    second: Atomic Kid - win_4
+  - first:
+      213: -6878190526355181538
+    second: Atomic Kid - win_5
+  - first:
+      213: 5779917257370451039
+    second: Atomic Kid - win_6
+  - first:
+      213: 7762307384810891787
+    second: Atomic Kid - win_7
+  - first:
+      213: 5954607065459675396
+    second: Atomic Kid - win_8
+  - first:
+      213: -9179545949823877737
+    second: Atomic Kid - win_9
+  - first:
+      213: -4050182521661642212
+    second: Atomic Kid - win_10
+  - first:
+      213: -3943865213601330227
+    second: Atomic Kid - win_11
+  - first:
+      213: 420900830141430293
+    second: Atomic Kid - win_12
+  - first:
+      213: 2618667852830316236
+    second: Atomic Kid - win_13
+  - first:
+      213: 2798906807440072530
+    second: Atomic Kid - win_14
+  - first:
+      213: -6100772623183373093
+    second: Atomic Kid - win_15
+  - first:
+      213: -2565765569448065672
+    second: Atomic Kid - win_16
+  - first:
+      213: -7869490379643229116
+    second: Atomic Kid - win_17
+  - first:
+      213: -6280585936573383497
+    second: Atomic Kid - win_18
+  - first:
+      213: -9008661635552877754
+    second: Atomic Kid - win_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atomic Kid - win_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1350
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133d307bc97547e20800000000000000
+      internalID: 3347396753640117041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1350
+        width: 174
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24115a59384b4e500800000000000000
+      internalID: 424662742124007746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1350
+        width: 174
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1901bd3918c69a0800000000000000
+      internalID: -6238468911779507804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_3
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1350
+        width: 174
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435c7648013bacef0800000000000000
+      internalID: -87060359258061516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_4
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1350
+        width: 175
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bf77956458a6b80800000000000000
+      internalID: -8400755617710998688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 910
+        width: 182
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1074239822cb80a0800000000000000
+      internalID: -6878190526355181538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_6
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 910
+        width: 181
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c37bc4f14663050800000000000000
+      internalID: 5779917257370451039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_7
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 910
+        width: 191
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a6b05a07149bb60800000000000000
+      internalID: 7762307384810891787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_8
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 914
+        width: 205
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40151c1c39303a250800000000000000
+      internalID: 5954607065459675396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_9
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 914
+        width: 198
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d3f5d0893bb9080800000000000000
+      internalID: -9179545949823877737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 486
+        width: 229
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1aacd0947cdac7c0800000000000000
+      internalID: -4050182521661642212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_11
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 505
+        width: 240
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbc545db739449c0800000000000000
+      internalID: -3943865213601330227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_12
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 505
+        width: 236
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a3f32331757d500800000000000000
+      internalID: 420900830141430293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_13
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 505
+        width: 239
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc69fa0b980675420800000000000000
+      internalID: 2618667852830316236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_14
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 505
+        width: 238
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f53e089e6b7d620800000000000000
+      internalID: 2798906807440072530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 65
+        width: 239
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc1abb5f93b55ba0800000000000000
+      internalID: -6100772623183373093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 65
+        width: 239
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875ce100fc1946cd0800000000000000
+      internalID: -2565765569448065672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 65
+        width: 237
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ce20ea134f9c290800000000000000
+      internalID: -7869490379643229116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_18
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 64
+        width: 240
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcba3ddd50e6d8a0800000000000000
+      internalID: -6280585936573383497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - win_19
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 65
+        width: 236
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6436e2fe8fdcaf280800000000000000
+      internalID: -9008661635552877754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

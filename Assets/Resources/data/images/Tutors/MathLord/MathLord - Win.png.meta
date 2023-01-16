@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 8f5d35e90b49e1f44a105719f94d6d7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -767129834123149566
+    second: MathLord - Win_0
+  - first:
+      213: -3536909430062864982
+    second: MathLord - Win_1
+  - first:
+      213: 6688155156823101268
+    second: MathLord - Win_2
+  - first:
+      213: -1942385913258452708
+    second: MathLord - Win_3
+  - first:
+      213: -8522389522133597106
+    second: MathLord - Win_4
+  - first:
+      213: -2935925338969014378
+    second: MathLord - Win_5
+  - first:
+      213: -3979914190632198325
+    second: MathLord - Win_6
+  - first:
+      213: 4371117133595656424
+    second: MathLord - Win_7
+  - first:
+      213: 1638219257117014649
+    second: MathLord - Win_8
+  - first:
+      213: 4693468925404023034
+    second: MathLord - Win_9
+  - first:
+      213: -3722307276248117877
+    second: MathLord - Win_10
+  - first:
+      213: -4919528285554193739
+    second: MathLord - Win_11
+  - first:
+      213: 6946375060766023138
+    second: MathLord - Win_12
+  - first:
+      213: 2044082529953844049
+    second: MathLord - Win_13
+  - first:
+      213: -4774680470883088174
+    second: MathLord - Win_14
+  - first:
+      213: 8846818379621182728
+    second: MathLord - Win_15
+  - first:
+      213: -6430921545597723329
+    second: MathLord - Win_16
+  - first:
+      213: -1860969980240526668
+    second: MathLord - Win_17
+  - first:
+      213: 4632674640463851570
+    second: MathLord - Win_18
+  - first:
+      213: 5411363149793962359
+    second: MathLord - Win_19
+  - first:
+      213: 357992050719352817
+    second: MathLord - Win_20
+  - first:
+      213: -5989400703323491781
+    second: MathLord - Win_21
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MathLord - Win_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2236
+        width: 165
+        height: 369
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f3c74fa7b9a55f0800000000000000
+      internalID: -767129834123149566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 2226
+        width: 377
+        height: 390
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5af5adc9f5aeec0800000000000000
+      internalID: -3536909430062864982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_2
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 2215
+        width: 306
+        height: 415
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f43250ea911dc50800000000000000
+      internalID: 6688155156823101268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_3
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2215
+        width: 358
+        height: 424
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d1879d424b05e0800000000000000
+      internalID: -1942385913258452708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1775
+        width: 401
+        height: 425
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4447b712e36ab980800000000000000
+      internalID: -8522389522133597106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1775
+        width: 305
+        height: 425
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ffeab957f7147d0800000000000000
+      internalID: -2935925338969014378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_6
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1775
+        width: 358
+        height: 425
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fd4de412184c8c0800000000000000
+      internalID: -3979914190632198325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_7
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1775
+        width: 402
+        height: 425
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0c793bfd359ac30800000000000000
+      internalID: 4371117133595656424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1334
+        width: 305
+        height: 425
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97af9a41cbf1cb610800000000000000
+      internalID: 1638219257117014649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_9
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1334
+        width: 358
+        height: 425
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af88a0fde1d822140800000000000000
+      internalID: 4693468925404023034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_10
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1334
+        width: 402
+        height: 425
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d016ef045b75cc0800000000000000
+      internalID: -3722307276248117877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_11
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1334
+        width: 366
+        height: 408
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba4e0dc6135abbb0800000000000000
+      internalID: -4919528285554193739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 895
+        width: 358
+        height: 424
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed5795705b766060800000000000000
+      internalID: 6946375060766023138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_13
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 895
+        width: 401
+        height: 414
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b0b712b3a0e5c10800000000000000
+      internalID: 2044082529953844049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_14
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 895
+        width: 306
+        height: 395
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8c409b86decbdb0800000000000000
+      internalID: -4774680470883088174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_15
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 895
+        width: 358
+        height: 424
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da7bd917636ca70800000000000000
+      internalID: 8846818379621182728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 455
+        width: 401
+        height: 414
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ddd304de6c0c6a0800000000000000
+      internalID: -6430921545597723329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 455
+        width: 305
+        height: 395
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2091ea9a18c26e0800000000000000
+      internalID: -1860969980240526668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_18
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 455
+        width: 358
+        height: 423
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230fec06a019a4040800000000000000
+      internalID: 4632674640463851570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_19
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 455
+        width: 402
+        height: 414
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ab163d16091b40800000000000000
+      internalID: 5411363149793962359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 26
+        width: 310
+        height: 379
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f76a879fd7d7f400800000000000000
+      internalID: 357992050719352817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Win_21
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 37
+        width: 165
+        height: 367
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32bde42bcf51eca0800000000000000
+      internalID: -5989400703323491781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: ba04b47b3de7f1a48b3a87746b88bd5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -605533501359576048
+    second: Einstein Impatient_0
+  - first:
+      213: -8663651214196625137
+    second: Einstein Impatient_1
+  - first:
+      213: 994128850456970733
+    second: Einstein Impatient_2
+  - first:
+      213: 1908227763423239382
+    second: Einstein Impatient_3
+  - first:
+      213: -22721427084978579
+    second: Einstein Impatient_4
+  - first:
+      213: -1849327609789138350
+    second: Einstein Impatient_5
+  - first:
+      213: -2213928009234630488
+    second: Einstein Impatient_6
+  - first:
+      213: 9087939595157800479
+    second: Einstein Impatient_7
+  - first:
+      213: -2076483425106168741
+    second: Einstein Impatient_8
+  - first:
+      213: -4451237884901447851
+    second: Einstein Impatient_9
+  - first:
+      213: 984562694966720208
+    second: Einstein Impatient_10
+  - first:
+      213: -1425653374886560049
+    second: Einstein Impatient_11
+  - first:
+      213: -588229295993974578
+    second: Einstein Impatient_12
+  - first:
+      213: -2256195823713405026
+    second: Einstein Impatient_13
+  - first:
+      213: 3724372588161691414
+    second: Einstein Impatient_14
+  - first:
+      213: 64139778672323253
+    second: Einstein Impatient_15
+  - first:
+      213: -8924820082450976594
+    second: Einstein Impatient_16
+  - first:
+      213: 5476127273785562581
+    second: Einstein Impatient_17
+  - first:
+      213: -1921873637556114110
+    second: Einstein Impatient_18
+  - first:
+      213: 8346049890173692048
+    second: Einstein Impatient_19
+  - first:
+      213: 3140376870635681513
+    second: Einstein Impatient_20
+  - first:
+      213: 8183542942791993717
+    second: Einstein Impatient_21
+  - first:
+      213: 4475484810453913121
+    second: Einstein Impatient_22
+  - first:
+      213: -7727677384017090482
+    second: Einstein Impatient_23
+  - first:
+      213: -6500244700179444815
+    second: Einstein Impatient_24
+  - first:
+      213: 8391951752762303600
+    second: Einstein Impatient_25
+  - first:
+      213: 5021935354323883562
+    second: Einstein Impatient_26
+  - first:
+      213: 41829603167285884
+    second: Einstein Impatient_27
+  - first:
+      213: -3996340130927898071
+    second: Einstein Impatient_28
+  - first:
+      213: 6889601184427499956
+    second: Einstein Impatient_29
+  - first:
+      213: 3718204371535650996
+    second: Einstein Impatient_30
+  - first:
+      213: -4295978870787622011
+    second: Einstein Impatient_31
+  - first:
+      213: -1374130597130518037
+    second: Einstein Impatient_32
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Einstein Impatient_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2678
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c2ddf1d76b897f0800000000000000
+      internalID: -605533501359576048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2678
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01bde76f1784c780800000000000000
+      internalID: -8663651214196625137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_2
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2678
+        width: 183
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de584702ceadbcd00800000000000000
+      internalID: 994128850456970733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_3
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2678
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc51656a036b7a10800000000000000
+      internalID: 1908227763423239382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_4
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2678
+        width: 184
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d665fc18bf64faff0800000000000000
+      internalID: -22721427084978579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2239
+        width: 184
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a3239465ed556e0800000000000000
+      internalID: -1849327609789138350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_6
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2239
+        width: 184
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8384b943c8641e0800000000000000
+      internalID: -2213928009234630488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_7
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2239
+        width: 183
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16869d69e8de1e70800000000000000
+      internalID: 9087939595157800479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_8
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2239
+        width: 184
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b547f889359de23e0800000000000000
+      internalID: -2076483425106168741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_9
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2239
+        width: 184
+        height: 351
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55720b33ab60a32c0800000000000000
+      internalID: -4451237884901447851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1798
+        width: 220
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6b79cfd8ed9ad00800000000000000
+      internalID: 984562694966720208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1798
+        width: 201
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcebc091fcf073ce0800000000000000
+      internalID: -1425653374886560049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_12
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1798
+        width: 189
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec01dc5629036d7f0800000000000000
+      internalID: -588229295993974578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_13
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1798
+        width: 188
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97b7d72ad160b0e0800000000000000
+      internalID: -2256195823713405026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_14
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1798
+        width: 198
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f6498e221afa330800000000000000
+      internalID: 3724372588161691414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1359
+        width: 194
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba6cb3f9ced3e000800000000000000
+      internalID: 64139778672323253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1359
+        width: 191
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0bc35bb6ba42480800000000000000
+      internalID: -8924820082450976594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_17
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1359
+        width: 188
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d511d2edbc1ffb40800000000000000
+      internalID: 5476127273785562581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_18
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1359
+        width: 197
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24da742fb122455e0800000000000000
+      internalID: -1921873637556114110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_19
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1359
+        width: 194
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098ad75e72023d370800000000000000
+      internalID: 8346049890173692048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 918
+        width: 191
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6b71b102cd49b20800000000000000
+      internalID: 3140376870635681513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_21
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 918
+        width: 189
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579854db2f8c19170800000000000000
+      internalID: 8183542942791993717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_22
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 918
+        width: 197
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e03c419bd1c1e30800000000000000
+      internalID: 4475484810453913121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_23
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 918
+        width: 194
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4867dabc56c1c490800000000000000
+      internalID: -7727677384017090482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_24
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 918
+        width: 191
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb40bc82ed7ac5a0800000000000000
+      internalID: -6500244700179444815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_25
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 478
+        width: 188
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0742d9b18a3367470800000000000000
+      internalID: 8391951752762303600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_26
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 478
+        width: 198
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26537fe89f71b540800000000000000
+      internalID: 5021935354323883562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_27
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 478
+        width: 192
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72b1ed6dcb949000800000000000000
+      internalID: 41829603167285884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_28
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 478
+        width: 200
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922976e03d52a88c0800000000000000
+      internalID: -3996340130927898071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_29
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 478
+        width: 221
+        height: 353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b169e946c7cc9f50800000000000000
+      internalID: 6889601184427499956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 38
+        width: 184
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0efaf0d27b99330800000000000000
+      internalID: 3718204371535650996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_31
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 38
+        width: 184
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bbe146afd9164c0800000000000000
+      internalID: -4295978870787622011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Einstein Impatient_32
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 38
+        width: 183
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be14a0b908b1eece0800000000000000
+      internalID: -1374130597130518037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

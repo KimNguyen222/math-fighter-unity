@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 335e67f4ce1709040a2e2fe3c1088d91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7698368041377733844
+    second: Atomic Kid - Times running out_0
+  - first:
+      213: 5245244421532335760
+    second: Atomic Kid - Times running out_1
+  - first:
+      213: -3027755848124061479
+    second: Atomic Kid - Times running out_2
+  - first:
+      213: 2934209493319693946
+    second: Atomic Kid - Times running out_3
+  - first:
+      213: -313882210106598839
+    second: Atomic Kid - Times running out_4
+  - first:
+      213: 9050672254452367990
+    second: Atomic Kid - Times running out_5
+  - first:
+      213: 8568100015007743904
+    second: Atomic Kid - Times running out_6
+  - first:
+      213: -1882550101176325675
+    second: Atomic Kid - Times running out_7
+  - first:
+      213: 6685182343452707899
+    second: Atomic Kid - Times running out_8
+  - first:
+      213: 2325141970149617206
+    second: Atomic Kid - Times running out_9
+  - first:
+      213: -8951924667300622068
+    second: Atomic Kid - Times running out_10
+  - first:
+      213: -6663148761237965728
+    second: Atomic Kid - Times running out_11
+  - first:
+      213: 5748058297592968116
+    second: Atomic Kid - Times running out_12
+  - first:
+      213: 1378442241496756816
+    second: Atomic Kid - Times running out_13
+  - first:
+      213: -2053458049541139680
+    second: Atomic Kid - Times running out_14
+  - first:
+      213: -6541600854069300773
+    second: Atomic Kid - Times running out_15
+  - first:
+      213: -4497166162647722772
+    second: Atomic Kid - Times running out_16
+  - first:
+      213: -1537688950042554070
+    second: Atomic Kid - Times running out_17
+  - first:
+      213: -90348348071463760
+    second: Atomic Kid - Times running out_18
+  - first:
+      213: -8115994501062794244
+    second: Atomic Kid - Times running out_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1350
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc1a8822f816da60800000000000000
+      internalID: 7698368041377733844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1350
+        width: 189
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eb889c20adac840800000000000000
+      internalID: 5245244421532335760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1350
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d824fd09104bf5d0800000000000000
+      internalID: -3027755848124061479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_3
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1350
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7636e1fcf768b820800000000000000
+      internalID: 2934209493319693946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_4
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1350
+        width: 189
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a184dfacdd4abf0800000000000000
+      internalID: -313882210106598839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 910
+        width: 232
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6720e1186727a9d70800000000000000
+      internalID: 9050672254452367990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_6
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 910
+        width: 231
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af3e82619108e670800000000000000
+      internalID: 8568100015007743904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_7
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 910
+        width: 231
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9628b38a6dfd5e0800000000000000
+      internalID: -1882550101176325675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_8
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 910
+        width: 231
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c4638fbe986cc50800000000000000
+      internalID: 6685182343452707899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_9
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 910
+        width: 232
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eae1f7d40944020800000000000000
+      internalID: 2325141970149617206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 470
+        width: 232
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c015d75c1ff54c380800000000000000
+      internalID: -8951924667300622068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_11
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 470
+        width: 232
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064b3d8218db783a0800000000000000
+      internalID: -6663148761237965728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_12
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 470
+        width: 231
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3f340319435cf40800000000000000
+      internalID: 5748058297592968116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_13
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 470
+        width: 231
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052bec35ae5312310800000000000000
+      internalID: 1378442241496756816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_14
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 470
+        width: 232
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0231feb98c6a083e0800000000000000
+      internalID: -2053458049541139680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 30
+        width: 188
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1bece9ea09735a0800000000000000
+      internalID: -6541600854069300773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_16
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 30
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4d97bb33bd691c0800000000000000
+      internalID: -4497166162647722772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 30
+        width: 161
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a219ba50c0809aae0800000000000000
+      internalID: -1537688950042554070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_18
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 30
+        width: 189
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b43827f7a40fbef0800000000000000
+      internalID: -90348348071463760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atomic Kid - Times running out_19
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 30
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3e02d60023e5f80800000000000000
+      internalID: -8115994501062794244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: b4584b5407529124e86241d1bd359ce9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1755136815603552611
+    second: MathLord - Taunt_0
+  - first:
+      213: 8671478833609126907
+    second: MathLord - Taunt_1
+  - first:
+      213: -5458581821908259866
+    second: MathLord - Taunt_2
+  - first:
+      213: -3085024095770837266
+    second: MathLord - Taunt_3
+  - first:
+      213: -8138920342166325536
+    second: MathLord - Taunt_4
+  - first:
+      213: -2756205577040653908
+    second: MathLord - Taunt_5
+  - first:
+      213: -3883177920821110244
+    second: MathLord - Taunt_6
+  - first:
+      213: 2490704609093019000
+    second: MathLord - Taunt_7
+  - first:
+      213: 4923334438890619135
+    second: MathLord - Taunt_8
+  - first:
+      213: -7416471160339191117
+    second: MathLord - Taunt_9
+  - first:
+      213: -9110311112296541582
+    second: MathLord - Taunt_10
+  - first:
+      213: 7561839750065923692
+    second: MathLord - Taunt_11
+  - first:
+      213: 2217465501583000581
+    second: MathLord - Taunt_12
+  - first:
+      213: 5508559423586338073
+    second: MathLord - Taunt_13
+  - first:
+      213: -4886284166446426185
+    second: MathLord - Taunt_14
+  - first:
+      213: -1695649727972179152
+    second: MathLord - Taunt_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MathLord - Taunt_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1358
+        width: 162
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361924a72af7b5810800000000000000
+      internalID: 1755136815603552611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_1
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1358
+        width: 201
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf337924e08475870800000000000000
+      internalID: 8671478833609126907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_2
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1358
+        width: 222
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebe0c7f0c83f34b0800000000000000
+      internalID: -5458581821908259866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_3
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1358
+        width: 245
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeefe081eeacf25d0800000000000000
+      internalID: -3085024095770837266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 918
+        width: 261
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6b9f5121fbc0f80800000000000000
+      internalID: -8138920342166325536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 918
+        width: 261
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca19a8471adffb9d0800000000000000
+      internalID: -2756205577040653908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_6
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 918
+        width: 245
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a51d5414e2c1ac0800000000000000
+      internalID: -3883177920821110244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_7
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 918
+        width: 222
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875ea6945a2c09220800000000000000
+      internalID: 2490704609093019000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 478
+        width: 222
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c5845692335440800000000000000
+      internalID: 4923334438890619135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_9
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 478
+        width: 245
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baad0916c6631990800000000000000
+      internalID: -7416471160339191117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_10
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 478
+        width: 261
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2725546df4ca19180800000000000000
+      internalID: -9110311112296541582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_11
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 478
+        width: 261
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66ab17303d01f860800000000000000
+      internalID: 7561839750065923692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 38
+        width: 245
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504c983002506ce10800000000000000
+      internalID: 2217465501583000581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_13
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 38
+        width: 222
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9158ef23c95527c40800000000000000
+      internalID: 5508559423586338073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_14
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 38
+        width: 201
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b75853707e603cb0800000000000000
+      internalID: -4886284166446426185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MathLord - Taunt_15
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 38
+        width: 162
+        height: 365
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0330bbc6e87d778e0800000000000000
+      internalID: -1695649727972179152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
