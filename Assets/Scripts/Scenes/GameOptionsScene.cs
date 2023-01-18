@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,6 +11,39 @@ namespace MathFighter.Scenes
 {
     public class GameOptionsScene : MonoBehaviour
     {
+
+
+        //[SerializeField]
+        //public static Player player1;
+        //public static Player player2;
+
+        //********* Game Option  ************//
+        [SerializeField]
+        private TMP_Text _challengers;
+        [SerializeField]
+        private TMP_Text _difficulty;
+        [SerializeField]
+        private TMP_Text _location;
+        [SerializeField]
+        private TMP_Text _energy;
+        [SerializeField]
+        private TMP_Text _grades;
+
+        private int optionIndex = 0;
+        private int challengersIndex = 0;
+        private int difficultyIndex = 0;
+        private int locationIndex = 0;
+        private int energyIndex = 0;
+        private int gradesIndex = 0;
+        private string[] challengers = { "Yes", "No" };
+        private string[] difficulty = { "Easy", "Medium", "Hard" };
+        private string location = "Location";
+        private int[] energy = { 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200 };
+        private string[] grades = { "All", "Custom", "Easy", "Medium", "Hard" };
+
+        //**********************************//
+
+        //****** Player Selection  *******//
         [SerializeField]
         private GameObject P1Selector;
         [SerializeField]
@@ -18,16 +52,12 @@ namespace MathFighter.Scenes
         private GameObject P1P2Selector;
         [SerializeField]
         private Canvas canvas;
-        [SerializeField]
-        private GameObject player1;
-        [SerializeField]
-        private GameObject player2;
+        //[SerializeField]
+        //private GameObject player1;
+        //[SerializeField]
+        //private GameObject player2;
 
         public List<GameObject> PlayerPrefabs;
-
-        //[SerializeField]
-        //public static Player player1;
-        //public static Player player2;
 
         private int playerNum1;             // Number of Character who is selected by Player1
         private int playerNum2;             // Number of Character who is selected by Player1
@@ -35,16 +65,18 @@ namespace MathFighter.Scenes
         private float[] z_angles = {73.0f, 142.0f, 218.0f, 288.0f, 0f};   // Z angles of Selection bars
                                                                           //private string[] PlayerNames = { "Yurl", "", "TheEthernalBlaDc", "", "" };
                                                                           // Start is called before the first frame update
+        private bool isGameOption = false;
         private bool isSelectPlayer = false;
 
         Animator animator1;
         Animator animator2;
-
+        //**********************************//
         void Start()
         {
             playerNum1 = 4;
             playerNum2 = 1;
-            RotateSelection();
+            //RotateSelection();
+            ShowOptions();
         }
 
         // Update is called once per frame
@@ -55,25 +87,129 @@ namespace MathFighter.Scenes
             // Rotate Selection bar by keycode
             // A,S,D,W for Player1; LeftArrow, RightArrow, UpArrow, DownArrow for Player2
 
-            // Increase the playerNum1. KeyCode: A or S
-            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S))
+            if (!isGameOption) // GameOption
             {
-                playerNum1++;
-                if (playerNum1 > 4)
-                    playerNum1 = 0;
-                RotateSelection();
-            }
+                if (Input.GetKeyDown(KeyCode.LeftArrow))
+                {
+                    if (optionIndex == 0)        // Challengers
+                    {
+                        challengersIndex = 1 - challengersIndex;
+                    }
+                    else if (optionIndex == 1)   // Difficulty
+                    {
+                        difficultyIndex--;
+                        if (difficultyIndex == -1) difficultyIndex = 2;
+                    }
+                    //else if (optionIndex == 2)   // Location
+                    //{
 
-            // Decrease the playerNum1. KeyCode: D or W
-            else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.D))
+                    //}
+                    else if (optionIndex == 3)   // Energy
+                    {
+                        energyIndex--;
+                        if (energyIndex == -1) energyIndex = 15;
+                    }
+                    else if (optionIndex == 4)   // Grades
+                    {
+                        gradesIndex--;
+                        if (gradesIndex == -1) gradesIndex = 4;
+                    }
+
+                }
+                else if (Input.GetKeyDown(KeyCode.RightArrow))
+                {
+                    if (optionIndex == 0)        // Challengers
+                    {
+                        challengersIndex = 1 - challengersIndex;
+                    }
+                    else if (optionIndex == 1)   // Difficulty
+                    {
+                        difficultyIndex++;
+                        if (difficultyIndex == 3) difficultyIndex = 0;
+                    }
+                    //else if (optionIndex == 2)   // Location
+                    //{
+
+                    //}
+                    else if (optionIndex == 3)   // Energy
+                    {
+                        energyIndex++;
+                        if (energyIndex == 16) energyIndex = 0;
+                    }
+                    else if (optionIndex == 4)   // Grades
+                    {
+                        gradesIndex++;
+                        if (gradesIndex == 5) gradesIndex = 0;
+                    }
+                }
+                else if (Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    optionIndex--;
+                    if (optionIndex == -1) optionIndex = 4;
+                    else if (optionIndex == 2) optionIndex = 1;
+                }
+                else if (Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    optionIndex++;
+                    if (optionIndex == 5) optionIndex = 0;
+                    else if (optionIndex == 2) optionIndex = 3;
+                }
+                ShowOptions();
+            }
+            else               // Player Selection after Game Option
             {
-                playerNum1--;
-                if (playerNum1 < 0)
-                    playerNum1 = 4;
-                RotateSelection();
+                // Increase the playerNum1. KeyCode: A or S
+                if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    playerNum1++;
+                    if (playerNum1 > 4)
+                        playerNum1 = 0;
+                    RotateSelection();
+                }
+
+                // Decrease the playerNum1. KeyCode: D or W
+                else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+                {
+                    playerNum1--;
+                    if (playerNum1 < 0)
+                        playerNum1 = 4;
+                    RotateSelection();
+                }
             }
         }
+        private void ShowOptions()
+        {
+            _challengers.text = "Challengers: " + challengers[challengersIndex];
+            _difficulty.text = "Difficulty: " + difficulty[difficultyIndex];
+            _location.text = "Location: ???";
+            _energy.text = "Energy: " + energy[energyIndex];
+            _grades.text = "Grades: " + grades[gradesIndex];
 
+            _challengers.transform.localScale = new Vector3(1f, 1f, 1f);
+            _difficulty.transform.localScale = new Vector3(1f, 1f, 1f);
+            _location.transform.localScale = new Vector3(1f, 1f, 1f);
+            _energy.transform.localScale = new Vector3(1f, 1f, 1f);
+            _grades.transform.localScale = new Vector3(1f, 1f, 1f);
+
+            if (optionIndex == 0)
+            {
+                _challengers.transform.localScale = new Vector3(1.5f, 1.3f, 1f);
+            }
+            else if (optionIndex == 1)
+            {
+                _difficulty.transform.localScale = new Vector3(1.5f, 1.3f, 1f);
+            }
+            else if (optionIndex == 3)
+            {
+                _energy.transform.localScale = new Vector3(1.5f, 1.3f, 1f);
+            }
+            else if (optionIndex == 4)
+            {
+                _grades.transform.localScale = new Vector3(1.5f, 1.3f, 1f);
+            }
+
+
+        }
         private void RotateSelection()
         {
             if (playerNum1 == playerNum2)

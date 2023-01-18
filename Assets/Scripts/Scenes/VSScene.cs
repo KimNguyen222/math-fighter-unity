@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VSScene : MonoBehaviour
 {
@@ -22,11 +23,17 @@ public class VSScene : MonoBehaviour
         player2.transform.SetParent(_playerObject2.transform);
         player1.transform.localScale = new Vector3(150f, 150f, 150f);
         player2.transform.localScale = new Vector3(150f, 150f, 150f);
+        StartCoroutine(LoadGamePlayScene());
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    private IEnumerator LoadGamePlayScene()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("GamePlayScene");
     }
 }
