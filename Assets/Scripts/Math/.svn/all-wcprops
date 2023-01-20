@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/speedfish_mathfreak/!svn/ver/489/Math%20Freak/Game/Math
+END
+MathOperatorParenthesis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/speedfish_mathfreak/!svn/ver/342/Math%20Freak/Game/Math/MathOperatorParenthesis.cs
+END
+MathOperatorSubtract.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/speedfish_mathfreak/!svn/ver/153/Math%20Freak/Game/Math/MathOperatorSubtract.cs
+END
+MathOperatorAdd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/speedfish_mathfreak/!svn/ver/153/Math%20Freak/Game/Math/MathOperatorAdd.cs
+END
+MathVariableLetter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/speedfish_mathfreak/!svn/ver/341/Math%20Freak/Game/Math/MathVariableLetter.cs
+END
+MathVariable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/speedfish_mathfreak/!svn/ver/17/Math%20Freak/Game/Math/MathVariable.cs
+END
+MathOperatorAddRandom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/speedfish_mathfreak/!svn/ver/345/Math%20Freak/Game/Math/MathOperatorAddRandom.cs
+END
+MathElement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/speedfish_mathfreak/!svn/ver/389/Math%20Freak/Game/Math/MathElement.cs
+END
+MathOperator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/speedfish_mathfreak/!svn/ver/419/Math%20Freak/Game/Math/MathOperator.cs
+END
+MathOperatorMultiply.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/speedfish_mathfreak/!svn/ver/338/Math%20Freak/Game/Math/MathOperatorMultiply.cs
+END
+MathOperatorExponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/speedfish_mathfreak/!svn/ver/389/Math%20Freak/Game/Math/MathOperatorExponent.cs
+END
+MathVariableNumber.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/speedfish_mathfreak/!svn/ver/37/Math%20Freak/Game/Math/MathVariableNumber.cs
+END
+MathOperatorExpressionRoot.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/speedfish_mathfreak/!svn/ver/153/Math%20Freak/Game/Math/MathOperatorExpressionRoot.cs
+END
+MathExpression.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/speedfish_mathfreak/!svn/ver/390/Math%20Freak/Game/Math/MathExpression.cs
+END
+MathOperatorDivide.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/speedfish_mathfreak/!svn/ver/389/Math%20Freak/Game/Math/MathOperatorDivide.cs
+END

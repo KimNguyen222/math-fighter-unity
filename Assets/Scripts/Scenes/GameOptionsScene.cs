@@ -1,3 +1,5 @@
+using MathFigher.Math.Questions;
+using MathFighter.GamePlay;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -77,6 +79,8 @@ namespace MathFighter.Scenes
             playerNum2 = 1;
             //RotateSelection();
             ShowOptions();
+
+            MathQuestion.LoadData();
         }
 
         // Update is called once per frame
@@ -236,8 +240,18 @@ namespace MathFighter.Scenes
 
         public void OnContinueButtonClicked()
         {
-            StartCoroutine(SelectPlayer());
-            //SceneManager.LoadScene("VSScene");
+            QuestionDealer questionDealer = new QuestionDealer();
+            Debug.Log(questionDealer.GetQuestion());
+            //if (!isGameOption)
+            //{
+            //    isGameOption = true;
+            //    bool[] grades = { true, true };
+            //}
+            //else
+            //{ 
+            //    StartCoroutine(SelectPlayer());
+            //    //SceneManager.LoadScene("VSScene");
+            //}
 
         }
 
