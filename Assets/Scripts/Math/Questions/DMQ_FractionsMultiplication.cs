@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Player must multipy the two fractions (the result is also reduced to it's simplest form)

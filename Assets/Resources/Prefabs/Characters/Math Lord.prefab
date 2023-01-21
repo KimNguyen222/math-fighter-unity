@@ -116,4 +116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3861f35e50bb646b91a34606214e05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerNum: 5
+  playerName: Man Lord
   CanAnswer: 0

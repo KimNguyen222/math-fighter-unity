@@ -6,7 +6,7 @@ using System.Diagnostics;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Algebra basic factoring: 4x^3 + 2x^2 == 2x^2(2x + 1)

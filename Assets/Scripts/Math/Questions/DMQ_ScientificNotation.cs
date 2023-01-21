@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Player has to evaluate a term that has been given in scientific notation (x * 10^y)

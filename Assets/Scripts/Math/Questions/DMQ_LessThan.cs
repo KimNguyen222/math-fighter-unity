@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Generates simple less-than problem in the form: Which answer is less than x

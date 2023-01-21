@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Evaluate a number raised to power of 3

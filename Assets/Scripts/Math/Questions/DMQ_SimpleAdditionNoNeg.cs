@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Generates basic addition problems in the form: x + y

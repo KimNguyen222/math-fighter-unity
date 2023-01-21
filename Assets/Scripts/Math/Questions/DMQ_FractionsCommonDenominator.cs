@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Player must find the least common multiplier of two numbers (i.e. the same as lowest common denominator of two fractions)

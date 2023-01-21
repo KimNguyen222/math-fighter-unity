@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MathFigher.Math.Questions;
+using MathFighter.Math.Questions;
 using MathFighter.GamePlay;
 using UnityEngine;
 

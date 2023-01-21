@@ -1,4 +1,4 @@
-using MathFigher.Math.Questions;
+using MathFighter.Math.Questions;
 using MathFighter.GamePlay;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,6 +8,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using static UnityEditor.Experimental.GraphView.GraphView;
+using UnityEngine.UI;
 
 namespace MathFighter.Scenes
 {
@@ -21,6 +22,8 @@ namespace MathFighter.Scenes
 
         //********* Game Option  ************//
         [SerializeField]
+        private GameObject GameOption;
+        [SerializeField]
         private TMP_Text _challengers;
         [SerializeField]
         private TMP_Text _difficulty;
@@ -30,22 +33,36 @@ namespace MathFighter.Scenes
         private TMP_Text _energy;
         [SerializeField]
         private TMP_Text _grades;
+        [SerializeField]
+        private Sprite checkboxChecked;
+        [SerializeField]
+        private Sprite checkboxEmpty;
+
+        public List<Image> CheckBoxes = new List<Image>();
 
         private int optionIndex = 0;
         private int challengersIndex = 0;
         private int difficultyIndex = 0;
         private int locationIndex = 0;
         private int energyIndex = 0;
-        private int gradesIndex = 0;
-        private string[] challengers = { "Yes", "No" };
-        private string[] difficulty = { "Easy", "Medium", "Hard" };
-        private string location = "Location";
-        private int[] energy = { 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200 };
-        private string[] grades = { "All", "Custom", "Easy", "Medium", "Hard" };
+        private int gradesOptionIndex = 0;
 
+        private string[] challengersOptions = { "Yes", "No" };
+        private string[] difficultyOptions = { "Easy", "Medium", "Hard" };
+        private string location = "Location";
+        private int[] energyOptions = { 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200 };
+        private string[] gradesOptions = { "All", "Custom", "Easy", "Medium", "Hard" };
+        private bool[] grades = { true, true, true, true, true, true, true, true, true, true, true, true, true };
+        private bool[] customGrades = { true, true, true, true, true, true, true, true, true, true, true, true, true };
+
+
+
+        private const int GRADE_COUNT = 13;
         //**********************************//
 
         //****** Player Selection  *******//
+        [SerializeField]
+        private GameObject PlayerSelection;
         [SerializeField]
         private GameObject P1Selector;
         [SerializeField]
@@ -54,29 +71,31 @@ namespace MathFighter.Scenes
         private GameObject P1P2Selector;
         [SerializeField]
         private Canvas canvas;
-        //[SerializeField]
-        //private GameObject player1;
-        //[SerializeField]
-        //private GameObject player2;
+       
+        private GameObject player1;
+        private GameObject player2;
+
 
         public List<GameObject> PlayerPrefabs;
 
         private int playerNum1;             // Number of Character who is selected by Player1
         private int playerNum2;             // Number of Character who is selected by Player1
 
-        private float[] z_angles = {73.0f, 142.0f, 218.0f, 288.0f, 0f};   // Z angles of Selection bars
+        private float[] z_angles = {0f, 288.0f, 218.0f, 142.0f, 73.0f};   // Z angles of Selection bars
                                                                           //private string[] PlayerNames = { "Yurl", "", "TheEthernalBlaDc", "", "" };
                                                                           // Start is called before the first frame update
         private bool isGameOption = false;
         private bool isSelectPlayer = false;
+
+        public GameObject GamePlaySettings;
 
         Animator animator1;
         Animator animator2;
         //**********************************//
         void Start()
         {
-            playerNum1 = 4;
-            playerNum2 = 1;
+            playerNum1 = 0;
+            playerNum2 = 0;
             //RotateSelection();
             ShowOptions();
 
@@ -115,8 +134,29 @@ namespace MathFighter.Scenes
                     }
                     else if (optionIndex == 4)   // Grades
                     {
-                        gradesIndex--;
-                        if (gradesIndex == -1) gradesIndex = 4;
+                        gradesOptionIndex--;
+                        if (gradesOptionIndex == -1) gradesOptionIndex = 4;
+
+                        switch (gradesOptionIndex)
+                        {
+                            case 0:
+                                grades = new bool[] { true, true, true, true, true, true, true, true, true, true, true, true, true };
+                                break;
+                            case 1:
+                                for (int i = 0; i < GRADE_COUNT; i++)
+                                    grades[i] = customGrades[i];
+                                break;
+                            case 2:
+                                grades = new bool[] { true, true, true, true, false, false, false, false, false, false, false, false, false };
+                                break;
+                            case 3:
+                                grades = new bool[] { false, false, false, false, true, true, true, true, false, false, false, false, false };
+                                break;
+                            case 4:
+                                grades = new bool[] { false, false, false, false, false, false, false, false, false, true, true, true, false };
+                                break;
+                        }
+                        UpdateCheckBoxes();
                     }
 
                 }
@@ -142,8 +182,29 @@ namespace MathFighter.Scenes
                     }
                     else if (optionIndex == 4)   // Grades
                     {
-                        gradesIndex++;
-                        if (gradesIndex == 5) gradesIndex = 0;
+                        gradesOptionIndex++;
+                        if (gradesOptionIndex == 5) gradesOptionIndex = 0;
+
+                        switch(gradesOptionIndex)
+                        {
+                            case 0:
+                                grades = new bool[] { true, true, true, true, true, true, true, true, true, true, true, true, true};
+                                break;
+                            case 1:
+                                for (int i = 0; i < GRADE_COUNT; i ++)
+                                    grades[i] = customGrades[i];
+                                break;
+                            case 2:
+                                grades = new bool[] { true, true, true, true, false, false, false, false, false, false, false, false, false };
+                                break;
+                            case 3:
+                                grades = new bool[] { false, false, false, false, true, true, true, true, false, false, false, false, false };
+                                break;
+                            case 4:
+                                grades = new bool[] { false, false, false, false, false, false, false, false, false, true, true, true, false };
+                                break;
+                        }
+                        UpdateCheckBoxes();
                     }
                 }
                 else if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -183,11 +244,11 @@ namespace MathFighter.Scenes
         }
         private void ShowOptions()
         {
-            _challengers.text = "Challengers: " + challengers[challengersIndex];
-            _difficulty.text = "Difficulty: " + difficulty[difficultyIndex];
+            _challengers.text = "Challengers: " + challengersOptions[challengersIndex];
+            _difficulty.text = "Difficulty: " + difficultyOptions[difficultyIndex];
             _location.text = "Location: ???";
-            _energy.text = "Energy: " + energy[energyIndex];
-            _grades.text = "Grades: " + grades[gradesIndex];
+            _energy.text = "Energy: " + energyOptions[energyIndex];
+            _grades.text = "Grades: " + gradesOptions[gradesOptionIndex];
 
             _challengers.transform.localScale = new Vector3(1f, 1f, 1f);
             _difficulty.transform.localScale = new Vector3(1f, 1f, 1f);
@@ -211,9 +272,29 @@ namespace MathFighter.Scenes
             {
                 _grades.transform.localScale = new Vector3(1.5f, 1.3f, 1f);
             }
-
+            UpdateCheckBoxes();
 
         }
+        private void UpdateCheckBoxes()
+        {
+            for (int i = 0; i < GRADE_COUNT; i++)
+            {
+                if (grades[i])
+                    CheckBoxes[i].GetComponent<Image>().sprite = checkboxChecked;
+                else
+                    CheckBoxes[i].GetComponent<Image>().sprite = checkboxEmpty;
+            }
+        }
+        public void ToggleGrade(int gradeNum)
+        {
+            grades[gradeNum] = !grades[gradeNum];
+            for (int i = 0; i < GRADE_COUNT; i++)
+                customGrades[i] = grades[i];
+            gradesOptionIndex = 1; 
+            _grades.text = "Grades: " + gradesOptions[gradesOptionIndex];
+            UpdateCheckBoxes();
+        }
+
         private void RotateSelection()
         {
             if (playerNum1 == playerNum2)
@@ -240,51 +321,86 @@ namespace MathFighter.Scenes
 
         public void OnContinueButtonClicked()
         {
-            QuestionDealer questionDealer = new QuestionDealer();
-            Debug.Log(questionDealer.GetQuestion());
-            //if (!isGameOption)
-            //{
-            //    isGameOption = true;
-            //    bool[] grades = { true, true };
-            //}
-            //else
-            //{ 
-            //    StartCoroutine(SelectPlayer());
-            //    //SceneManager.LoadScene("VSScene");
-            //}
+            if (!isGameOption)
+            {
+                isGameOption = true;
+                bool[] grades = { true, true };
+                GameOption.SetActive(false);
+                PlayerSelection.SetActive(true);
+                RotateSelection();
+            }
+            else
+            {
+                StartCoroutine(SelectPlayer());
+                GamePlaySettings settings = GamePlaySettings.GetComponent<GamePlaySettings>();
 
+                if (challengersOptions[challengersIndex] == "Yes")
+                    settings.AllowChallengers = true;
+                else
+                    settings.AllowChallengers = false;
+
+                switch (difficultyOptions[difficultyIndex])
+                {
+                    case "Easy":
+                        settings.DifficultyLevel = 0;
+                        break;
+                    case "Medium":
+                        settings.DifficultyLevel = 1;
+                        break;
+                    case "Hard":
+                        settings.DifficultyLevel = 2;
+                        break;
+                }
+
+                settings.EnergyBar = energyOptions[energyIndex];
+
+                switch (gradesOptions[gradesOptionIndex])
+                {
+                    case "All":
+                        settings.MathGradesSetting = GamePlay.GamePlaySettings.EnumMathGradesSetting.All;
+                        break;
+                    case "Custom":
+                        settings.MathGradesSetting = GamePlay.GamePlaySettings.EnumMathGradesSetting.Custom;
+                        break;
+                    case "Easy":
+                        settings.MathGradesSetting = GamePlay.GamePlaySettings.EnumMathGradesSetting.Easy;
+                        break;
+                    case "Medium":
+                        settings.MathGradesSetting = GamePlay.GamePlaySettings.EnumMathGradesSetting.Medium;
+                        break;
+                    case "Hard":
+                        settings.MathGradesSetting = GamePlay.GamePlaySettings.EnumMathGradesSetting.Hard;
+                        break;
+                }
+
+                settings.EnableMathGrades(grades);
+                //settings.AddPlayer(player1.GetComponent<Player>());
+                //settings.AddPlayer(player2.GetComponent<Player>());
+                settings.playerNum1 = playerNum1;
+                settings.playerNum2 = playerNum2;
+                settings.playerName1 = "TheEternalBlaDe";
+                settings.playerName2 = player2.GetComponent<Player>().playerName;
+                DontDestroyOnLoad(GamePlaySettings.GetComponent<GamePlaySettings>());
+                //DontDestroyOnLoad(settings.Players);
+                //SceneManager.LoadScene("VSScene");
+            }
         }
 
         private IEnumerator SelectPlayer()
         {
-            if (playerNum1 != playerNum2 && !isSelectPlayer)
+            if (!isSelectPlayer)
             {
-                //SpriteRenderer spriteRenderer1 = PlayerPrefabs[playerNum1].GetComponent<SpriteRenderer>();
-                //SpriteRenderer spriteRenderer2 = PlayerPrefabs[playerNum2].GetComponent<SpriteRenderer>();
-
-                ////player1.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>(AssetDatabase.
-                ////    GetAssetPath(spriteRenderer1.sprite).Replace("Assets/Resources", ""));
-                ////player2.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>(AssetDatabase.
-                ////    GetAssetPath(spriteRenderer2.sprite).Replace("Assets/Resources", "")); 
-                ////Debug.Log("Sprite1: " + AssetDatabase.GetAssetPath(spriteRenderer1.sprite));
-
-
-                ////player2.GetComponent<SpriteRenderer>().sprite = LoadSprite(AssetDatabase.GetAssetPath(spriteRenderer2.sprite));
-                //Debug.Log("Sprite1: " + LoadSprite(AssetDatabase.GetAssetPath(spriteRenderer1.sprite)));
-                //player1.GetComponent<Animator>().runtimeAnimatorController = PlayerPrefabs[playerNum1].GetComponent<Animator>().runtimeAnimatorController;
-                //player2.GetComponent<Animator>().runtimeAnimatorController = PlayerPrefabs[playerNum2].GetComponent<Animator>().runtimeAnimatorController;
-                
-
                 Color tempcolor = PlayerPrefabs[playerNum1].GetComponent<SpriteRenderer>().color;
                 tempcolor.a = 0f;
                 PlayerPrefabs[playerNum1].GetComponent<SpriteRenderer>().color = tempcolor;
                 PlayerPrefabs[playerNum2].GetComponent<SpriteRenderer>().color = tempcolor;
 
-                GameObject player1 = Instantiate(PlayerPrefabs[playerNum1], new Vector3(0, 0, 0), Quaternion.Euler(0f, 180f, 0f));
-                GameObject player2 = Instantiate(PlayerPrefabs[playerNum2], new Vector3(0, 0, 0), Quaternion.identity);
+                player1 = Instantiate(PlayerPrefabs[playerNum1], new Vector3(0, 0, 0), Quaternion.Euler(0f, 180f, 0f));
+                player2 = Instantiate(PlayerPrefabs[playerNum2], new Vector3(0, 0, 0), Quaternion.identity);
 
-                player1.name = "Player1";
-                player2.name = "Player2";
+                //player1.name = "Player1";
+                //player2.name = "Player2";
+
                 tempcolor.a = 1f;
                 PlayerPrefabs[playerNum1].GetComponent<SpriteRenderer>().color = tempcolor;
                 PlayerPrefabs[playerNum2].GetComponent<SpriteRenderer>().color = tempcolor;
@@ -311,8 +427,6 @@ namespace MathFighter.Scenes
               
                 isSelectPlayer = true;
 
-                DontDestroyOnLoad(player1.transform);
-                DontDestroyOnLoad(player2.transform);
                 //yield return new WaitForSeconds(2);
                 SceneManager.LoadScene("VSScene");
             }

@@ -6,7 +6,7 @@ using System.Diagnostics;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Player must truncate the number to N decimal places
@@ -32,7 +32,7 @@ namespace MathFigher.Math.Questions
 
             // decide how many decimal places should be in the answer
             int decimalPlacesInAnswer = _rnd.Next(1, 3);
-            //Debug.WriteLine("decimalPlacesInAnswer: " + decimalPlacesInAnswer);
+            //Debug.Log("decimalPlacesInAnswer: " + decimalPlacesInAnswer);
 
             // create a string of this many digits less one and add a 1-9 on the end (must end in non-zero)
             string decimalDigitsPart1 = "";
@@ -43,11 +43,11 @@ namespace MathFigher.Math.Questions
             }
 
             decimalDigitsPart1 += _rnd.Next(1, 10).ToString();
-            //Debug.WriteLine("decimalDigitsPart1: " + decimalDigitsPart1);
+            //Debug.Log("decimalDigitsPart1: " + decimalDigitsPart1);
 
             // add some decimal places for the question so that it will need truncating
             int extraDecimalPlacesForQuestion = _rnd.Next(2, 3);
-            //Debug.WriteLine("extraDecimalPlacesForQuestion: " + extraDecimalPlacesForQuestion);
+            //Debug.Log("extraDecimalPlacesForQuestion: " + extraDecimalPlacesForQuestion);
 
             // create a string of this many digits (again less one)
             string decimalDigitsPart2 = "";
@@ -58,7 +58,7 @@ namespace MathFigher.Math.Questions
             }
 
             decimalDigitsPart2 += _rnd.Next(1, 10).ToString();
-            //Debug.WriteLine("decimalDigitsPart2: " + decimalDigitsPart2);
+            //Debug.Log("decimalDigitsPart2: " + decimalDigitsPart2);
 
             // combine the decimal parts
             string decimalPart = decimalDigitsPart1 + decimalDigitsPart2;

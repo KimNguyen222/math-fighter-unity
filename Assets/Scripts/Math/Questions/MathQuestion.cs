@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// This is the base class for math questions.  A math question encompasses both the
@@ -305,11 +305,11 @@ namespace MathFigher.Math.Questions
                 // fill the database
                 foreach (QuestionParams qp in data.Questions)
                 {
-                    _questionParams.Add(Type.GetType("MathFigher.Math.Questions." + qp.InternalName), qp);
+                    _questionParams.Add(Type.GetType("MathFighter.Math.Questions." + qp.InternalName), qp);
                 }
 
                 // set the test question to use
-                _testQuestion = Type.GetType("MathFigher.Math.Questions." + data.TestQuestion);
+                _testQuestion = Type.GetType("MathFighter.Math.Questions." + data.TestQuestion);
             }
             catch (Exception e)
             {
@@ -330,7 +330,7 @@ namespace MathFigher.Math.Questions
         public static void SaveData()
         {
             // Add the container path to our file name.
-            String filename = Resources.Load<TextAsset>("Resources/data/xml/math.dat").ToString();
+            String filename = "Assets/Resources/data/xml/math.dat";
             //FileStream file = File.Open("data/xml/math.dat", FileMode.Create);
             FileStream file = File.Open(filename, FileMode.Create);
 

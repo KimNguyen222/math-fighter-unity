@@ -6,7 +6,7 @@ using System.Diagnostics;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Player must round the number to N decimal places
@@ -28,7 +28,7 @@ namespace MathFigher.Math.Questions
 
             // decide how many decimal places should be in the answer
             int decimalPlacesInAnswer = _rnd.Next(1, 5);
-            //Debug.WriteLine("decimalPlacesInAnswer: " + decimalPlacesInAnswer);
+            //Debug.Log("decimalPlacesInAnswer: " + decimalPlacesInAnswer);
 
             // create a string of this many digits less one and add a 1-8 on the end (must end in non-zero and also cannot be 9 or it would mess up the 'round to n decimal places' thing if we end up rounding 'up')
             string decimalDigitsPart1 = "";
@@ -39,11 +39,11 @@ namespace MathFigher.Math.Questions
             }
 
             decimalDigitsPart1 += _rnd.Next(1, 9).ToString();
-            //Debug.WriteLine("decimalDigitsPart1: " + decimalDigitsPart1);
+            //Debug.Log("decimalDigitsPart1: " + decimalDigitsPart1);
 
             // add some decimal places for the question so that it will need rounding
             int extraDecimalPlacesForQuestion = _rnd.Next(1, 4);
-            //Debug.WriteLine("extraDecimalPlacesForQuestion: " + extraDecimalPlacesForQuestion);
+            //Debug.Log("extraDecimalPlacesForQuestion: " + extraDecimalPlacesForQuestion);
 
             // create a string of this many digits (again less one, but this time with 1-9 on the end)
             string decimalDigitsPart2 = "";
@@ -54,24 +54,24 @@ namespace MathFigher.Math.Questions
             }
 
             decimalDigitsPart2 += _rnd.Next(1, 10).ToString();
-            //Debug.WriteLine("decimalDigitsPart2: " + decimalDigitsPart2);
+            //Debug.Log("decimalDigitsPart2: " + decimalDigitsPart2);
 
             // combine the integer portion of the question with the two decimal parts to give the number to use in the question
             float numberToPresentAsQuestion = (float)questionIntegerNumber + ((float)(int.Parse(decimalDigitsPart1 + decimalDigitsPart2))) / (float)System.Math.Pow(10, decimalPlacesInAnswer + extraDecimalPlacesForQuestion);
-            //Debug.WriteLine("numberToPresentAsQuestion: " + numberToPresentAsQuestion);
+            //Debug.Log("numberToPresentAsQuestion: " + numberToPresentAsQuestion);
 
             // create a number by combining the two strings separated by a decimal point
             // and round this number
             float intermediateNumberToRound = (float)int.Parse(decimalDigitsPart1) + ((float)int.Parse(decimalDigitsPart2)) / (float)System.Math.Pow(10, extraDecimalPlacesForQuestion);
-            //Debug.WriteLine("intermediateNumberToRound: " + intermediateNumberToRound);
+            //Debug.Log("intermediateNumberToRound: " + intermediateNumberToRound);
 
             float intermediateNumberRounded = (float)System.Math.Round(intermediateNumberToRound);
-            //Debug.WriteLine("intermediateNumberRounded: " + intermediateNumberRounded);
+            //Debug.Log("intermediateNumberRounded: " + intermediateNumberRounded);
 
             // now divide the number by 10^n where n is the number of decimal places to round to
             // and add the result to the integer portion of the question - the result is the answer to the question
             float answer = (float)questionIntegerNumber + (intermediateNumberRounded / (float)System.Math.Pow(10, decimalPlacesInAnswer));
-            //Debug.WriteLine("answer: " + answer);
+            //Debug.Log("answer: " + answer);
 
             // for the decoy answer (there can be only one) use either ceiling or floor (which ever gives the different answer from the actual answer)
             float decoyAnswer;
@@ -85,7 +85,7 @@ namespace MathFigher.Math.Questions
                 decoyAnswer = (float)questionIntegerNumber + ((float)System.Math.Floor(intermediateNumberToRound) / (float)System.Math.Pow(10, decimalPlacesInAnswer));
             }
 
-            //Debug.WriteLine("decoyAnswer: " + decoyAnswer);
+            //Debug.Log("decoyAnswer: " + decoyAnswer);
 
             // fill in the content
             content[0] = "Round " + numberToPresentAsQuestion + " to " + decimalPlacesInAnswer + " decimal places";

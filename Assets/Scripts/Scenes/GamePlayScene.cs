@@ -1,22 +1,60 @@
+using MathFighter.GamePlay;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class GamePlayScene : MonoBehaviour
+namespace MathFighter.Scenes
 {
-    public List<Sprite> _backgrounds;
-    [SerializeField]
-    private Image Background;
-    // Start is called before the first frame update
-    void Start()
+    public class GamePlayScene : MonoBehaviour
     {
-        Background.GetComponent<Image>().sprite = _backgrounds[3];
-    }
+        [SerializeField]
+        private Image Background;
+        [SerializeField]
+        private SpriteRenderer Avatar1;
+        [SerializeField]
+        private SpriteRenderer Avatar2;
+        [SerializeField]
+        private TMP_Text PlayerName1;
+        [SerializeField]
+        private TMP_Text PlayerName2;
+        [SerializeField]
+        private SpriteRenderer GetReady;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public List<Sprite> _backgrounds;
+        public List<Sprite> _avatars;
+        public List<GameObject> PlayerPrefabs;
+
+
+        private GamePlaySettings settings;
+
+        private GameObject player1;
+        private GameObject player2;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            settings = GameObject.Find("GamePlaySettings").GetComponent<GamePlaySettings>();
+            player1 = Instantiate(PlayerPrefabs[settings.playerNum1], new Vector3(-5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
+            player2 = Instantiate(PlayerPrefabs[settings.playerNum2], new Vector3(5.5f, 0, 0), Quaternion.identity);
+            SetEnvironment();
+            GetReady.gameObject.SetActive(true);
+        }
+
+        private void SetEnvironment()
+        {
+            Background.GetComponent<Image>().sprite = _backgrounds[settings.playerNum2];
+            Avatar1.sprite = _avatars[settings.playerNum1];
+            Avatar2.sprite = _avatars[settings.playerNum2];
+            PlayerName1.text = settings.playerName1;
+            PlayerName2.text = settings.playerName2;
+            player1.GetComponent<Player>().playerName = settings.playerName1;
+            player2.GetComponent<Player>().playerName = settings.playerName2;
+        }
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }

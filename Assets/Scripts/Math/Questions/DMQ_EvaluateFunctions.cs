@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace MathFigher.Math.Questions
+namespace MathFighter.Math.Questions
 {
     /// <summary>
     /// Player must evaluate functions such as: "Evaluate F(x) = 2x + (x - 1), where x = 2"

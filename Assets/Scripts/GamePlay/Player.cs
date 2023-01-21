@@ -7,7 +7,7 @@ namespace MathFighter.GamePlay
     public class Player : MonoBehaviour
     {
         public int _playerNum;   // index of the player in the gameplay settings list of players (NOT the xbox player index)
-
+        public string playerName;
         //public enum EnumGamepadButton { None, A, B, X, Y };
         //private EnumGamepadButton _buttonPressed;
         private bool _hintPressed;
@@ -17,6 +17,7 @@ namespace MathFighter.GamePlay
         private bool _tauntPressed;
         private SpriteRenderer _spriteRenderer;
         public bool CanAnswer;
+        private TutorManager.EnumTutor _character = TutorManager.EnumTutor.None;
 
         public int PlayerNum
         {
@@ -82,11 +83,11 @@ namespace MathFighter.GamePlay
         //}
         ////#endif
 
-        //public TutorManager.EnumTutor Character
-        //{
-        //    get { return _character; }
-        //    set { _character = value; }
-        //}
+        public TutorManager.EnumTutor Character
+        {
+            get { return _character; }
+            set { _character = value; }
+        }
 
         /// <summary>
         /// Called to tell the player that a button was pressed on the gamepad
@@ -115,10 +116,10 @@ namespace MathFighter.GamePlay
         //    return _buttonPressed;
         //}
 
-        //public virtual PlayerCharacterSelector GetCharacterSelector(int playerNum)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public virtual PlayerCharacterSelector GetCharacterSelector(int playerNum)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
@@ -128,15 +129,15 @@ namespace MathFighter.GamePlay
     /// Different types of player (AI, Local, Remote) will require different mediation implemented
     /// by derived classes.
     /// </summary>
-    //public abstract class PlayerCharacterSelector
-    //{
-    //    protected int _playerNum;   // index of the player in the gameplay settings list of players (NOT the xbox player index)
+    public abstract class PlayerCharacterSelector
+    {
+        protected int _playerNum;   // index of the player in the gameplay settings list of players (NOT the xbox player index)
 
-    //    public PlayerCharacterSelector(int playerNum)
-    //    {
-    //        _playerNum = playerNum;
-    //    }
+        public PlayerCharacterSelector(int playerNum)
+        {
+            _playerNum = playerNum;
+        }
 
-    //    //public abstract void Tick(GameStateCharacterSelectionLobby lobby, float dt);
-    //}
+        //public abstract void Tick(GameStateCharacterSelectionLobby lobby, float dt);
+    }
 }

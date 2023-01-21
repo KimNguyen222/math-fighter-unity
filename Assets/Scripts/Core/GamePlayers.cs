@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using MathFighter.GamePlay;
 using UnityEngine;
-namespace MathFigher.Core
+namespace MathFighter.Core
 {
     public class GamePlayers : MonoBehaviour
     {

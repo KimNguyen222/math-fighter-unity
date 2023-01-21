@@ -65,6 +65,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3861f35e50bb646b91a34606214e05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerNum: 4
+  playerName: Yurl
   CanAnswer: 0
 --- !u!212 &-3640985960196572792
 SpriteRenderer:

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MathFigher.Math.Questions;
+using MathFighter.Math.Questions;
 
 namespace MathFighter.Math.Categories
 {
