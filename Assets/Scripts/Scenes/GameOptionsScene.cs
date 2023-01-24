@@ -295,6 +295,11 @@ namespace MathFighter.Scenes
             UpdateCheckBoxes();
         }
 
+        public void OnClickPlayer(int playerIndex)
+        {
+            playerNum1 = playerIndex;
+            RotateSelection();
+        }
         private void RotateSelection()
         {
             if (playerNum1 == playerNum2)

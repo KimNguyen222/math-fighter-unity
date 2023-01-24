@@ -30,6 +30,8 @@ namespace MathFighter.Scenes
 
         private GameObject player1;
         private GameObject player2;
+        private Animator animGetReady;
+        private bool isReady = false;
 
         // Start is called before the first frame update
         void Start()
@@ -39,8 +41,22 @@ namespace MathFighter.Scenes
             player2 = Instantiate(PlayerPrefabs[settings.playerNum2], new Vector3(5.5f, 0, 0), Quaternion.identity);
             SetEnvironment();
             GetReady.gameObject.SetActive(true);
+            animGetReady = GetReady.GetComponent<Animator>();
+            //StartCoroutine(AppearGetReady());
+            //StartCoroutine(DisappearGetReady());
         }
 
+        private IEnumerator AppearGetReady()
+        {
+            yield return new WaitForSeconds(1);
+            animGetReady.SetTrigger("Appear");
+            yield return new WaitForSeconds(3);
+            animGetReady.SetTrigger("Disappear");
+            isReady = true;
+        }
+        //private IEnumerator DisappearGetReady()
+        //{
+        //}
         private void SetEnvironment()
         {
             Background.GetComponent<Image>().sprite = _backgrounds[settings.playerNum2];
@@ -54,7 +70,9 @@ namespace MathFighter.Scenes
         // Update is called once per frame
         void Update()
         {
-
+            //Debug.Log(isReady);
+            if (!isReady)
+                StartCoroutine(AppearGetReady());
         }
     }
 }
