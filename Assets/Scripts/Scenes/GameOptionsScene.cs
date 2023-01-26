@@ -98,8 +98,6 @@ namespace MathFighter.Scenes
             playerNum2 = 0;
             //RotateSelection();
             ShowOptions();
-
-            MathQuestion.LoadData();
         }
 
         // Update is called once per frame
@@ -110,136 +108,189 @@ namespace MathFighter.Scenes
             // Rotate Selection bar by keycode
             // A,S,D,W for Player1; LeftArrow, RightArrow, UpArrow, DownArrow for Player2
 
-            if (!isGameOption) // GameOption
+            //if (!isGameOption) // GameOption
+            //{
+            //    if (Input.GetKeyDown(KeyCode.LeftArrow))
+            //    {
+            //        if (optionIndex == 0)        // Challengers
+            //        {
+            //            challengersIndex = 1 - challengersIndex;
+            //        }
+            //        else if (optionIndex == 1)   // Difficulty
+            //        {
+            //            difficultyIndex--;
+            //            if (difficultyIndex == -1) difficultyIndex = 2;
+            //        }
+            //        //else if (optionIndex == 2)   // Location
+            //        //{
+
+            //        //}
+            //        else if (optionIndex == 3)   // Energy
+            //        {
+            //            energyIndex--;
+            //            if (energyIndex == -1) energyIndex = 15;
+            //        }
+            //        else if (optionIndex == 4)   // Grades
+            //        {
+            //            gradesOptionIndex--;
+            //            if (gradesOptionIndex == -1) gradesOptionIndex = 4;
+
+            //            switch (gradesOptionIndex)
+            //            {
+            //                case 0:
+            //                    grades = new bool[] { true, true, true, true, true, true, true, true, true, true, true, true, true };
+            //                    break;
+            //                case 1:
+            //                    for (int i = 0; i < GRADE_COUNT; i++)
+            //                        grades[i] = customGrades[i];
+            //                    break;
+            //                case 2:
+            //                    grades = new bool[] { true, true, true, true, false, false, false, false, false, false, false, false, false };
+            //                    break;
+            //                case 3:
+            //                    grades = new bool[] { false, false, false, false, true, true, true, true, false, false, false, false, false };
+            //                    break;
+            //                case 4:
+            //                    grades = new bool[] { false, false, false, false, false, false, false, false, false, true, true, true, false };
+            //                    break;
+            //            }
+            //            UpdateCheckBoxes();
+            //        }
+
+            //    }
+            //    else if (Input.GetKeyDown(KeyCode.RightArrow))
+            //    {
+            //        if (optionIndex == 0)        // Challengers
+            //        {
+            //            challengersIndex = 1 - challengersIndex;
+            //        }
+            //        else if (optionIndex == 1)   // Difficulty
+            //        {
+            //            difficultyIndex++;
+            //            if (difficultyIndex == 3) difficultyIndex = 0;
+            //        }
+            //        //else if (optionIndex == 2)   // Location
+            //        //{
+
+            //        //}
+            //        else if (optionIndex == 3)   // Energy
+            //        {
+            //            energyIndex++;
+            //            if (energyIndex == 16) energyIndex = 0;
+            //        }
+            //        else if (optionIndex == 4)   // Grades
+            //        {
+            //            gradesOptionIndex++;
+            //            if (gradesOptionIndex == 5) gradesOptionIndex = 0;
+
+            //            switch(gradesOptionIndex)
+            //            {
+            //                case 0:
+            //                    grades = new bool[] { true, true, true, true, true, true, true, true, true, true, true, true, true};
+            //                    break;
+            //                case 1:
+            //                    for (int i = 0; i < GRADE_COUNT; i ++)
+            //                        grades[i] = customGrades[i];
+            //                    break;
+            //                case 2:
+            //                    grades = new bool[] { true, true, true, true, false, false, false, false, false, false, false, false, false };
+            //                    break;
+            //                case 3:
+            //                    grades = new bool[] { false, false, false, false, true, true, true, true, false, false, false, false, false };
+            //                    break;
+            //                case 4:
+            //                    grades = new bool[] { false, false, false, false, false, false, false, false, false, true, true, true, false };
+            //                    break;
+            //            }
+            //            UpdateCheckBoxes();
+            //        }
+            //    }
+            //    else if (Input.GetKeyDown(KeyCode.UpArrow))
+            //    {
+            //        optionIndex--;
+            //        if (optionIndex == -1) optionIndex = 4;
+            //        else if (optionIndex == 2) optionIndex = 1;
+            //    }
+            //    else if (Input.GetKeyDown(KeyCode.DownArrow))
+            //    {
+            //        optionIndex++;
+            //        if (optionIndex == 5) optionIndex = 0;
+            //        else if (optionIndex == 2) optionIndex = 3;
+            //    }
+            //    ShowOptions();
+            //}
+            //else               // Player Selection after Game Option
+            //{
+            //    // Increase the playerNum1. KeyCode: A or S
+            //    if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+            //    {
+            //        playerNum1++;
+            //        if (playerNum1 > 4)
+            //            playerNum1 = 0;
+            //        RotateSelection();
+            //    }
+
+            //    // Decrease the playerNum1. KeyCode: D or W
+            //    else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+            //    {
+            //        playerNum1--;
+            //        if (playerNum1 < 0)
+            //            playerNum1 = 4;
+            //        RotateSelection();
+            //    }
+            //}
+        }
+
+        public void OnClickOptions(int index)
+        {
+            if (!isGameOption)
             {
-                if (Input.GetKeyDown(KeyCode.LeftArrow))
+                optionIndex = index;
+                if (optionIndex == 0)        // Challengers
                 {
-                    if (optionIndex == 0)        // Challengers
-                    {
-                        challengersIndex = 1 - challengersIndex;
-                    }
-                    else if (optionIndex == 1)   // Difficulty
-                    {
-                        difficultyIndex--;
-                        if (difficultyIndex == -1) difficultyIndex = 2;
-                    }
-                    //else if (optionIndex == 2)   // Location
-                    //{
-
-                    //}
-                    else if (optionIndex == 3)   // Energy
-                    {
-                        energyIndex--;
-                        if (energyIndex == -1) energyIndex = 15;
-                    }
-                    else if (optionIndex == 4)   // Grades
-                    {
-                        gradesOptionIndex--;
-                        if (gradesOptionIndex == -1) gradesOptionIndex = 4;
-
-                        switch (gradesOptionIndex)
-                        {
-                            case 0:
-                                grades = new bool[] { true, true, true, true, true, true, true, true, true, true, true, true, true };
-                                break;
-                            case 1:
-                                for (int i = 0; i < GRADE_COUNT; i++)
-                                    grades[i] = customGrades[i];
-                                break;
-                            case 2:
-                                grades = new bool[] { true, true, true, true, false, false, false, false, false, false, false, false, false };
-                                break;
-                            case 3:
-                                grades = new bool[] { false, false, false, false, true, true, true, true, false, false, false, false, false };
-                                break;
-                            case 4:
-                                grades = new bool[] { false, false, false, false, false, false, false, false, false, true, true, true, false };
-                                break;
-                        }
-                        UpdateCheckBoxes();
-                    }
-
+                    challengersIndex = 1 - challengersIndex;
                 }
-                else if (Input.GetKeyDown(KeyCode.RightArrow))
+                else if (optionIndex == 1)   // Difficulty
                 {
-                    if (optionIndex == 0)        // Challengers
-                    {
-                        challengersIndex = 1 - challengersIndex;
-                    }
-                    else if (optionIndex == 1)   // Difficulty
-                    {
-                        difficultyIndex++;
-                        if (difficultyIndex == 3) difficultyIndex = 0;
-                    }
-                    //else if (optionIndex == 2)   // Location
-                    //{
-
-                    //}
-                    else if (optionIndex == 3)   // Energy
-                    {
-                        energyIndex++;
-                        if (energyIndex == 16) energyIndex = 0;
-                    }
-                    else if (optionIndex == 4)   // Grades
-                    {
-                        gradesOptionIndex++;
-                        if (gradesOptionIndex == 5) gradesOptionIndex = 0;
-
-                        switch(gradesOptionIndex)
-                        {
-                            case 0:
-                                grades = new bool[] { true, true, true, true, true, true, true, true, true, true, true, true, true};
-                                break;
-                            case 1:
-                                for (int i = 0; i < GRADE_COUNT; i ++)
-                                    grades[i] = customGrades[i];
-                                break;
-                            case 2:
-                                grades = new bool[] { true, true, true, true, false, false, false, false, false, false, false, false, false };
-                                break;
-                            case 3:
-                                grades = new bool[] { false, false, false, false, true, true, true, true, false, false, false, false, false };
-                                break;
-                            case 4:
-                                grades = new bool[] { false, false, false, false, false, false, false, false, false, true, true, true, false };
-                                break;
-                        }
-                        UpdateCheckBoxes();
-                    }
+                    difficultyIndex++;
+                    if (difficultyIndex == 3) difficultyIndex = 0;
                 }
-                else if (Input.GetKeyDown(KeyCode.UpArrow))
+                //else if (optionIndex == 2)   // Location
+                //{
+
+                //}
+                else if (optionIndex == 3)   // Energy
                 {
-                    optionIndex--;
-                    if (optionIndex == -1) optionIndex = 4;
-                    else if (optionIndex == 2) optionIndex = 1;
+                    energyIndex++;
+                    if (energyIndex == 16) energyIndex = 0;
                 }
-                else if (Input.GetKeyDown(KeyCode.DownArrow))
+                else if (optionIndex == 4)   // Grades
                 {
-                    optionIndex++;
-                    if (optionIndex == 5) optionIndex = 0;
-                    else if (optionIndex == 2) optionIndex = 3;
+                    gradesOptionIndex++;
+                    if (gradesOptionIndex == 5) gradesOptionIndex = 0;
+
+                    switch (gradesOptionIndex)
+                    {
+                        case 0:
+                            grades = new bool[] { true, true, true, true, true, true, true, true, true, true, true, true, true };
+                            break;
+                        case 1:
+                            for (int i = 0; i < GRADE_COUNT; i++)
+                                grades[i] = customGrades[i];
+                            break;
+                        case 2:
+                            grades = new bool[] { true, true, true, true, false, false, false, false, false, false, false, false, false };
+                            break;
+                        case 3:
+                            grades = new bool[] { false, false, false, false, true, true, true, true, false, false, false, false, false };
+                            break;
+                        case 4:
+                            grades = new bool[] { false, false, false, false, false, false, false, false, false, true, true, true, false };
+                            break;
+                    }
+                    UpdateCheckBoxes();
                 }
                 ShowOptions();
-            }
-            else               // Player Selection after Game Option
-            {
-                // Increase the playerNum1. KeyCode: A or S
-                if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.DownArrow))
-                {
-                    playerNum1++;
-                    if (playerNum1 > 4)
-                        playerNum1 = 0;
-                    RotateSelection();
-                }
-
-                // Decrease the playerNum1. KeyCode: D or W
-                else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.RightArrow))
-                {
-                    playerNum1--;
-                    if (playerNum1 < 0)
-                        playerNum1 = 4;
-                    RotateSelection();
-                }
             }
         }
         private void ShowOptions()
@@ -298,7 +349,8 @@ namespace MathFighter.Scenes
         public void OnClickPlayer(int playerIndex)
         {
             playerNum1 = playerIndex;
-            RotateSelection();
+            if (isGameOption)
+                RotateSelection();
         }
         private void RotateSelection()
         {
