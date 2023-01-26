@@ -62,6 +62,66 @@ TextureImporter:
   - first:
       213: -343356031446621646
     second: Cave Man Lose_19
+  - first:
+      213: 6254926234978867707
+    second: CaveMan Lose_0
+  - first:
+      213: 4737619791168977143
+    second: CaveMan Lose_1
+  - first:
+      213: -1307424475497768527
+    second: CaveMan Lose_2
+  - first:
+      213: 8258485525411347521
+    second: CaveMan Lose_3
+  - first:
+      213: -7481961218304210344
+    second: CaveMan Lose_4
+  - first:
+      213: -6593170157022068855
+    second: CaveMan Lose_5
+  - first:
+      213: 1443461117322052907
+    second: CaveMan Lose_6
+  - first:
+      213: -8387223595387680304
+    second: CaveMan Lose_7
+  - first:
+      213: 1933771715361458172
+    second: CaveMan Lose_8
+  - first:
+      213: -236796589104741710
+    second: CaveMan Lose_9
+  - first:
+      213: 7730641482550639572
+    second: CaveMan Lose_10
+  - first:
+      213: -2233737892522663402
+    second: CaveMan Lose_11
+  - first:
+      213: 6967705002061777831
+    second: CaveMan Lose_12
+  - first:
+      213: -2896252210966234202
+    second: CaveMan Lose_13
+  - first:
+      213: 5947409550442397742
+    second: CaveMan Lose_14
+  - first:
+      213: 3465579824546479530
+    second: CaveMan Lose_15
+  - first:
+      213: -5044930736487305474
+    second: CaveMan Lose_16
+  - first:
+      213: 7096963158588780774
+    second: CaveMan Lose_17
+  - first:
+      213: -7848225410989091372
+    second: CaveMan Lose_18
+  - first:
+      213: 237769082048981634
+    second: CaveMan Lose_19
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -106,7 +166,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -176,421 +236,421 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cave Man Lose_0
+      name: CaveMan Lose_0
       rect:
         serializedVersion: 2
         x: 73
         y: 1795
         width: 294
         height: 370
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01127726f84d37930800000000000000
-      internalID: 4139886194781004048
+      spriteID: bf9df2c4546fdc650800000000000000
+      internalID: 6254926234978867707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_1
+      name: CaveMan Lose_1
       rect:
         serializedVersion: 2
         x: 559
         y: 1795
         width: 248
         height: 370
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 920dd47399fff01d0800000000000000
-      internalID: -3382203761609027543
+      spriteID: 7f8bc7d59186fb140800000000000000
+      internalID: 4737619791168977143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_2
+      name: CaveMan Lose_2
       rect:
         serializedVersion: 2
         x: 1005
         y: 1795
         width: 242
         height: 404
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eeab625f54a87fc0800000000000000
-      internalID: -3496864381341552922
+      spriteID: 1b9dd47dd581bdde0800000000000000
+      internalID: -1307424475497768527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_3
+      name: CaveMan Lose_3
       rect:
         serializedVersion: 2
         x: 1460
         y: 1795
         width: 232
         height: 375
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d19ff52b4245e680800000000000000
-      internalID: -8726495812432981543
+      spriteID: 14c39dc74d80c9270800000000000000
+      internalID: 8258485525411347521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_4
+      name: CaveMan Lose_4
       rect:
         serializedVersion: 2
         x: 140
         y: 1355
         width: 232
         height: 381
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce69fe267186f1820800000000000000
-      internalID: 2891143935448553196
+      spriteID: 85a8abfb9ebba2890800000000000000
+      internalID: -7481961218304210344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_5
+      name: CaveMan Lose_5
       rect:
         serializedVersion: 2
         x: 271
         y: 1723
         width: 39
         height: 28
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 278885bf39029f0d0800000000000000
-      internalID: -3388641424670422926
+      spriteID: 98f3efe9caa5084a0800000000000000
+      internalID: -6593170157022068855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_6
+      name: CaveMan Lose_6
       rect:
         serializedVersion: 2
         x: 315
         y: 1689
         width: 59
         height: 68
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41ea6751a06fdd330800000000000000
-      internalID: 3737413788957584916
+      spriteID: b25c1190d34380410800000000000000
+      internalID: 1443461117322052907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_7
+      name: CaveMan Lose_7
       rect:
         serializedVersion: 2
         x: 565
         y: 1355
         width: 242
         height: 404
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87890f65bf02029d0800000000000000
-      internalID: -2801202704356960136
+      spriteID: 0d98421d3989a9b80800000000000000
+      internalID: -8387223595387680304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_8
+      name: CaveMan Lose_8
       rect:
         serializedVersion: 2
         x: 1000
         y: 1355
         width: 247
         height: 380
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2479b6f3db88b15b0800000000000000
-      internalID: -5396569382079195326
+      spriteID: cf741da212326da10800000000000000
+      internalID: 1933771715361458172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_9
+      name: CaveMan Lose_9
       rect:
         serializedVersion: 2
         x: 1393
         y: 1355
         width: 294
         height: 380
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85cfc431152735160800000000000000
-      internalID: 7013074737287724120
+      spriteID: 2b2436eb1cab6bcf0800000000000000
+      internalID: -236796589104741710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_10
+      name: CaveMan Lose_10
       rect:
         serializedVersion: 2
         x: 73
         y: 915
         width: 294
         height: 379
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f556fa83ab28670800000000000000
-      internalID: 8539592596071472908
+      spriteID: 4db745d3871c84b60800000000000000
+      internalID: 7730641482550639572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_11
+      name: CaveMan Lose_11
       rect:
         serializedVersion: 2
         x: 513
         y: 915
         width: 294
         height: 379
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 998aa9f50868e7a10800000000000000
-      internalID: 1909111177969576089
+      spriteID: 6126bdab83b2001e0800000000000000
+      internalID: -2233737892522663402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_12
+      name: CaveMan Lose_12
       rect:
         serializedVersion: 2
         x: 953
         y: 915
         width: 294
         height: 380
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2501060ca4a713080800000000000000
-      internalID: -9209445301522263982
+      spriteID: 7abca9b68c242b060800000000000000
+      internalID: 6967705002061777831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_13
+      name: CaveMan Lose_13
       rect:
         serializedVersion: 2
         x: 1393
         y: 915
         width: 294
         height: 380
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8603c07572df307f0800000000000000
-      internalID: -647395576005250968
+      spriteID: 6abfa6985f17ec7d0800000000000000
+      internalID: -2896252210966234202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_14
+      name: CaveMan Lose_14
       rect:
         serializedVersion: 2
         x: 73
         y: 474
         width: 294
         height: 380
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31244bf94190751b0800000000000000
-      internalID: -5668051621839093229
+      spriteID: e2082e3b971798250800000000000000
+      internalID: 5947409550442397742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_15
+      name: CaveMan Lose_15
       rect:
         serializedVersion: 2
         x: 513
         y: 474
         width: 294
         height: 380
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fa0758baec0d1a20800000000000000
-      internalID: 3034595926172175094
+      spriteID: aad7ade2d76381030800000000000000
+      internalID: 3465579824546479530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_16
+      name: CaveMan Lose_16
       rect:
         serializedVersion: 2
         x: 953
         y: 474
         width: 294
         height: 381
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e481d467d92c441e0800000000000000
-      internalID: -2214431135209023410
+      spriteID: efe693f693eccf9b0800000000000000
+      internalID: -5044930736487305474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_17
+      name: CaveMan Lose_17
       rect:
         serializedVersion: 2
         x: 1393
         y: 474
         width: 294
         height: 381
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebc40831263f7abf0800000000000000
-      internalID: -313014046519440194
+      spriteID: 6e0f7b3346a7d7260800000000000000
+      internalID: 7096963158588780774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_18
+      name: CaveMan Lose_18
       rect:
         serializedVersion: 2
         x: 92
         y: 39
         width: 343
         height: 298
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 883e1c6da40915450800000000000000
-      internalID: 6075796023404520328
+      spriteID: 4d51dc40290851390800000000000000
+      internalID: -7848225410989091372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Man Lose_19
+      name: CaveMan Lose_19
       rect:
         serializedVersion: 2
         x: 510
         y: 42
         width: 356
         height: 170
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 232e22232872c3bf0800000000000000
-      internalID: -343356031446621646
+      spriteID: 28aa91a68b9bc4300800000000000000
+      internalID: 237769082048981634
       vertices: []
       indices: 
       edges: []

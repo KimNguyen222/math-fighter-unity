@@ -31,14 +31,24 @@ namespace MathFighter.Scenes
         [SerializeField]
         private TMP_Text QuestionTitle;
         [SerializeField]
+        private TMP_Text QuestionCat;
+        [SerializeField]
         private TMP_Text QuestionNum;
+        [SerializeField]
+        private TMP_Text Grade;
 
 
 
         public List<GameObject> SpotlightGreenRedPrefab;
         public List<Sprite> _backgrounds;
+        public List<Sprite> _normalSprites;
+        public List<Sprite> _correctSprites;
+        public List<Sprite> _wrongSprites;
+
         public List<Sprite> _avatars;
         public List<GameObject> PlayerPrefabs;
+        public List<TMP_Text> ContentTexts;
+        public List<Image> AnswerButtons;
 
         private List<GameObject> spotlights;
         private GamePlaySettings settings;
@@ -46,10 +56,13 @@ namespace MathFighter.Scenes
         private GameObject player1;
         private GameObject player2;
         private Animator animGetReady;
+        private int questionNum = 1;
         private bool isReady = false;
         private bool isSpotlightGreeRed = false;
         private bool gameplay = false;
         private bool isQuestionShown = false;
+
+        private QuestionContent question;
 
         // Start is called before the first frame update
         void Start()
@@ -62,8 +75,8 @@ namespace MathFighter.Scenes
             GetReady.gameObject.SetActive(true);
             animGetReady = GetReady.GetComponent<Animator>();
             MathQuestion.LoadData();
-            //StartCoroutine(AppearGetReady());
-            //StartCoroutine(DisappearGetReady());
+            settings.CreateNewDealer();
+            question = settings.Dealer.GetQuestion();
         }
         // Update is called once per frame
         void Update()
@@ -76,23 +89,60 @@ namespace MathFighter.Scenes
                 GamePlay();
             }
 
-            if (!isSpotlightGreeRed)
-                DrawSpotlightGreenRed(1);
-            else
-                RemoveSpotlightGreenRed();
+            //if (!isSpotlightGreeRed)
+            //    DrawSpotlightGreenRed(1);
+            //else
+            //    RemoveSpotlightGreenRed();
         }
 
+        public void OnClickAnswers(int anserIndex)
+        {
+            if (isQuestionShown)
+            {
+                if (anserIndex == question.RightAnswer)       // Correct Answer
+                {
+                    settings.CreateNewDealer();
+                    question = settings.Dealer.GetQuestion();
+                    SetNormalSpritesAll();
+                    AnswerButtons[anserIndex].sprite = _correctSprites[anserIndex];
+                    DrawSpotlightGreenRed(0);
+                    StartCoroutine(Attack());
+                }
+                else                                          // Wrong Answer
+                {
+                    SetNormalSpritesAll();
+                    DrawSpotlightGreenRed(1);
+                    AnswerButtons[anserIndex].sprite = _wrongSprites[anserIndex];
+                }
+            }
+        }
+
+        // Set all sprites of Answer Buttons to Normal
+        private void SetNormalSpritesAll()
+        {
+            for (int i = 0; i < AnswerButtons.Count; i ++)
+            {
+                AnswerButtons[i].sprite = _normalSprites[i];
+            }
+        }
+        private void RemoveAllAnswersUI()
+        {
+            QuestionTitle.text = "";
+            Grade.text = "";
+            for (int i = 0; i < AnswerButtons.Count; i++)
+            {
+                ContentTexts[i].text = "";
+            }
+        }
         private void GamePlay()
         {
             if (!isQuestionShown)
+            {
                 StartCoroutine(ShowQuestionTitle());
 
-            if (isQuestionShown)
+            }
+            else
             {
-                settings.CreateNewDealer();
-                QuestionContent question = settings.Dealer.GetQuestion();
-                Debug.Log(question.LevelName);
-                isQuestionShown = false;
             }
         }
 
@@ -106,11 +156,35 @@ namespace MathFighter.Scenes
             isReady = true;
             gameplay = true;
         }
+
+        private IEnumerator Attack()
+        {
+            Animator animator1 = player1.GetComponent<Animator>();
+            Animator animator2 = player2.GetComponent<Animator>();
+            animator1.SetTrigger("attack");
+            yield return new WaitForSeconds(0.5f);
+            animator2.SetTrigger("takingDamage");
+            yield return new WaitForSeconds(2);
+            questionNum++;
+            RemoveAllAnswersUI();
+            SetNormalSpritesAll();
+            RemoveSpotlightGreenRed();
+            isQuestionShown = false;
+        }
+
         private IEnumerator ShowQuestionTitle()
         {
             QuestionUI.SetActive(true);
+            QuestionNum.text = "Question " + questionNum;
+            QuestionCat.text = question.LevelName;
+            Grade.text = question.CatName;
             yield return new WaitForSeconds(2);
             QuestionUI.SetActive(false);
+            QuestionTitle.text = question.Question;
+            ContentTexts[0].text = question.Answers[0];
+            ContentTexts[1].text = question.Answers[1];
+            ContentTexts[2].text = question.Answers[2];
+            ContentTexts[3].text = question.Answers[3];
             isQuestionShown = true;
         }
         private void DrawSpotlightGreenRed(int mode)

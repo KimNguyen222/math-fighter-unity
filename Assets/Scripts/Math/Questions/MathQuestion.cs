@@ -227,7 +227,7 @@ namespace MathFighter.Math.Questions
                 typeof(DMQ_DecimalToPercentage),
                 typeof(DMQ_Derivatives),
                 typeof(DMQ_DivisionWithNeg),
-                typeof(DMQ_Domains),
+                //typeof(DMQ_Domains),
                 typeof(DMQ_EvaluateFunctions),
                 typeof(DMQ_ExponentsPower2),
                 typeof(DMQ_ExponentsPower3),
