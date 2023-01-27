@@ -27,6 +27,10 @@ namespace MathFighter.Scenes
         [SerializeField]
         private GameObject SpotlightUI;
         [SerializeField]
+        private GameObject Spotlight1;
+        [SerializeField] 
+        private GameObject Spotlight2;
+        [SerializeField]
         private GameObject QuestionUI;
         [SerializeField]
         private TMP_Text QuestionTitle;
@@ -36,6 +40,10 @@ namespace MathFighter.Scenes
         private TMP_Text QuestionNum;
         [SerializeField]
         private TMP_Text Grade;
+        [SerializeField]
+        private TMP_Text Timer;
+        [SerializeField]
+        private Image TimerBar;
 
 
 
@@ -47,6 +55,9 @@ namespace MathFighter.Scenes
 
         public List<Sprite> _avatars;
         public List<GameObject> PlayerPrefabs;
+        public List<GameObject> AttackDamagePrefabs;
+        public List<GameObject> SuperAttackDamagePrefabs;
+
         public List<TMP_Text> ContentTexts;
         public List<Image> AnswerButtons;
 
@@ -55,12 +66,22 @@ namespace MathFighter.Scenes
 
         private GameObject player1;
         private GameObject player2;
+        private GameObject attackDamage1;
+        private GameObject attackDamage2;
+        private GameObject superAttackDamage1;
+        private GameObject superAttackDamage2;
+
         private Animator animGetReady;
         private int questionNum = 1;
         private bool isReady = false;
         private bool isSpotlightGreeRed = false;
         private bool gameplay = false;
         private bool isQuestionShown = false;
+
+        /********* Timer ************/
+        private float maxTime = 15f;
+        private float currentTime;
+        private bool isTimer = false;
 
         private QuestionContent question;
 
@@ -71,12 +92,25 @@ namespace MathFighter.Scenes
             spotlights = new List<GameObject>();
             player1 = Instantiate(PlayerPrefabs[settings.playerNum1], new Vector3(-5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
             player2 = Instantiate(PlayerPrefabs[settings.playerNum2], new Vector3(5.5f, 0, 0), Quaternion.identity);
+            attackDamage1 = Instantiate(AttackDamagePrefabs[settings.playerNum1], new Vector3(5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
+            attackDamage2 = Instantiate(AttackDamagePrefabs[settings.playerNum2], new Vector3(-5.5f, 0, 0), Quaternion.identity);
+            superAttackDamage1 = Instantiate(SuperAttackDamagePrefabs[settings.playerNum1], new Vector3(5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
+            superAttackDamage2 = Instantiate(SuperAttackDamagePrefabs[settings.playerNum2], new Vector3(-5.5f, 0, 0), Quaternion.identity);
+
+            attackDamage1.SetActive(false);
+            attackDamage2.SetActive(false);
+            superAttackDamage1.SetActive(false);
+            superAttackDamage2.SetActive(false);
+
             SetEnvironment();
             GetReady.gameObject.SetActive(true);
             animGetReady = GetReady.GetComponent<Animator>();
             MathQuestion.LoadData();
             settings.CreateNewDealer();
             question = settings.Dealer.GetQuestion();
+
+            currentTime = maxTime;
+            UpdateTimer();
         }
         // Update is called once per frame
         void Update()
@@ -105,13 +139,19 @@ namespace MathFighter.Scenes
                     question = settings.Dealer.GetQuestion();
                     SetNormalSpritesAll();
                     AnswerButtons[anserIndex].sprite = _correctSprites[anserIndex];
-                    DrawSpotlightGreenRed(0);
+                    //StartCoroutine(RemoveSpotlightGreenRed());
+                    Spotlight1.SetActive(false);
+                    isTimer = false;
+                    StartCoroutine(DrawSpotlightGreenRed(0));
                     StartCoroutine(Attack());
+                    //Spotlight1.SetActive(true);
                 }
                 else                                          // Wrong Answer
                 {
                     SetNormalSpritesAll();
-                    DrawSpotlightGreenRed(1);
+                    //StartCoroutine(RemoveSpotlightGreenRed());
+                    Spotlight1.SetActive(false);
+                    StartCoroutine(DrawSpotlightGreenRed(1));
                     AnswerButtons[anserIndex].sprite = _wrongSprites[anserIndex];
                 }
             }
@@ -138,11 +178,23 @@ namespace MathFighter.Scenes
         {
             if (!isQuestionShown)
             {
+                isTimer = false;
                 StartCoroutine(ShowQuestionTitle());
-
             }
             else
             {
+                if (currentTime > 0 && isTimer)
+                    currentTime -= Time.deltaTime;
+            }
+            UpdateTimer();
+        }
+
+        private void UpdateTimer()
+        {
+            if (currentTime <= maxTime - 1)
+            {
+                Timer.text = currentTime.ToString("0");
+                TimerBar.fillAmount = currentTime / maxTime;
             }
         }
 
@@ -150,7 +202,7 @@ namespace MathFighter.Scenes
         {
             yield return new WaitForSeconds(1);
             animGetReady.SetTrigger("Appear");
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(2);
             animGetReady.SetTrigger("Disappear");
             yield return new WaitForSeconds(3);
             isReady = true;
@@ -161,14 +213,23 @@ namespace MathFighter.Scenes
         {
             Animator animator1 = player1.GetComponent<Animator>();
             Animator animator2 = player2.GetComponent<Animator>();
+            Animator attackAnim1 = attackDamage1.GetComponent<Animator>();
+            Animator attackAnim2 = attackDamage2.GetComponent<Animator>();
+            Animator superAttackAnim1 = superAttackDamage1.GetComponent<Animator>();
+            Animator superAttackAnim2 = superAttackDamage2.GetComponent<Animator>();
+
+
+
             animator1.SetTrigger("attack");
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(1f);
+            attackDamage1.SetActive(true);
+            attackAnim1.SetTrigger("attackDamage");
             animator2.SetTrigger("takingDamage");
             yield return new WaitForSeconds(2);
+            attackDamage1.SetActive(false);
             questionNum++;
             RemoveAllAnswersUI();
             SetNormalSpritesAll();
-            RemoveSpotlightGreenRed();
             isQuestionShown = false;
         }
 
@@ -185,23 +246,26 @@ namespace MathFighter.Scenes
             ContentTexts[1].text = question.Answers[1];
             ContentTexts[2].text = question.Answers[2];
             ContentTexts[3].text = question.Answers[3];
+
+            currentTime = maxTime;
+            isTimer = true;
             isQuestionShown = true;
         }
-        private void DrawSpotlightGreenRed(int mode)
+        private IEnumerator DrawSpotlightGreenRed(int mode)
         {
-            if (spotlights.Count > 7)
+            for (int i = 0; i < 7; i++)
             {
-                return;
+                GameObject spotlight = Instantiate(SpotlightGreenRedPrefab[mode], new Vector3(0, 0, 0), Quaternion.Euler(0f, 180f, 0f));
+                spotlight.transform.SetParent(SpotlightUI.transform);
+                spotlight.transform.localPosition = new Vector3(0, -550, 0);
+                spotlight.transform.localScale = new Vector3(1, 1, 0);
+                spotlight.transform.localRotation = Quaternion.identity;
+                spotlight.transform.Rotate(0, 0, 10.8f * (i + 1), Space.Self);
+                spotlights.Add(spotlight);
+                yield return new WaitForSeconds(0.02f);
             }
-            GameObject spotlight = Instantiate(SpotlightGreenRedPrefab[mode], new Vector3(0, 0, 0), Quaternion.Euler(0f, 180f, 0f));
-            spotlight.transform.SetParent(SpotlightUI.transform);
-            spotlight.transform.localPosition = new Vector3(0, -550, 0);
-            spotlight.transform.localScale = new Vector3(1, 1, 0);
-            spotlight.transform.localRotation = Quaternion.identity;
-            spotlight.transform.Rotate(0, 0, 10.8f * spotlights.Count, Space.Self);
-            spotlights.Add(spotlight);
-
-
+            yield return new WaitForSeconds(2);
+            StartCoroutine(RemoveSpotlightGreenRed());
             //SpotlightGreenRed.AddComponent<MeshFilter>();
             //SpotlightGreenRed.AddComponent<MeshRenderer>();
             //Mesh mesh = SpotlightGreenRed.GetComponent<MeshFilter>().mesh;
@@ -216,15 +280,16 @@ namespace MathFighter.Scenes
 
         }
 
-        private void RemoveSpotlightGreenRed()
+        private IEnumerator RemoveSpotlightGreenRed()
         {
-            if (spotlights.Count == 0) 
+            for (int i = spotlights.Count - 1; i >= 0; i--)
             {
-                return;
+                GameObject spotlight = spotlights[i];
+                spotlights.Remove(spotlight);
+                Destroy(spotlight);
+                yield return new WaitForSeconds(0.02f);
             }
-            GameObject spotlight = spotlights[spotlights.Count - 1];
-            spotlights.Remove(spotlight);
-            Destroy(spotlight);
+            Spotlight1.SetActive(true);
         }
         //private IEnumerator DisappearGetReady()
         //{

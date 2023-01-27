@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
-
+using UnityEngine;
 
 namespace MathFighter.Math.Questions
 {
@@ -82,6 +81,7 @@ namespace MathFighter.Math.Questions
             content[0] = "@height{0.8}#What is not in the Domain of#" + WrapMathString(template.Question);
 
             // fill in the answer
+            Debug.Log("DMQ_Domains: " + template);
             content[1] = template.Answer;
 
             // create the decoy answers

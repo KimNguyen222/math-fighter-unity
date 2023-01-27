@@ -632,6 +632,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 171063344}
+  - component: {fileID: 171063345}
   m_Layer: 5
   m_Name: Question
   m_TagString: Untagged
@@ -650,16 +651,27 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 625775581}
   - {fileID: 995958313}
+  - {fileID: 625775581}
   m_Father: {fileID: 1618345211}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.99, y: 0}
-  m_SizeDelta: {x: 1077.81, y: 318.47}
+  m_AnchoredPosition: {x: 5.71, y: 0}
+  m_SizeDelta: {x: 941.17, y: 318.47}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!210 &171063345
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171063343}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
 --- !u!1 &244619012
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,7 +1003,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000051498}
+  m_AnchoredPosition: {x: 0.000061035156, y: 25.5}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467761279
@@ -1132,17 +1144,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625775580}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 171063344}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: 61.2}
-  m_SizeDelta: {x: 1077.8, y: 115.64}
+  m_AnchoredPosition: {x: 10.48, y: 61.2}
+  m_SizeDelta: {x: 962.13, y: 115.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &625775582
 MonoBehaviour:
@@ -1164,10 +1176,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Question 1
+  m_text: QUESTION 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 83559b937504e024b8dae5e802dd5134, type: 2}
-  m_sharedMaterial: {fileID: -5614616158344545958, guid: 83559b937504e024b8dae5e802dd5134, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6c05d270b62170c45be13784346d91a9, type: 2}
+  m_sharedMaterial: {fileID: -1185122089460899806, guid: 6c05d270b62170c45be13784346d91a9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1191,8 +1203,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
-  m_fontSizeBase: 180
+  m_fontSize: 220
+  m_fontSizeBase: 220
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1201,8 +1213,8 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_characterSpacing: -20
+  m_wordSpacing: -25
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
@@ -1299,13 +1311,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 0c8817bff106fc04888ec88922f925c0, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_FillClockwise: 0
+  m_FillOrigin: 2
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &672281860
@@ -1450,6 +1462,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720305277}
   m_CullTransparentMesh: 1
+--- !u!1 &900836224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900836225}
+  - component: {fileID: 900836227}
+  - component: {fileID: 900836226}
+  m_Layer: 5
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &900836225
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900836224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1327273605}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 117.4, y: 92.51}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &900836226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900836224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 15
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 0fae690a0dc50b940b1dd8426763df6e, type: 2}
+  m_sharedMaterial: {fileID: -3485933059807381168, guid: 0fae690a0dc50b940b1dd8426763df6e, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4293008896
+  m_fontColor: {r: 0, g: 0.11630093, b: 0.8867924, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 80
+  m_fontSizeBase: 80
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &900836227
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900836224}
+  m_CullTransparentMesh: 1
 --- !u!1 &919583801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,12 +1663,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 171063344}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -79.407}
-  m_SizeDelta: {x: 1077.8, y: 159.65}
+  m_AnchoredPosition: {x: -14.28, y: -79.407}
+  m_SizeDelta: {x: 912.62, y: 159.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &995958314
 MonoBehaviour:
@@ -1546,10 +1692,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Question Title
 
-'
+    Question Title'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 83559b937504e024b8dae5e802dd5134, type: 2}
-  m_sharedMaterial: {fileID: -5614616158344545958, guid: 83559b937504e024b8dae5e802dd5134, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6c05d270b62170c45be13784346d91a9, type: 2}
+  m_sharedMaterial: {fileID: -1185122089460899806, guid: 6c05d270b62170c45be13784346d91a9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1573,19 +1719,19 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_characterSpacing: -25
+  m_wordSpacing: -1.33
+  m_lineSpacing: -50
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -1996,7 +2142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1327273605}
   m_Layer: 5
-  m_Name: Timer
+  m_Name: TimerUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2014,6 +2160,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 672281858}
+  - {fileID: 900836225}
   m_Father: {fileID: 1618345211}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3141,11 +3288,15 @@ MonoBehaviour:
   PlayerName2: {fileID: 118329993}
   GetReady: {fileID: 79435124}
   SpotlightUI: {fileID: 919583801}
+  Spotlight1: {fileID: 1143839684}
+  Spotlight2: {fileID: 73102142}
   QuestionUI: {fileID: 171063343}
   QuestionTitle: {fileID: 379481971}
   QuestionCat: {fileID: 995958314}
   QuestionNum: {fileID: 625775582}
   Grade: {fileID: 2026246195}
+  Timer: {fileID: 900836226}
+  TimerBar: {fileID: 672281859}
   SpotlightGreenRedPrefab:
   - {fileID: 4489189470261176544, guid: 7b7892ca99d6fb5469667ee6207b471e, type: 3}
   - {fileID: 540960121730893569, guid: da0669c1b4e799a4a99ce33c474eb3ce, type: 3}
@@ -3185,6 +3336,20 @@ MonoBehaviour:
   - {fileID: 4567176713813922407, guid: fc8ff77ba62e3b74ab4499dd3c3184a8, type: 3}
   - {fileID: 7436041720068247804, guid: 01cbf51015308534aa74659a3cb2c46f, type: 3}
   - {fileID: 2063070504779599245, guid: 32717a30b6e7ae242a5c2ca8edcd4958, type: 3}
+  AttackDamagePrefabs:
+  - {fileID: 2321402952485354261, guid: 5573d50d5f6652e4589226dd6d800705, type: 3}
+  - {fileID: 282623766161753584, guid: afd96a50ce88bc3448aaebe1f9fb8f7b, type: 3}
+  - {fileID: 3208377229051511946, guid: 17e8b826fa391a644b3ce94ac5485d50, type: 3}
+  - {fileID: 7108555943789456428, guid: fbc8b6c0f93418b45b9e8aaf795ed4d8, type: 3}
+  - {fileID: 2294482273178337458, guid: cdfc2aa941166d24c8baf74545e78cd5, type: 3}
+  - {fileID: 5212819384323688018, guid: 32cad943fc6f6d44a89d1eabd344a301, type: 3}
+  SuperAttackDamagePrefabs:
+  - {fileID: 4613367093659140283, guid: b7691bab52321d748a0adc80693c81fa, type: 3}
+  - {fileID: 6599692702907287719, guid: b2baa161222a8dc47a15be1848129754, type: 3}
+  - {fileID: 7242633809165072303, guid: d2e16765334afc94eb33986976a52e17, type: 3}
+  - {fileID: 6183438012411830781, guid: 570e555c28bbcd2429c222f72aea4cd9, type: 3}
+  - {fileID: 119163055965113604, guid: 886309fa57c60164aa44474563ed58d7, type: 3}
+  - {fileID: 6058309137284993754, guid: e07e9b50c5b70874581b5b6d3489a908, type: 3}
   ContentTexts:
   - {fileID: 1968447771}
   - {fileID: 720305279}
@@ -3229,7 +3394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000045776}
+  m_AnchoredPosition: {x: 0, y: 0.000045776367}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1968447769
@@ -3427,7 +3592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: playerNum2
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: playerName1
@@ -3442,32 +3607,60 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
+      propertyPath: _mathGrades.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: _mathGrades.Array.data[1]
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: _mathGrades.Array.data[2]
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
+      propertyPath: _mathGrades.Array.data[3]
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: _mathGrades.Array.data[4]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: _mathGrades.Array.data[5]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: _mathGrades.Array.data[6]
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
+      propertyPath: _mathGrades.Array.data[7]
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: _mathGrades.Array.data[8]
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
+      propertyPath: _mathGrades.Array.data[9]
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
       propertyPath: _mathGrades.Array.data[10]
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
+      propertyPath: _mathGrades.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
+      propertyPath: _mathGrades.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547787234833440662, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
+      propertyPath: _mathGrades.Array.data[13]
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f1c1eaeb1a1f944494b70d1328c9bec, type: 3}
