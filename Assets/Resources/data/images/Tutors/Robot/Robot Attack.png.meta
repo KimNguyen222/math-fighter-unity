@@ -29,6 +29,12 @@ TextureImporter:
   - first:
       213: -2943233080679645968
     second: Robot Attack_8
+  - first:
+      213: -3418326697518539259
+    second: Robot Attack_9
+  - first:
+      213: -5977511056889323632
+    second: Robot Attack_10
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -146,12 +152,12 @@ TextureImporter:
       name: Robot Attack_0
       rect:
         serializedVersion: 2
-        x: 113
-        y: 908
-        width: 209
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 905
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +173,12 @@ TextureImporter:
       name: Robot Attack_1
       rect:
         serializedVersion: 2
-        x: 469
-        y: 908
-        width: 293
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 905
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,12 +194,12 @@ TextureImporter:
       name: Robot Attack_2
       rect:
         serializedVersion: 2
-        x: 900
-        y: 908
-        width: 302
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 890
+        y: 905
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,36 +212,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot Attack_3
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 468
-        width: 215
-        height: 394
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 914aa50074f58ee10800000000000000
-      internalID: 2227134774287967257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Robot Attack_4
       rect:
         serializedVersion: 2
-        x: 547
-        y: 468
-        width: 215
-        height: 395
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 465
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +236,12 @@ TextureImporter:
       name: Robot Attack_5
       rect:
         serializedVersion: 2
-        x: 900
-        y: 468
-        width: 302
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 465
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,12 +257,12 @@ TextureImporter:
       name: Robot Attack_6
       rect:
         serializedVersion: 2
-        x: 8
-        y: 28
-        width: 314
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 890
+        y: 465
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,36 +275,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot Attack_7
-      rect:
-        serializedVersion: 2
-        x: 469
-        y: 28
-        width: 293
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52852f7c201322780800000000000000
-      internalID: -8709344841366874075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Robot Attack_8
       rect:
         serializedVersion: 2
-        x: 993
-        y: 28
-        width: 209
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 26
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -327,6 +291,48 @@ TextureImporter:
       bones: []
       spriteID: 0fc39e66b198727d0800000000000000
       internalID: -2943233080679645968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Attack_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 26
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e5c2ccaf9af80d0800000000000000
+      internalID: -3418326697518539259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot Attack_10
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 26
+        width: 315
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f542d2d5d9b0da0800000000000000
+      internalID: -5977511056889323632
       vertices: []
       indices: 
       edges: []

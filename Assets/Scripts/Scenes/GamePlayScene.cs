@@ -12,6 +12,7 @@ namespace MathFighter.Scenes
 {
     public class GamePlayScene : MonoBehaviour
     {
+        /********** Game UI ***********/
         [SerializeField]
         private Image Background;
         [SerializeField]
@@ -44,9 +45,34 @@ namespace MathFighter.Scenes
         private TMP_Text Timer;
         [SerializeField]
         private Image TimerBar;
+        [SerializeField]
+        private Image HealthBar1;
+        [SerializeField]
+        private Image HealthBar2;
+        [SerializeField]
+        private GameObject HintPanel;
+        [SerializeField]
+        private TMP_Text HintText;
 
+        /******** Additional Buttons  **********/
+        [SerializeField]
+        private SpriteRenderer SuperAttackLeftButton;
+        [SerializeField]
+        private SpriteRenderer SuperAttackRightButton;
 
+        /********* AnswerStatus   **************/
+        [SerializeField]
+        private SpriteRenderer Correct1;
+        [SerializeField]
+        private SpriteRenderer Correct2;
+        [SerializeField]
+        private SpriteRenderer Wrong1;
+        [SerializeField]
+        private SpriteRenderer Wrong2;
+        [SerializeField]
+        private TMP_Text XNumber;
 
+        /******** Public List Objects **********/
         public List<GameObject> SpotlightGreenRedPrefab;
         public List<Sprite> _backgrounds;
         public List<Sprite> _normalSprites;
@@ -64,19 +90,39 @@ namespace MathFighter.Scenes
         private List<GameObject> spotlights;
         private GamePlaySettings settings;
 
+        /********* Game Play *********/
         private GameObject player1;
         private GameObject player2;
         private GameObject attackDamage1;
         private GameObject attackDamage2;
         private GameObject superAttackDamage1;
         private GameObject superAttackDamage2;
-
         private Animator animGetReady;
+
+        Animator animator1;
+        Animator animator2;
+        Animator attackAnim1;
+        Animator attackAnim2;
+        Animator superAttackAnim1;
+        Animator superAttackAnim2;
         private int questionNum = 1;
         private bool isReady = false;
         private bool isSpotlightGreeRed = false;
         private bool gameplay = false;
         private bool isQuestionShown = false;
+        private int energy1;
+        private int energy2;
+        private int maxEnergy1;
+        private int maxEnergy2;
+        private int damage = 30;
+        private int xNumber = 1;
+        private bool gameover = false;
+        private bool onHint = true;
+
+
+        private float initHealthBarXPosition1;
+        private float initHealthBarXPosition2;
+
 
         /********* Timer ************/
         private float maxTime = 15f;
@@ -90,12 +136,29 @@ namespace MathFighter.Scenes
         {
             settings = GameObject.Find("GamePlaySettings").GetComponent<GamePlaySettings>();
             spotlights = new List<GameObject>();
-            player1 = Instantiate(PlayerPrefabs[settings.playerNum1], new Vector3(-5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
-            player2 = Instantiate(PlayerPrefabs[settings.playerNum2], new Vector3(5.5f, 0, 0), Quaternion.identity);
+            player1 = Instantiate(PlayerPrefabs[settings.playerNum1], new Vector3(-5.5f, -2.2f, 0), Quaternion.Euler(0f, 180f, 0f));
+            player2 = Instantiate(PlayerPrefabs[settings.playerNum2], new Vector3(5.5f, -2.2f, 0), Quaternion.identity);
             attackDamage1 = Instantiate(AttackDamagePrefabs[settings.playerNum1], new Vector3(5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
             attackDamage2 = Instantiate(AttackDamagePrefabs[settings.playerNum2], new Vector3(-5.5f, 0, 0), Quaternion.identity);
             superAttackDamage1 = Instantiate(SuperAttackDamagePrefabs[settings.playerNum1], new Vector3(5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
             superAttackDamage2 = Instantiate(SuperAttackDamagePrefabs[settings.playerNum2], new Vector3(-5.5f, 0, 0), Quaternion.identity);
+
+
+            animator1 = player1.GetComponent<Animator>();
+            animator2 = player2.GetComponent<Animator>();
+            attackAnim1 = attackDamage1.GetComponent<Animator>();
+            attackAnim2 = attackDamage2.GetComponent<Animator>();
+            superAttackAnim1 = superAttackDamage1.GetComponent<Animator>();
+            superAttackAnim2 = superAttackDamage2.GetComponent<Animator>();
+
+
+            energy1 = settings.EnergyBar;
+            energy2 = settings.EnergyBar;
+            maxEnergy1 = energy1;
+            maxEnergy2 = energy2;
+
+            initHealthBarXPosition1 = HealthBar1.transform.localPosition.x;
+            initHealthBarXPosition2 = HealthBar2.transform.localPosition.x;
 
             attackDamage1.SetActive(false);
             attackDamage2.SetActive(false);
@@ -157,6 +220,33 @@ namespace MathFighter.Scenes
             }
         }
 
+        // Click Taunt Button
+        public void OnTauntButtonClicked()
+        {
+            if (isQuestionShown)
+                animator1.SetTrigger("taunt");
+        }
+
+        // Click Hint Button
+        public void OnHintButtonClicked()
+        {
+            onHint = !onHint;
+            if (isQuestionShown)
+            {
+                if (!onHint)
+                {
+                    animator1.SetTrigger("freeze");
+                    HintPanel.SetActive(true);
+                    HintText.text = question.Hint;
+                }
+                else
+                {
+                    animator1.SetTrigger("unFreeze");
+                    HintPanel.SetActive(false);
+                }
+            }
+        }
+
         // Set all sprites of Answer Buttons to Normal
         private void SetNormalSpritesAll()
         {
@@ -176,26 +266,22 @@ namespace MathFighter.Scenes
         }
         private void GamePlay()
         {
+            UpdateTimer();
             if (!isQuestionShown)
             {
                 isTimer = false;
                 StartCoroutine(ShowQuestionTitle());
             }
-            else
-            {
-                if (currentTime > 0 && isTimer)
-                    currentTime -= Time.deltaTime;
-            }
-            UpdateTimer();
+
+            if (currentTime > 0 && isTimer)
+                currentTime -= Time.deltaTime;
+
         }
 
         private void UpdateTimer()
         {
-            if (currentTime <= maxTime - 1)
-            {
-                Timer.text = currentTime.ToString("0");
-                TimerBar.fillAmount = currentTime / maxTime;
-            }
+            Timer.text = currentTime.ToString("0");
+            TimerBar.fillAmount = currentTime / maxTime;            
         }
 
         private IEnumerator AppearGetReady()
@@ -211,20 +297,13 @@ namespace MathFighter.Scenes
 
         private IEnumerator Attack()
         {
-            Animator animator1 = player1.GetComponent<Animator>();
-            Animator animator2 = player2.GetComponent<Animator>();
-            Animator attackAnim1 = attackDamage1.GetComponent<Animator>();
-            Animator attackAnim2 = attackDamage2.GetComponent<Animator>();
-            Animator superAttackAnim1 = superAttackDamage1.GetComponent<Animator>();
-            Animator superAttackAnim2 = superAttackDamage2.GetComponent<Animator>();
-
-
-
             animator1.SetTrigger("attack");
             yield return new WaitForSeconds(1f);
+            animator2.SetTrigger("takingDamage");
             attackDamage1.SetActive(true);
             attackAnim1.SetTrigger("attackDamage");
-            animator2.SetTrigger("takingDamage");
+
+            StartCoroutine(UpdateHealthBars2());
             yield return new WaitForSeconds(2);
             attackDamage1.SetActive(false);
             questionNum++;
@@ -232,7 +311,28 @@ namespace MathFighter.Scenes
             SetNormalSpritesAll();
             isQuestionShown = false;
         }
-
+        private IEnumerator UpdateHealthBars2()
+        {
+            for (int h= energy2; h >= energy2 - damage; h -= 2)
+            {
+                HealthBar2.fillAmount = (float)h / (float)maxEnergy2;
+                HealthBar2.transform.localPosition = new Vector3(initHealthBarXPosition2 - 
+                    (1 - HealthBar2.fillAmount) * HealthBar2.rectTransform.rect.width, HealthBar2.transform.localPosition.y, 
+                    HealthBar2.transform.localPosition.z);
+                HealthBar2.color = new Color(1, HealthBar2.fillAmount, 0, 1);
+                Debug.Log(HealthBar2.transform.localPosition);
+                yield return new WaitForSeconds(0.1f);
+            }
+            energy2 -= damage;
+            if (energy2 <= 0)                          // Win the game
+            {
+                gameplay = false;
+                animator2.SetTrigger("lose");
+                yield return new WaitForSeconds(1);
+                player2.SetActive(false);
+                animator1.SetTrigger("win");
+            }
+        }
         private IEnumerator ShowQuestionTitle()
         {
             QuestionUI.SetActive(true);
@@ -241,14 +341,14 @@ namespace MathFighter.Scenes
             Grade.text = question.CatName;
             yield return new WaitForSeconds(2);
             QuestionUI.SetActive(false);
+            currentTime = maxTime;
+            isTimer = true;
             QuestionTitle.text = question.Question;
             ContentTexts[0].text = question.Answers[0];
             ContentTexts[1].text = question.Answers[1];
             ContentTexts[2].text = question.Answers[2];
             ContentTexts[3].text = question.Answers[3];
 
-            currentTime = maxTime;
-            isTimer = true;
             isQuestionShown = true;
         }
         private IEnumerator DrawSpotlightGreenRed(int mode)
@@ -257,10 +357,10 @@ namespace MathFighter.Scenes
             {
                 GameObject spotlight = Instantiate(SpotlightGreenRedPrefab[mode], new Vector3(0, 0, 0), Quaternion.Euler(0f, 180f, 0f));
                 spotlight.transform.SetParent(SpotlightUI.transform);
-                spotlight.transform.localPosition = new Vector3(0, -550, 0);
-                spotlight.transform.localScale = new Vector3(1, 1, 0);
+                spotlight.transform.localPosition = new Vector3(0f, -550, 0f);
+                spotlight.transform.localScale = new Vector3(1, 1, 0f);
                 spotlight.transform.localRotation = Quaternion.identity;
-                spotlight.transform.Rotate(0, 0, 10.8f * (i + 1), Space.Self);
+                spotlight.transform.Rotate(0, 0, 10.5f * (i + 1), Space.Self);
                 spotlights.Add(spotlight);
                 yield return new WaitForSeconds(0.02f);
             }

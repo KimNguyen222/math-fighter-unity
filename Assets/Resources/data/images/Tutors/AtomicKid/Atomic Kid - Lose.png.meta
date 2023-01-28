@@ -173,12 +173,12 @@ TextureImporter:
       name: Atomic Kid - Lose_0
       rect:
         serializedVersion: 2
-        x: 144
-        y: 2670
-        width: 162
-        height: 322
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2650
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: Atomic Kid - Lose_1
       rect:
         serializedVersion: 2
-        x: 516
-        y: 2678
-        width: 287
-        height: 353
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 430
+        y: 2650
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: Atomic Kid - Lose_2
       rect:
         serializedVersion: 2
-        x: 883
-        y: 2652
-        width: 434
-        height: 419
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 860
+        y: 2650
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: Atomic Kid - Lose_3
       rect:
         serializedVersion: 2
-        x: 11
-        y: 2212
-        width: 420
-        height: 417
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2220
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: Atomic Kid - Lose_4
       rect:
         serializedVersion: 2
-        x: 451
-        y: 2212
-        width: 418
-        height: 418
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 430
+        y: 2220
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: Atomic Kid - Lose_5
       rect:
         serializedVersion: 2
-        x: 890
-        y: 2203
-        width: 421
+        x: 860
+        y: 2220
+        width: 430
         height: 430
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: Atomic Kid - Lose_6
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1763
-        width: 419
-        height: 435
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1790
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: Atomic Kid - Lose_7
       rect:
         serializedVersion: 2
-        x: 451
-        y: 1769
-        width: 418
-        height: 421
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 430
+        y: 1790
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: Atomic Kid - Lose_8
       rect:
         serializedVersion: 2
-        x: 890
-        y: 1770
-        width: 419
-        height: 420
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 860
+        y: 1790
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,12 +362,12 @@ TextureImporter:
       name: Atomic Kid - Lose_9
       rect:
         serializedVersion: 2
-        x: 26
-        y: 1346
-        width: 389
-        height: 388
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1360
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,12 +383,12 @@ TextureImporter:
       name: Atomic Kid - Lose_10
       rect:
         serializedVersion: 2
-        x: 481
-        y: 1346
-        width: 360
-        height: 380
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 430
+        y: 1360
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,12 +404,12 @@ TextureImporter:
       name: Atomic Kid - Lose_11
       rect:
         serializedVersion: 2
-        x: 935
-        y: 1366
-        width: 331
-        height: 342
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 860
+        y: 1360
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: Atomic Kid - Lose_12
       rect:
         serializedVersion: 2
-        x: 70
-        y: 950
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 930
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: Atomic Kid - Lose_13
       rect:
         serializedVersion: 2
-        x: 525
-        y: 966
-        width: 271
-        height: 269
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 430
+        y: 930
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -467,12 +467,12 @@ TextureImporter:
       name: Atomic Kid - Lose_14
       rect:
         serializedVersion: 2
-        x: 980
-        y: 981
-        width: 241
-        height: 240
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 860
+        y: 930
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,12 +488,12 @@ TextureImporter:
       name: Atomic Kid - Lose_15
       rect:
         serializedVersion: 2
-        x: 114
-        y: 555
-        width: 211
-        height: 212
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 500
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,12 +509,12 @@ TextureImporter:
       name: Atomic Kid - Lose_16
       rect:
         serializedVersion: 2
-        x: 568
-        y: 570
-        width: 183
-        height: 182
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 430
+        y: 500
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -530,12 +530,12 @@ TextureImporter:
       name: Atomic Kid - Lose_17
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 585
-        width: 153
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 860
+        y: 500
+        width: 430
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

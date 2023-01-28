@@ -469,9 +469,9 @@ namespace MathFighter.Scenes
 
 
                 //player1.transform.SetParent(canvas.transform);
-                player1.transform.position = new Vector3(-5.2f, -0.75f, 0f);
+                player1.transform.position = new Vector3(-5.2f, -3.25f, 0f);
                 //player2.transform.SetParent(canvas.transform);
-                player2.transform.position = new Vector3(5.33f, -0.75f, 0f);
+                player2.transform.position = new Vector3(5.33f, -3.25f, 0f);
 
 
                 animator1 = player1.GetComponent<Animator>();
