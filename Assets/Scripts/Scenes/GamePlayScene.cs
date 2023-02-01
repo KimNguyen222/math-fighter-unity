@@ -65,6 +65,8 @@ namespace MathFighter.Scenes
         private TMP_Text PlayerScoreTxt;
         [SerializeField]
         private TMP_Text DamageAmountTxt;
+        [SerializeField]
+        private Image KOScreen;
 
         /******** Additional Buttons  **********/
         [SerializeField]
@@ -362,6 +364,7 @@ namespace MathFighter.Scenes
                 xNumber = 0;
             }
             Debug.Log("damage: " + damage);
+
             yield return new WaitForSeconds(1f);
             animator2.SetTrigger("takingDamage");
             if (!isSuperAttack)
@@ -375,6 +378,14 @@ namespace MathFighter.Scenes
             }
 
             isSuperAttack = false;
+
+            // Display KOScreen
+            if (energy2 - damage <= 0)
+            {
+                KOScreen.gameObject.SetActive(true);
+                yield return new WaitForSeconds(3);
+                KOScreen.gameObject.SetActive(false);
+            }
 
             DamageAmountTxt.text = "DAMAGE\n" + damage + "tps";
             DamageAmountTxt.gameObject.SetActive(true);
