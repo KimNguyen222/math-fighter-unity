@@ -8,6 +8,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 namespace MathFighter.Scenes
 {
@@ -60,12 +61,16 @@ namespace MathFighter.Scenes
         private SpriteRenderer SpotlightGreen;
         [SerializeField]
         private SpriteRenderer SpotlightRed;
+        [SerializeField]
+        private TMP_Text PlayerScoreTxt;
+        [SerializeField]
+        private TMP_Text DamageAmountTxt;
 
         /******** Additional Buttons  **********/
         [SerializeField]
-        private SpriteRenderer SuperAttackLeftButton;
+        private Image SuperAttackLeftButton;
         [SerializeField]
-        private SpriteRenderer SuperAttackRightButton;
+        private Image SuperAttackRightButton;
 
         /********* AnswerStatus   **************/
         [SerializeField]
@@ -77,7 +82,7 @@ namespace MathFighter.Scenes
         [SerializeField]
         private SpriteRenderer Wrong2;
         [SerializeField]
-        private TMP_Text XNumber;
+        private TMP_Text XNumberTxt;
 
         /******** Public List Objects **********/
         public List<Sprite> _backgrounds;
@@ -97,7 +102,7 @@ namespace MathFighter.Scenes
         /******** Private List Objects **********/
         private List<GameObject> spotlights;
         private GamePlaySettings settings;
-        private List<Texture2D> mathTextures;
+        //private List<Texture2D> mathTextures;
 
         /********* Game Play *********/
         private GameObject player1;
@@ -123,10 +128,12 @@ namespace MathFighter.Scenes
         private int energy2;
         private int maxEnergy1;
         private int maxEnergy2;
-        private int damage = 30;
-        private int xNumber = 1;
+        private int damage;
+        private int normalDamage = 10;
+        private int xNumber = 0;
         private bool gameover = false;
         private bool onHint = true;
+        private bool isSuperAttack = false;
 
 
         private float initHealthBarXPosition1;
@@ -147,9 +154,9 @@ namespace MathFighter.Scenes
             spotlights = new List<GameObject>();
             player1 = Instantiate(PlayerPrefabs[settings.playerNum1], new Vector3(-5.5f, -2.2f, 0), Quaternion.Euler(0f, 180f, 0f));
             player2 = Instantiate(PlayerPrefabs[settings.playerNum2], new Vector3(5.5f, -2.2f, 0), Quaternion.identity);
-            attackDamage1 = Instantiate(AttackDamagePrefabs[settings.playerNum1], new Vector3(5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
+            attackDamage1 = Instantiate(AttackDamagePrefabs[settings.playerNum1], new Vector3(5.5f, 0, 0), Quaternion.identity);
             attackDamage2 = Instantiate(AttackDamagePrefabs[settings.playerNum2], new Vector3(-5.5f, 0, 0), Quaternion.identity);
-            superAttackDamage1 = Instantiate(SuperAttackDamagePrefabs[settings.playerNum1], new Vector3(5.5f, 0, 0), Quaternion.Euler(0f, 180f, 0f));
+            superAttackDamage1 = Instantiate(SuperAttackDamagePrefabs[settings.playerNum1], new Vector3(5.5f, 0, 0), Quaternion.identity);
             superAttackDamage2 = Instantiate(SuperAttackDamagePrefabs[settings.playerNum2], new Vector3(-5.5f, 0, 0), Quaternion.identity);
 
 
@@ -165,6 +172,8 @@ namespace MathFighter.Scenes
             energy2 = settings.EnergyBar;
             maxEnergy1 = energy1;
             maxEnergy2 = energy2;
+
+            damage = normalDamage;
 
             initHealthBarXPosition1 = HealthBar1.transform.localPosition.x;
             initHealthBarXPosition2 = HealthBar2.transform.localPosition.x;
@@ -185,27 +194,21 @@ namespace MathFighter.Scenes
 
             currentTime = maxTime;
             UpdateTimer();
-            mathTextures = new List<Texture2D>();
-            for (int i = 0; i < 5; i ++)
-            {
-                mathTextures.Add(new Texture2D(100, 100));
-            }
+            //mathTextures = new List<Texture2D>();
+            //for (int i = 0; i < 5; i ++)
+            //{
+            //    mathTextures.Add(new Texture2D(100, 100));
+            //}
         }
         // Update is called once per frame
         void Update()
         {
-            //Debug.Log(isReady);
             if (!isReady)
                 StartCoroutine(AppearGetReady());
             if (gameplay)
             {
                 GamePlay();
             }
-
-            //if (!isSpotlightGreeRed)
-            //    DrawSpotlightGreenRed(1);
-            //else
-            //    RemoveSpotlightGreenRed();
         }
 
         public void OnClickAnswers(int anserIndex)
@@ -214,11 +217,13 @@ namespace MathFighter.Scenes
             {
                 if (anserIndex == question.RightAnswer)       // Correct Answer
                 {
+                    XNumberTxt.gameObject.transform.localPosition =
+                        AnswerButtons[anserIndex].transform.localPosition + Vector3.up * 55;
                     settings.CreateNewDealer();
                     question = settings.Dealer.GetQuestion();
                     SetNormalSpritesAll();
                     AnswerButtons[anserIndex].sprite = _correctSprites[anserIndex];
-                    //StartCoroutine(DrawSpotlightGreen());
+                    //StartCoroutine(AppearXNumber());
                     //StartCoroutine(RemoveSpotlightGreenRed());
                     isTimer = false;
                     StartCoroutine(Attack());
@@ -227,7 +232,6 @@ namespace MathFighter.Scenes
                 else                                          // Wrong Answer
                 {
                     SetNormalSpritesAll();
-                    //StartCoroutine(RemoveSpotlightGreenRed());
                     Spotlight1.SetActive(false);
                     StartCoroutine(DrawSpotlightRed());
                     AnswerButtons[anserIndex].sprite = _wrongSprites[anserIndex];
@@ -262,6 +266,11 @@ namespace MathFighter.Scenes
             }
         }
 
+        // Click Left SuperAttack Button
+        public void OnLeftSuperAttackButtonClicked()
+        {
+            isSuperAttack = true;
+        }
         // Set all sprites of Answer Buttons to Normal
         private void SetNormalSpritesAll()
         {
@@ -300,6 +309,14 @@ namespace MathFighter.Scenes
             TimerBar.fillAmount = currentTime / maxTime;            
         }
 
+        private IEnumerator AppearXNumber()
+        {
+            XNumberTxt.gameObject.SetActive(true);
+            Animator xNumAnim = XNumberTxt.GetComponent<Animator>();
+            xNumAnim.SetTrigger("appear");
+            yield return 2;
+            XNumberTxt.gameObject.SetActive(false);
+        }
         private IEnumerator AppearGetReady()
         {
             yield return new WaitForSeconds(1);
@@ -317,19 +334,59 @@ namespace MathFighter.Scenes
             Animator spotAnim = SpotlightGreen.GetComponent<Animator>();
             spotAnim.SetTrigger("appear");
             Spotlight1.SetActive(false);
-            yield return new WaitForSeconds(2);
-            animator1.SetTrigger("attack");
+
+            // Appear XNumber
+            if (currentTime > maxTime / 2f)
+                xNumber++;
+            if (xNumber > 1)
+            {
+                SuperAttackLeftButton.gameObject.SetActive(true);
+                XNumberTxt.text = xNumber + "x";
+                XNumberTxt.gameObject.SetActive(true);
+                Animator xNumAnim = XNumberTxt.GetComponent<Animator>();
+                xNumAnim.SetTrigger("appear");
+            }
+            yield return new WaitForSeconds(3);
+            SuperAttackLeftButton.gameObject.SetActive(false);
+
+            if (!isSuperAttack)
+            {
+                damage = normalDamage;
+                animator1.SetTrigger("attack");
+            }
+            else
+            {
+                Debug.Log("XNumber: " + xNumber);
+                damage = normalDamage * xNumber;
+                animator1.SetTrigger("superAttack");
+                xNumber = 0;
+            }
+            Debug.Log("damage: " + damage);
             yield return new WaitForSeconds(1f);
             animator2.SetTrigger("takingDamage");
-            attackDamage1.SetActive(true);
-            attackAnim1.SetTrigger("attackDamage");
+            if (!isSuperAttack)
+            {
+                attackDamage1.SetActive(true);
 
+            }
+            else
+            {
+                superAttackDamage1.SetActive(true);
+            }
+
+            isSuperAttack = false;
+
+            DamageAmountTxt.text = "DAMAGE\n" + damage + "tps";
+            DamageAmountTxt.gameObject.SetActive(true);
             StartCoroutine(UpdateHealthBars2());
             spotAnim.SetTrigger("disappear");
             yield return new WaitForSeconds(1);
             Spotlight1.SetActive(true);
             yield return new WaitForSeconds(2);
             attackDamage1.SetActive(false);
+            superAttackDamage1.SetActive(false);
+            XNumberTxt.gameObject.SetActive(false);
+            DamageAmountTxt.gameObject.SetActive(false);
             questionNum++;
             RemoveAllAnswersUI();
             SetNormalSpritesAll();
@@ -354,6 +411,12 @@ namespace MathFighter.Scenes
                 yield return new WaitForSeconds(1);
                 //player2.SetActive(false);
                 animator1.SetTrigger("win");
+                yield return new WaitForSeconds(5);
+                if (settings.playerNum2 < 5)
+                {
+                    settings.playerNum2++;
+                    SceneManager.LoadScene("VSScene");
+                }
             }
         }
         private IEnumerator ShowQuestionTitle()
@@ -374,11 +437,11 @@ namespace MathFighter.Scenes
 
             MathTextRenderer mathTextRenderer = new MathTextRenderer();
 
-            QuestionBar.GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Question);
-            AnswerRawImages[0].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[0]);
-            AnswerRawImages[1].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[1]);
-            AnswerRawImages[2].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[2]);
-            AnswerRawImages[3].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[3]);
+            //QuestionBar.GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Question);
+            //AnswerRawImages[0].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[0]);
+            //AnswerRawImages[1].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[1]);
+            //AnswerRawImages[2].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[2]);
+            //AnswerRawImages[3].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[3]);
 
 
 
@@ -398,22 +461,35 @@ namespace MathFighter.Scenes
         private IEnumerator DrawSpotlightGreen()
         {
             //SpotlightGreen.gameObject.SetActive(true);
+            
+
+            // Display Correct Status
+            Correct1.gameObject.SetActive(true);
+
+            // Display Spotlight Green
             Animator spotAnim = SpotlightGreen.GetComponent<Animator>();
             spotAnim.SetTrigger("appear");
             yield return new WaitForSeconds(2);
+
+            // Disappear Spotlight Green
             spotAnim.SetTrigger("disappear");
             Spotlight1.SetActive(true);
+
+            Correct1.gameObject.SetActive(false);
+            XNumberTxt.gameObject.SetActive(false);
             //SpotlightGreen.gameObject.SetActive(false);
         }
 
         private IEnumerator DrawSpotlightRed()
         {
             //SpotlightRed.gameObject.SetActive(true);
+            Wrong1.gameObject.SetActive(true);
             Animator spotAnim = SpotlightRed.GetComponent<Animator>();
             spotAnim.SetTrigger("appear");
             yield return new WaitForSeconds(2);
             spotAnim.SetTrigger("disappear");
             Spotlight1.SetActive(true);
+            Wrong1.gameObject.SetActive(false);
             //SpotlightRed.gameObject.SetActive(false);
         }
 

@@ -231,7 +231,6 @@ namespace MathFighter.GamePlay
             // and some of which are special strings.
             List<string> words = new List<string>();
 
-            Debug.Log("Seg: " + text);
             foreach (string seg in segments)
             {
                 // if it's a special string then just treat it as a 'word'

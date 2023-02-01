@@ -202,25 +202,25 @@ namespace MathFighter.GamePlay
 
             Material fontMat = font.material;
             Texture2D fontTx = (Texture2D)fontMat.mainTexture;
-
             int x, y, w, h;
             int posX = 10;
 
             for (int i = 0; i < cText.Length; i++)
             {
-                font.GetCharacterInfo(cText[i], out ci, 32);
+                bool isCharacter = font.GetCharacterInfo(cText[i], out ci);
 
                 x = (int)((float)fontTx.width * ci.uvBottomLeft.x);
                 y = (int)((float)fontTx.height * ci.uvTopLeft.y);
-                w = (int)((float)fontTx.width * (ci.uvBottomRight.x - ci.uvBottomRight.x));
+                w = (int)((float)fontTx.width * (ci.uvBottomRight.x - ci.uvBottomLeft.x));
                 h = (int)((float)fontTx.height * (-(ci.uvTopLeft.y - ci.uvBottomLeft.y)));
 
                 Color[] cChar = fontTx.GetPixels(x, y, w, h);
-                Debug.Log("_texture: " + _texture);
-                _texture.SetPixels(posX, 10, w, h, cChar);
 
-                posX += (int)ci.width;
+                _texture.SetPixels(posX, 10, w, h, cChar);
+                posX += (int)(ci.uvBottomRight.x - ci.uvBottomLeft.x);
+                Debug.Log(i + "posX: " + posX + ", W: " + (ci.uvBottomRight.x - ci.uvBottomLeft.x));
             }
+            _texture.Apply();
         }
         /// <summary>
         /// Call this to put the rendered texture in the LRT's Texture property so it can actually be used

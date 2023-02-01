@@ -137,7 +137,7 @@ TextureImporter:
       name: Einstein - Taunt_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 69
         y: 920
         width: 290
         height: 349
@@ -160,7 +160,7 @@ TextureImporter:
         serializedVersion: 2
         x: 441
         y: 920
-        width: 311
+        width: 432
         height: 347
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -181,7 +181,7 @@ TextureImporter:
         serializedVersion: 2
         x: 12
         y: 480
-        width: 301
+        width: 415
         height: 347
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -202,7 +202,7 @@ TextureImporter:
         serializedVersion: 2
         x: 441
         y: 480
-        width: 301
+        width: 432
         height: 347
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -223,7 +223,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1
         y: 40
-        width: 296
+        width: 426
         height: 347
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -244,7 +244,7 @@ TextureImporter:
         serializedVersion: 2
         x: 441
         y: 40
-        width: 296
+        width: 426
         height: 347
       alignment: 7
       pivot: {x: 0.5, y: 0}
