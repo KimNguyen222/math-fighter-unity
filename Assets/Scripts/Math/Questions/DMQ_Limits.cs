@@ -96,7 +96,7 @@ namespace MathFighter.Math.Questions
 
             // choose and evaluate a template
             QuestionAnswerIntegerTemplate template = _qaTemplates[_rnd.Next(0, _qaTemplates.Length)];
-            //template.EvaluateTemplate();
+            template.EvaluateTemplate();
 
             // create the question
             string[] questionParts = template.Question.Split('#');

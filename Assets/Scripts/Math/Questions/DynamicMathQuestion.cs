@@ -214,21 +214,21 @@ namespace MathFighter.Math.Questions
                 _customInfo = customInfo;
             }
 
-            //public void EvaluateTemplate()
-            //{
-            //    // process each var calculation expression in turn building up a list of vars
-            //    int count = _varsCalc.Length;
-            //    _vars = new string[count];
+            public void EvaluateTemplate()
+            {
+                // process each var calculation expression in turn building up a list of vars
+                int count = _varsCalc.Length;
+                _vars = new string[count];
 
-            //    for (int i = 0; i < count; i++)
-            //    {
-            //        // ...substitute any vars already calculated into the expression and evaluate it to get the next var
-            //        _vars[i] = ((int)(MathExpression.Parse(DoSubstitution(_varsCalc[i])).Evaluate().Value)).ToString();
-            //    }
+                for (int i = 0; i < count; i++)
+                {
+                    // ...substitute any vars already calculated into the expression and evaluate it to get the next var
+                    _vars[i] = ((int)(MathExpression.Parse(DoSubstitution(_varsCalc[i])).Evaluate().Value)).ToString();
+                }
 
-            //    // now we can substitute the answer terms and all vars into the question template
-            //    _question = DoSubstitution(_questionTemplate);
-            //}
+                // now we can substitute the answer terms and all vars into the question template
+                _question = DoSubstitution(_questionTemplate);
+            }
 
             private string DoSubstitution(string targetString)
             {

@@ -11,10 +11,8 @@ namespace MathFighter.Core
         private int soundsVolume;
         private AudioSource m_BackgroundMusic;
 
-        [SerializeField]
-        public Text m_MusicText;
-        [SerializeField]
-        public Text m_SoundsText;
+        public UnityEngine.UI.Text m_MusicText;
+        public UnityEngine.UI.Text m_SoundsText;
         // Start is called before the first frame update
         void Start()
         {

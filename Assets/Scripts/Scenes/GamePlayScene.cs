@@ -1,4 +1,5 @@
 using MathFighter.GamePlay;
+using MathFighter.Math;
 using MathFighter.Math.Categories;
 using MathFighter.Math.Questions;
 using System.Collections;
@@ -36,6 +37,8 @@ namespace MathFighter.Scenes
         [SerializeField]
         private TMP_Text QuestionTitle;
         [SerializeField]
+        private GameObject QuestionBar;
+        [SerializeField]
         private TMP_Text QuestionCat;
         [SerializeField]
         private TMP_Text QuestionNum;
@@ -53,6 +56,10 @@ namespace MathFighter.Scenes
         private GameObject HintPanel;
         [SerializeField]
         private TMP_Text HintText;
+        [SerializeField]
+        private SpriteRenderer SpotlightGreen;
+        [SerializeField]
+        private SpriteRenderer SpotlightRed;
 
         /******** Additional Buttons  **********/
         [SerializeField]
@@ -73,7 +80,6 @@ namespace MathFighter.Scenes
         private TMP_Text XNumber;
 
         /******** Public List Objects **********/
-        public List<GameObject> SpotlightGreenRedPrefab;
         public List<Sprite> _backgrounds;
         public List<Sprite> _normalSprites;
         public List<Sprite> _correctSprites;
@@ -86,9 +92,12 @@ namespace MathFighter.Scenes
 
         public List<TMP_Text> ContentTexts;
         public List<Image> AnswerButtons;
+        public List<RawImage> AnswerRawImages;
 
+        /******** Private List Objects **********/
         private List<GameObject> spotlights;
         private GamePlaySettings settings;
+        private List<Texture2D> mathTextures;
 
         /********* Game Play *********/
         private GameObject player1;
@@ -168,12 +177,19 @@ namespace MathFighter.Scenes
             SetEnvironment();
             GetReady.gameObject.SetActive(true);
             animGetReady = GetReady.GetComponent<Animator>();
+
+            MathExpression.RegisterDefaultOperators();
             MathQuestion.LoadData();
             settings.CreateNewDealer();
             question = settings.Dealer.GetQuestion();
 
             currentTime = maxTime;
             UpdateTimer();
+            mathTextures = new List<Texture2D>();
+            for (int i = 0; i < 5; i ++)
+            {
+                mathTextures.Add(new Texture2D(100, 100));
+            }
         }
         // Update is called once per frame
         void Update()
@@ -202,10 +218,9 @@ namespace MathFighter.Scenes
                     question = settings.Dealer.GetQuestion();
                     SetNormalSpritesAll();
                     AnswerButtons[anserIndex].sprite = _correctSprites[anserIndex];
+                    //StartCoroutine(DrawSpotlightGreen());
                     //StartCoroutine(RemoveSpotlightGreenRed());
-                    Spotlight1.SetActive(false);
                     isTimer = false;
-                    StartCoroutine(DrawSpotlightGreenRed(0));
                     StartCoroutine(Attack());
                     //Spotlight1.SetActive(true);
                 }
@@ -214,7 +229,7 @@ namespace MathFighter.Scenes
                     SetNormalSpritesAll();
                     //StartCoroutine(RemoveSpotlightGreenRed());
                     Spotlight1.SetActive(false);
-                    StartCoroutine(DrawSpotlightGreenRed(1));
+                    StartCoroutine(DrawSpotlightRed());
                     AnswerButtons[anserIndex].sprite = _wrongSprites[anserIndex];
                 }
             }
@@ -270,6 +285,7 @@ namespace MathFighter.Scenes
             if (!isQuestionShown)
             {
                 isTimer = false;
+                if (question.LevelName == null) return;
                 StartCoroutine(ShowQuestionTitle());
             }
 
@@ -290,13 +306,18 @@ namespace MathFighter.Scenes
             animGetReady.SetTrigger("Appear");
             yield return new WaitForSeconds(2);
             animGetReady.SetTrigger("Disappear");
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(1);
             isReady = true;
             gameplay = true;
         }
 
         private IEnumerator Attack()
         {
+           
+            Animator spotAnim = SpotlightGreen.GetComponent<Animator>();
+            spotAnim.SetTrigger("appear");
+            Spotlight1.SetActive(false);
+            yield return new WaitForSeconds(2);
             animator1.SetTrigger("attack");
             yield return new WaitForSeconds(1f);
             animator2.SetTrigger("takingDamage");
@@ -304,6 +325,9 @@ namespace MathFighter.Scenes
             attackAnim1.SetTrigger("attackDamage");
 
             StartCoroutine(UpdateHealthBars2());
+            spotAnim.SetTrigger("disappear");
+            yield return new WaitForSeconds(1);
+            Spotlight1.SetActive(true);
             yield return new WaitForSeconds(2);
             attackDamage1.SetActive(false);
             questionNum++;
@@ -320,7 +344,6 @@ namespace MathFighter.Scenes
                     (1 - HealthBar2.fillAmount) * HealthBar2.rectTransform.rect.width, HealthBar2.transform.localPosition.y, 
                     HealthBar2.transform.localPosition.z);
                 HealthBar2.color = new Color(1, HealthBar2.fillAmount, 0, 1);
-                Debug.Log(HealthBar2.transform.localPosition);
                 yield return new WaitForSeconds(0.1f);
             }
             energy2 -= damage;
@@ -329,7 +352,7 @@ namespace MathFighter.Scenes
                 gameplay = false;
                 animator2.SetTrigger("lose");
                 yield return new WaitForSeconds(1);
-                player2.SetActive(false);
+                //player2.SetActive(false);
                 animator1.SetTrigger("win");
             }
         }
@@ -339,7 +362,7 @@ namespace MathFighter.Scenes
             QuestionNum.text = "Question " + questionNum;
             QuestionCat.text = question.LevelName;
             Grade.text = question.CatName;
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
             QuestionUI.SetActive(false);
             currentTime = maxTime;
             isTimer = true;
@@ -349,35 +372,49 @@ namespace MathFighter.Scenes
             ContentTexts[2].text = question.Answers[2];
             ContentTexts[3].text = question.Answers[3];
 
+            MathTextRenderer mathTextRenderer = new MathTextRenderer();
+
+            QuestionBar.GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Question);
+            AnswerRawImages[0].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[0]);
+            AnswerRawImages[1].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[1]);
+            AnswerRawImages[2].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[2]);
+            AnswerRawImages[3].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[3]);
+
+
+
             isQuestionShown = true;
         }
-        private IEnumerator DrawSpotlightGreenRed(int mode)
+
+
+        //private void OnGUI()
+        //{
+        //    Debug.Log("MathTextures Length: " + mathTextures.Count);
+        //    GUI.DrawTexture(ContentTexts[0].rectTransform.rect, mathTextures[0]);
+        //    GUI.DrawTexture(ContentTexts[1].rectTransform.rect, mathTextures[1]);
+        //    GUI.DrawTexture(ContentTexts[2].rectTransform.rect, mathTextures[2]);
+        //    GUI.DrawTexture(ContentTexts[3].rectTransform.rect, mathTextures[3]);
+        //    GUI.DrawTexture(ContentTexts[4].rectTransform.rect, mathTextures[4]);
+        //}
+        private IEnumerator DrawSpotlightGreen()
         {
-            for (int i = 0; i < 7; i++)
-            {
-                GameObject spotlight = Instantiate(SpotlightGreenRedPrefab[mode], new Vector3(0, 0, 0), Quaternion.Euler(0f, 180f, 0f));
-                spotlight.transform.SetParent(SpotlightUI.transform);
-                spotlight.transform.localPosition = new Vector3(0f, -550, 0f);
-                spotlight.transform.localScale = new Vector3(1, 1, 0f);
-                spotlight.transform.localRotation = Quaternion.identity;
-                spotlight.transform.Rotate(0, 0, 10.5f * (i + 1), Space.Self);
-                spotlights.Add(spotlight);
-                yield return new WaitForSeconds(0.02f);
-            }
+            //SpotlightGreen.gameObject.SetActive(true);
+            Animator spotAnim = SpotlightGreen.GetComponent<Animator>();
+            spotAnim.SetTrigger("appear");
             yield return new WaitForSeconds(2);
-            StartCoroutine(RemoveSpotlightGreenRed());
-            //SpotlightGreenRed.AddComponent<MeshFilter>();
-            //SpotlightGreenRed.AddComponent<MeshRenderer>();
-            //Mesh mesh = SpotlightGreenRed.GetComponent<MeshFilter>().mesh;
-            //mesh.Clear();
-            //mesh.vertices = new Vector3[] { new Vector3(0, 0, 0), new Vector3(0, 1000, 0), new Vector3(1000, 1000, 0) };
-            //mesh.uv = new Vector2[] { new Vector2(0, 0), new Vector2(0, 1000), new Vector2(1000, 1000) };
-            //mesh.triangles = new int[] { 0, 1, 2 };
+            spotAnim.SetTrigger("disappear");
+            Spotlight1.SetActive(true);
+            //SpotlightGreen.gameObject.SetActive(false);
+        }
 
-            //Color[] colors = Enumerable.Repeat(Color.green, mesh.vertices.Length).ToArray();
-            //mesh.colors = colors;
-            //Debug.Log("Draw");
-
+        private IEnumerator DrawSpotlightRed()
+        {
+            //SpotlightRed.gameObject.SetActive(true);
+            Animator spotAnim = SpotlightRed.GetComponent<Animator>();
+            spotAnim.SetTrigger("appear");
+            yield return new WaitForSeconds(2);
+            spotAnim.SetTrigger("disappear");
+            Spotlight1.SetActive(true);
+            //SpotlightRed.gameObject.SetActive(false);
         }
 
         private IEnumerator RemoveSpotlightGreenRed()

@@ -137,9 +137,9 @@ TextureImporter:
       name: Einstein - Taunt_0
       rect:
         serializedVersion: 2
-        x: 128
+        x: 19
         y: 920
-        width: 181
+        width: 290
         height: 349
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -158,9 +158,9 @@ TextureImporter:
       name: Einstein - Taunt_1
       rect:
         serializedVersion: 2
-        x: 469
+        x: 441
         y: 920
-        width: 284
+        width: 311
         height: 347
       alignment: 7
       pivot: {x: 0.5, y: 0}

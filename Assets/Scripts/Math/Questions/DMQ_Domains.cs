@@ -75,7 +75,7 @@ namespace MathFighter.Math.Questions
             // choose and evaluate a template
             //QuestionAnswerIntegerTemplate template = _qaTemplates[3];
             QuestionAnswerIntegerTemplate template = _qaTemplates[_rnd.Next(0, _qaTemplates.Length)];
-            //template.EvaluateTemplate();
+            template.EvaluateTemplate();
             
             // create the question
             content[0] = "@height{0.8}#What is not in the Domain of#" + WrapMathString(template.Question);

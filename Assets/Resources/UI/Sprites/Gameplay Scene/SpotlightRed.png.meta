@@ -23,6 +23,33 @@ TextureImporter:
   - first:
       213: 9002961369366355088
     second: SpotlightRed_6
+  - first:
+      213: -4268406341626661876
+    second: SpotlightRed_7
+  - first:
+      213: 9057821113015291297
+    second: SpotlightRed_8
+  - first:
+      213: 1003738224233729434
+    second: SpotlightRed_9
+  - first:
+      213: 2402862537961369206
+    second: SpotlightRed_10
+  - first:
+      213: 4204947359212708208
+    second: SpotlightRed_11
+  - first:
+      213: -7893598271685884415
+    second: SpotlightRed_12
+  - first:
+      213: 2866008149906291484
+    second: SpotlightRed_13
+  - first:
+      213: -8733553691283590489
+    second: SpotlightRed_14
+  - first:
+      213: 89060694602099341
+    second: SpotlightRed_15
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -116,12 +143,12 @@ TextureImporter:
       name: SpotlightRed_0
       rect:
         serializedVersion: 2
-        x: 142
-        y: 786
-        width: 99
-        height: 224
+        x: 0
+        y: 773
+        width: 251
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -137,12 +164,12 @@ TextureImporter:
       name: SpotlightRed_1
       rect:
         serializedVersion: 2
-        x: 364
-        y: 786
-        width: 140
-        height: 224
+        x: 251
+        y: 773
+        width: 251
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,12 +185,12 @@ TextureImporter:
       name: SpotlightRed_2
       rect:
         serializedVersion: 2
-        x: 570
-        y: 785
-        width: 173
-        height: 224
+        x: 502
+        y: 773
+        width: 249
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,12 +206,12 @@ TextureImporter:
       name: SpotlightRed_3
       rect:
         serializedVersion: 2
-        x: 782
-        y: 784
-        width: 201
-        height: 224
+        x: 753
+        y: 773
+        width: 249
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,12 +227,12 @@ TextureImporter:
       name: SpotlightRed_4
       rect:
         serializedVersion: 2
-        x: 23
-        y: 547
-        width: 219
-        height: 224
+        x: 0
+        y: 522
+        width: 251
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,12 +248,12 @@ TextureImporter:
       name: SpotlightRed_5
       rect:
         serializedVersion: 2
-        x: 274
-        y: 545
-        width: 229
-        height: 224
+        x: 251
+        y: 522
+        width: 251
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,12 +269,12 @@ TextureImporter:
       name: SpotlightRed_6
       rect:
         serializedVersion: 2
-        x: 514
-        y: 524
-        width: 230
-        height: 243
+        x: 502
+        y: 522
+        width: 249
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,6 +282,90 @@ TextureImporter:
       bones: []
       spriteID: 09c55ab6aa1f0fc70800000000000000
       internalID: 9002961369366355088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpotlightRed_7
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 522
+        width: 249
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04715a1c0393c4c0800000000000000
+      internalID: -4268406341626661876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpotlightRed_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 249
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad4f48df48d3bd70800000000000000
+      internalID: 9057821113015291297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpotlightRed_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 271
+        width: 249
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dceeec89efded00800000000000000
+      internalID: 1003738224233729434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpotlightRed_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 271
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ee7435fbea85120800000000000000
+      internalID: 2402862537961369206
       vertices: []
       indices: 
       edges: []
