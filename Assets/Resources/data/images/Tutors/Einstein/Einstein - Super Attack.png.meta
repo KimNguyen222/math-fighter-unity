@@ -124,7 +124,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -197,10 +197,10 @@ TextureImporter:
       name: Einstein - Super Attack_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 2678
-        width: 184
-        height: 353
+        x: 0
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Einstein - Super Attack_1
       rect:
         serializedVersion: 2
-        x: 567
-        y: 2678
-        width: 184
-        height: 353
+        x: 440
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Einstein - Super Attack_2
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 2678
-        width: 184
-        height: 353
+        x: 880
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Einstein - Super Attack_3
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 2678
-        width: 184
-        height: 353
+        x: 1320
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Einstein - Super Attack_4
       rect:
         serializedVersion: 2
-        x: 127
-        y: 2239
-        width: 184
-        height: 351
+        x: 0
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Einstein - Super Attack_5
       rect:
         serializedVersion: 2
-        x: 567
-        y: 2239
-        width: 184
-        height: 351
+        x: 440
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: Einstein - Super Attack_6
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 2239
-        width: 184
-        height: 351
+        x: 880
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: Einstein - Super Attack_7
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 2239
-        width: 184
-        height: 351
+        x: 1320
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Einstein - Super Attack_8
       rect:
         serializedVersion: 2
-        x: 127
-        y: 1798
-        width: 184
-        height: 353
+        x: 0
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Einstein - Super Attack_9
       rect:
         serializedVersion: 2
-        x: 567
-        y: 1798
-        width: 184
-        height: 353
+        x: 440
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: Einstein - Super Attack_10
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 1798
-        width: 184
-        height: 353
+        x: 880
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: Einstein - Super Attack_11
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 1798
-        width: 184
-        height: 353
+        x: 1320
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: Einstein - Super Attack_12
       rect:
         serializedVersion: 2
-        x: 127
-        y: 1359
-        width: 184
-        height: 352
+        x: 0
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: Einstein - Super Attack_13
       rect:
         serializedVersion: 2
-        x: 567
-        y: 1359
-        width: 184
-        height: 352
+        x: 440
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: Einstein - Super Attack_14
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 1359
-        width: 184
-        height: 352
+        x: 880
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Einstein - Super Attack_15
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 1359
-        width: 184
-        height: 352
+        x: 1320
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: Einstein - Super Attack_16
       rect:
         serializedVersion: 2
-        x: 127
-        y: 918
-        width: 184
-        height: 353
+        x: 0
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: Einstein - Super Attack_17
       rect:
         serializedVersion: 2
-        x: 567
-        y: 918
-        width: 184
-        height: 353
+        x: 440
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: Einstein - Super Attack_18
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 918
-        width: 184
-        height: 353
+        x: 880
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: Einstein - Super Attack_19
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 918
-        width: 184
-        height: 353
+        x: 1320
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: Einstein - Super Attack_20
       rect:
         serializedVersion: 2
-        x: 127
-        y: 478
-        width: 184
-        height: 353
+        x: 0
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +638,10 @@ TextureImporter:
       name: Einstein - Super Attack_21
       rect:
         serializedVersion: 2
-        x: 567
-        y: 478
-        width: 184
-        height: 353
+        x: 440
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: Einstein - Super Attack_22
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 478
-        width: 184
-        height: 353
+        x: 880
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,10 +680,10 @@ TextureImporter:
       name: Einstein - Super Attack_23
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 478
-        width: 184
-        height: 353
+        x: 1320
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: Einstein - Super Attack_24
       rect:
         serializedVersion: 2
-        x: 127
-        y: 38
-        width: 184
-        height: 352
+        x: 0
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: Einstein - Super Attack_25
       rect:
         serializedVersion: 2
-        x: 567
-        y: 38
-        width: 184
-        height: 352
+        x: 440
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

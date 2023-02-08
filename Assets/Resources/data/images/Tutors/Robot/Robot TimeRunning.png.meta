@@ -197,10 +197,10 @@ TextureImporter:
       name: Robot TimeRunning_0
       rect:
         serializedVersion: 2
-        x: 113
-        y: 2227
-        width: 210
-        height: 311
+        x: 0
+        y: 2228
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Robot TimeRunning_1
       rect:
         serializedVersion: 2
-        x: 542
-        y: 2227
-        width: 222
-        height: 311
+        x: 440
+        y: 2228
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Robot TimeRunning_2
       rect:
         serializedVersion: 2
-        x: 971
-        y: 2227
-        width: 240
-        height: 311
+        x: 880
+        y: 2228
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Robot TimeRunning_3
       rect:
         serializedVersion: 2
-        x: 1405
-        y: 2227
-        width: 275
-        height: 311
+        x: 1320
+        y: 2228
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Robot TimeRunning_4
       rect:
         serializedVersion: 2
-        x: 1906
-        y: 2227
-        width: 172
-        height: 325
+        x: 1760
+        y: 2228
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Robot TimeRunning_5
       rect:
         serializedVersion: 2
-        x: 154
-        y: 1787
-        width: 151
-        height: 270
+        x: 0
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: Robot TimeRunning_6
       rect:
         serializedVersion: 2
-        x: 594
-        y: 1787
-        width: 150
-        height: 237
+        x: 440
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: Robot TimeRunning_7
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 1787
-        width: 151
-        height: 262
+        x: 880
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Robot TimeRunning_8
       rect:
         serializedVersion: 2
-        x: 1474
-        y: 1787
-        width: 152
-        height: 285
+        x: 1320
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Robot TimeRunning_9
       rect:
         serializedVersion: 2
-        x: 1907
-        y: 1787
-        width: 172
-        height: 293
+        x: 1760
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: Robot TimeRunning_10
       rect:
         serializedVersion: 2
-        x: 154
-        y: 1346
-        width: 153
-        height: 290
+        x: 0
+        y: 1348
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: Robot TimeRunning_11
       rect:
         serializedVersion: 2
-        x: 594
-        y: 1346
-        width: 150
-        height: 287
+        x: 440
+        y: 1348
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: Robot TimeRunning_12
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 1346
-        width: 152
-        height: 290
+        x: 880
+        y: 1348
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: Robot TimeRunning_13
       rect:
         serializedVersion: 2
-        x: 1467
-        y: 1346
-        width: 172
-        height: 294
+        x: 1320
+        y: 1348
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: Robot TimeRunning_14
       rect:
         serializedVersion: 2
-        x: 1915
-        y: 1346
-        width: 151
-        height: 290
+        x: 1760
+        y: 1348
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Robot TimeRunning_15
       rect:
         serializedVersion: 2
-        x: 154
-        y: 907
-        width: 151
-        height: 286
+        x: 0
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: Robot TimeRunning_16
       rect:
         serializedVersion: 2
-        x: 594
-        y: 907
-        width: 150
-        height: 286
+        x: 440
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: Robot TimeRunning_17
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 907
-        width: 151
-        height: 262
+        x: 880
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: Robot TimeRunning_18
       rect:
         serializedVersion: 2
-        x: 1474
-        y: 907
-        width: 151
-        height: 237
+        x: 1320
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: Robot TimeRunning_19
       rect:
         serializedVersion: 2
-        x: 1915
-        y: 907
-        width: 149
-        height: 231
+        x: 1760
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: Robot TimeRunning_20
       rect:
         serializedVersion: 2
-        x: 154
-        y: 467
-        width: 151
-        height: 230
+        x: 0
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +638,10 @@ TextureImporter:
       name: Robot TimeRunning_21
       rect:
         serializedVersion: 2
-        x: 586
-        y: 467
-        width: 172
-        height: 270
+        x: 440
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: Robot TimeRunning_22
       rect:
         serializedVersion: 2
-        x: 966
-        y: 467
-        width: 273
-        height: 325
+        x: 880
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,10 +680,10 @@ TextureImporter:
       name: Robot TimeRunning_23
       rect:
         serializedVersion: 2
-        x: 1412
-        y: 467
-        width: 238
-        height: 311
+        x: 1320
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: Robot TimeRunning_24
       rect:
         serializedVersion: 2
-        x: 1863
-        y: 467
-        width: 220
-        height: 311
+        x: 1760
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: Robot TimeRunning_25
       rect:
         serializedVersion: 2
-        x: 113
-        y: 26
-        width: 210
-        height: 311
+        x: 0
+        y: 28
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -128,10 +128,10 @@ TextureImporter:
       name: Atomic Kid - Taking Damage_0
       rect:
         serializedVersion: 2
-        x: 65
-        y: 27
-        width: 291
-        height: 349
+        x: 0
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: Atomic Kid - Taking Damage_1
       rect:
         serializedVersion: 2
-        x: 505
-        y: 27
-        width: 291
-        height: 349
+        x: 440
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: Atomic Kid - Taking Damage_2
       rect:
         serializedVersion: 2
-        x: 1025
-        y: 31
-        width: 160
-        height: 319
+        x: 880
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

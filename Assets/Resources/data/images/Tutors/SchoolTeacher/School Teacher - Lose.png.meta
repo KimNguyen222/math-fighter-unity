@@ -194,10 +194,10 @@ TextureImporter:
       name: School Teacher - Lose_0
       rect:
         serializedVersion: 2
-        x: 174
+        x: 0
         y: 1795
-        width: 106
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: School Teacher - Lose_1
       rect:
         serializedVersion: 2
-        x: 534
+        x: 440
         y: 1795
-        width: 199
-        height: 348
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: School Teacher - Lose_2
       rect:
         serializedVersion: 2
-        x: 982
-        y: 1793
-        width: 198
-        height: 311
+        x: 880
+        y: 1795
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: School Teacher - Lose_3
       rect:
         serializedVersion: 2
-        x: 1426
-        y: 1793
-        width: 196
-        height: 280
+        x: 1320
+        y: 1795
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: School Teacher - Lose_4
       rect:
         serializedVersion: 2
-        x: 1831
-        y: 1791
-        width: 230
-        height: 282
+        x: 1760
+        y: 1795
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: School Teacher - Lose_5
       rect:
         serializedVersion: 2
-        x: 106
-        y: 1345
-        width: 219
-        height: 268
+        x: 0
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +320,10 @@ TextureImporter:
       name: School Teacher - Lose_6
       rect:
         serializedVersion: 2
-        x: 546
-        y: 1345
-        width: 253
-        height: 264
+        x: 440
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +341,10 @@ TextureImporter:
       name: School Teacher - Lose_7
       rect:
         serializedVersion: 2
-        x: 986
-        y: 1342
-        width: 218
-        height: 267
+        x: 880
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,10 +362,10 @@ TextureImporter:
       name: School Teacher - Lose_8
       rect:
         serializedVersion: 2
-        x: 1419
-        y: 1342
-        width: 215
-        height: 258
+        x: 1320
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,10 +383,10 @@ TextureImporter:
       name: School Teacher - Lose_9
       rect:
         serializedVersion: 2
-        x: 1886
-        y: 1342
-        width: 193
-        height: 254
+        x: 1760
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: School Teacher - Lose_10
       rect:
         serializedVersion: 2
-        x: 161
-        y: 902
-        width: 139
-        height: 258
+        x: 0
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,10 +425,10 @@ TextureImporter:
       name: School Teacher - Lose_11
       rect:
         serializedVersion: 2
-        x: 592
-        y: 902
-        width: 123
-        height: 267
+        x: 440
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: School Teacher - Lose_12
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 902
-        width: 136
-        height: 350
+        x: 880
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,10 +467,10 @@ TextureImporter:
       name: School Teacher - Lose_13
       rect:
         serializedVersion: 2
-        x: 1451
-        y: 902
-        width: 158
-        height: 319
+        x: 1320
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,10 +488,10 @@ TextureImporter:
       name: School Teacher - Lose_14
       rect:
         serializedVersion: 2
-        x: 1827
-        y: 902
-        width: 277
-        height: 319
+        x: 1760
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,10 +509,10 @@ TextureImporter:
       name: School Teacher - Lose_15
       rect:
         serializedVersion: 2
-        x: 150
-        y: 462
-        width: 132
-        height: 318
+        x: 0
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,10 +530,10 @@ TextureImporter:
       name: School Teacher - Lose_16
       rect:
         serializedVersion: 2
-        x: 590
-        y: 462
-        width: 131
-        height: 318
+        x: 440
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,10 +551,10 @@ TextureImporter:
       name: School Teacher - Lose_17
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 462
-        width: 120
-        height: 319
+        x: 880
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,10 +572,10 @@ TextureImporter:
       name: School Teacher - Lose_18
       rect:
         serializedVersion: 2
-        x: 1475
-        y: 462
-        width: 121
-        height: 319
+        x: 1320
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,10 +593,10 @@ TextureImporter:
       name: School Teacher - Lose_19
       rect:
         serializedVersion: 2
-        x: 1909
-        y: 462
-        width: 134
-        height: 319
+        x: 1760
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,10 +614,10 @@ TextureImporter:
       name: School Teacher - Lose_20
       rect:
         serializedVersion: 2
-        x: 150
-        y: 22
-        width: 132
-        height: 319
+        x: 0
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +635,10 @@ TextureImporter:
       name: School Teacher - Lose_21
       rect:
         serializedVersion: 2
-        x: 596
-        y: 22
-        width: 120
-        height: 319
+        x: 440
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: School Teacher - Lose_22
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 22
-        width: 120
-        height: 319
+        x: 880
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -677,10 +677,10 @@ TextureImporter:
       name: School Teacher - Lose_23
       rect:
         serializedVersion: 2
-        x: 1470
-        y: 22
-        width: 132
-        height: 319
+        x: 1320
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,10 +698,10 @@ TextureImporter:
       name: School Teacher - Lose_24
       rect:
         serializedVersion: 2
-        x: 1909
-        y: 22
-        width: 134
-        height: 319
+        x: 1760
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

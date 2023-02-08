@@ -24,6 +24,7 @@ namespace MathFighter.Math.Views
 
         protected LogicalRenderTexture AssembleComponentTextures(float spacing, LogicalRenderTexture leftParamTexture, LogicalRenderTexture rightParamTexture)
         {
+            Debug.Log("AssembleComponentTextures: " + leftParamTexture.ToString() + "," + rightParamTexture.ToString());
             // work out texture size
             float w = leftParamTexture.Width + spacing + rightParamTexture.Width;
             float h = leftParamTexture.Height;

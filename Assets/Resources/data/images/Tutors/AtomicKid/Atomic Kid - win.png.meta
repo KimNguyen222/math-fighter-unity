@@ -179,10 +179,10 @@ TextureImporter:
       name: Atomic Kid - win_0
       rect:
         serializedVersion: 2
-        x: 144
+        x: 0
         y: 1350
-        width: 162
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Atomic Kid - win_1
       rect:
         serializedVersion: 2
-        x: 584
+        x: 440
         y: 1350
-        width: 174
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: Atomic Kid - win_2
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 880
         y: 1350
-        width: 174
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: Atomic Kid - win_3
       rect:
         serializedVersion: 2
-        x: 1464
+        x: 1320
         y: 1350
-        width: 174
-        height: 312
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: Atomic Kid - win_4
       rect:
         serializedVersion: 2
-        x: 1906
+        x: 1760
         y: 1350
-        width: 175
-        height: 312
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: Atomic Kid - win_5
       rect:
         serializedVersion: 2
-        x: 146
+        x: 0
         y: 910
-        width: 182
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: Atomic Kid - win_6
       rect:
         serializedVersion: 2
-        x: 586
+        x: 440
         y: 910
-        width: 181
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Atomic Kid - win_7
       rect:
         serializedVersion: 2
-        x: 1017
+        x: 880
         y: 910
-        width: 191
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: Atomic Kid - win_8
       rect:
         serializedVersion: 2
-        x: 1443
-        y: 914
-        width: 205
-        height: 296
+        x: 1320
+        y: 910
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: Atomic Kid - win_9
       rect:
         serializedVersion: 2
-        x: 1889
-        y: 914
-        width: 198
-        height: 306
+        x: 1760
+        y: 910
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +389,10 @@ TextureImporter:
       name: Atomic Kid - win_10
       rect:
         serializedVersion: 2
-        x: 121
-        y: 486
-        width: 229
-        height: 331
+        x: 0
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: Atomic Kid - win_11
       rect:
         serializedVersion: 2
-        x: 559
-        y: 505
-        width: 240
-        height: 360
+        x: 440
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +431,10 @@ TextureImporter:
       name: Atomic Kid - win_12
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 505
-        width: 236
-        height: 358
+        x: 880
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +452,10 @@ TextureImporter:
       name: Atomic Kid - win_13
       rect:
         serializedVersion: 2
-        x: 1439
-        y: 505
-        width: 239
-        height: 356
+        x: 1320
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,10 +473,10 @@ TextureImporter:
       name: Atomic Kid - win_14
       rect:
         serializedVersion: 2
-        x: 1880
-        y: 505
-        width: 238
-        height: 354
+        x: 1760
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,10 +494,10 @@ TextureImporter:
       name: Atomic Kid - win_15
       rect:
         serializedVersion: 2
-        x: 119
-        y: 65
-        width: 239
-        height: 352
+        x: 0
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,10 +515,10 @@ TextureImporter:
       name: Atomic Kid - win_16
       rect:
         serializedVersion: 2
-        x: 559
-        y: 65
-        width: 239
-        height: 355
+        x: 440
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: Atomic Kid - win_17
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 65
-        width: 237
-        height: 356
+        x: 880
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,10 +557,10 @@ TextureImporter:
       name: Atomic Kid - win_18
       rect:
         serializedVersion: 2
-        x: 1439
-        y: 64
-        width: 240
-        height: 359
+        x: 1320
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
       name: Atomic Kid - win_19
       rect:
         serializedVersion: 2
-        x: 1881
-        y: 65
-        width: 236
-        height: 360
+        x: 1760
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -146,10 +146,10 @@ TextureImporter:
       name: CaveMan timeRunningOut_0
       rect:
         serializedVersion: 2
-        x: 126
+        x: 0
         y: 916
-        width: 280
-        height: 402
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,10 +167,10 @@ TextureImporter:
       name: CaveMan timeRunningOut_1
       rect:
         serializedVersion: 2
-        x: 524
+        x: 440
         y: 916
-        width: 347
-        height: 394
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: CaveMan timeRunningOut_2
       rect:
         serializedVersion: 2
-        x: 126
+        x: 0
         y: 476
-        width: 280
-        height: 401
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: CaveMan timeRunningOut_3
       rect:
         serializedVersion: 2
-        x: 581
+        x: 440
         y: 476
-        width: 292
-        height: 374
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: CaveMan timeRunningOut_4
       rect:
         serializedVersion: 2
-        x: 680
-        y: 829
-        width: 28
-        height: 26
+        x: 0
+        y: 36
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: CaveMan timeRunningOut_5
       rect:
         serializedVersion: 2
-        x: 713
-        y: 844
-        width: 36
-        height: 26
+        x: 440
+        y: 36
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,69 +264,6 @@ TextureImporter:
       bones: []
       spriteID: e92b749b5b3735800800000000000000
       internalID: 599950399705166494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CaveMan timeRunningOut_6
-      rect:
-        serializedVersion: 2
-        x: 756
-        y: 810
-        width: 57
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42e3344512dfe9b10800000000000000
-      internalID: 1990306404933778980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CaveMan timeRunningOut_7
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 36
-        width: 280
-        height: 402
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cb8a313acbc64ff0800000000000000
-      internalID: -52130276398429247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CaveMan timeRunningOut_8
-      rect:
-        serializedVersion: 2
-        x: 524
-        y: 36
-        width: 347
-        height: 394
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e3402d70a6bc8840800000000000000
-      internalID: 5227754067880592354
       vertices: []
       indices: 
       edges: []

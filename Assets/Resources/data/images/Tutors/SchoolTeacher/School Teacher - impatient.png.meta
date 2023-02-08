@@ -167,10 +167,10 @@ TextureImporter:
       name: School Teacher - impatient_0
       rect:
         serializedVersion: 2
-        x: 175
-        y: 1356
-        width: 104
-        height: 373
+        x: 0
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: School Teacher - impatient_1
       rect:
         serializedVersion: 2
-        x: 615
-        y: 1356
-        width: 104
-        height: 373
+        x: 440
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: School Teacher - impatient_2
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 1356
-        width: 104
-        height: 373
+        x: 880
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: School Teacher - impatient_3
       rect:
         serializedVersion: 2
-        x: 1495
-        y: 1356
-        width: 104
-        height: 373
+        x: 1320
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: School Teacher - impatient_4
       rect:
         serializedVersion: 2
-        x: 175
-        y: 916
-        width: 104
-        height: 373
+        x: 0
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: School Teacher - impatient_5
       rect:
         serializedVersion: 2
-        x: 615
-        y: 916
-        width: 104
-        height: 373
+        x: 440
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,10 +293,10 @@ TextureImporter:
       name: School Teacher - impatient_6
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 916
-        width: 104
-        height: 373
+        x: 880
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: School Teacher - impatient_7
       rect:
         serializedVersion: 2
-        x: 1495
-        y: 916
-        width: 104
-        height: 373
+        x: 1320
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +335,10 @@ TextureImporter:
       name: School Teacher - impatient_8
       rect:
         serializedVersion: 2
-        x: 175
-        y: 476
-        width: 104
-        height: 373
+        x: 0
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +356,10 @@ TextureImporter:
       name: School Teacher - impatient_9
       rect:
         serializedVersion: 2
-        x: 615
-        y: 476
-        width: 104
-        height: 373
+        x: 440
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,10 +377,10 @@ TextureImporter:
       name: School Teacher - impatient_10
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 476
-        width: 104
-        height: 373
+        x: 880
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,10 +398,10 @@ TextureImporter:
       name: School Teacher - impatient_11
       rect:
         serializedVersion: 2
-        x: 1495
-        y: 476
-        width: 104
-        height: 373
+        x: 1320
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +419,10 @@ TextureImporter:
       name: School Teacher - impatient_12
       rect:
         serializedVersion: 2
-        x: 175
-        y: 36
-        width: 104
-        height: 373
+        x: 0
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +440,10 @@ TextureImporter:
       name: School Teacher - impatient_13
       rect:
         serializedVersion: 2
-        x: 615
-        y: 36
-        width: 104
-        height: 373
+        x: 440
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,10 +461,10 @@ TextureImporter:
       name: School Teacher - impatient_14
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 36
-        width: 104
-        height: 373
+        x: 880
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,10 +482,10 @@ TextureImporter:
       name: School Teacher - impatient_15
       rect:
         serializedVersion: 2
-        x: 1495
-        y: 36
-        width: 104
-        height: 373
+        x: 1320
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

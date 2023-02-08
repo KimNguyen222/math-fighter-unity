@@ -161,10 +161,10 @@ TextureImporter:
       name: CaveMan SuperAttack_0
       rect:
         serializedVersion: 2
-        x: 74
+        x: 0
         y: 1356
-        width: 292
-        height: 368
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: CaveMan SuperAttack_1
       rect:
         serializedVersion: 2
-        x: 557
-        y: 1355
-        width: 289
-        height: 375
+        x: 440
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: CaveMan SuperAttack_2
       rect:
         serializedVersion: 2
-        x: 967
-        y: 1399
-        width: 335
-        height: 332
+        x: 880
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: CaveMan SuperAttack_3
       rect:
         serializedVersion: 2
-        x: 1481
-        y: 1384
-        width: 229
-        height: 344
+        x: 1320
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,10 +245,10 @@ TextureImporter:
       name: CaveMan SuperAttack_4
       rect:
         serializedVersion: 2
-        x: 94
-        y: 984
-        width: 294
-        height: 317
+        x: 0
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: CaveMan SuperAttack_5
       rect:
         serializedVersion: 2
-        x: 503
-        y: 946
-        width: 305
-        height: 255
+        x: 440
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +287,10 @@ TextureImporter:
       name: CaveMan SuperAttack_6
       rect:
         serializedVersion: 2
-        x: 957
-        y: 895
-        width: 331
-        height: 299
+        x: 880
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +308,10 @@ TextureImporter:
       name: CaveMan SuperAttack_7
       rect:
         serializedVersion: 2
-        x: 1397
-        y: 895
-        width: 331
-        height: 299
+        x: 1320
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +329,10 @@ TextureImporter:
       name: CaveMan SuperAttack_8
       rect:
         serializedVersion: 2
-        x: 77
-        y: 455
-        width: 331
-        height: 299
+        x: 0
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +350,10 @@ TextureImporter:
       name: CaveMan SuperAttack_9
       rect:
         serializedVersion: 2
-        x: 517
-        y: 455
-        width: 331
-        height: 299
+        x: 440
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: CaveMan SuperAttack_10
       rect:
         serializedVersion: 2
-        x: 943
-        y: 506
-        width: 305
-        height: 255
+        x: 880
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: CaveMan SuperAttack_11
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 490
-        width: 294
-        height: 317
+        x: 1320
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +413,10 @@ TextureImporter:
       name: CaveMan SuperAttack_12
       rect:
         serializedVersion: 2
-        x: 117
-        y: 35
-        width: 289
-        height: 375
+        x: 0
+        y: 36
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +434,10 @@ TextureImporter:
       name: CaveMan SuperAttack_13
       rect:
         serializedVersion: 2
-        x: 514
+        x: 440
         y: 36
-        width: 292
-        height: 368
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

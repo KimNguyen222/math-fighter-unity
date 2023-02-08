@@ -134,10 +134,10 @@ TextureImporter:
       name: School Teacher - Freeze_0
       rect:
         serializedVersion: 2
-        x: 175
-        y: 916
-        width: 104
-        height: 373
+        x: 0
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: School Teacher - Freeze_1
       rect:
         serializedVersion: 2
-        x: 615
-        y: 916
-        width: 104
-        height: 373
+        x: 440
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: School Teacher - Freeze_2
       rect:
         serializedVersion: 2
-        x: 175
-        y: 476
-        width: 104
-        height: 373
+        x: 0
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: School Teacher - Freeze_3
       rect:
         serializedVersion: 2
-        x: 615
-        y: 476
-        width: 104
-        height: 373
+        x: 440
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: School Teacher - Freeze_4
       rect:
         serializedVersion: 2
-        x: 175
-        y: 36
-        width: 104
-        height: 373
+        x: 0
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

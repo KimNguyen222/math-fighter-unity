@@ -114,7 +114,7 @@ namespace MathFighter.Math
             return currentNode;
         }
 
-        public override MathFighter.Math.Views.MathElementView GenerateView(float charHeight, float spacing, Font font)
+        public override MathElementView GenerateView(float charHeight, float spacing, Font font)
         {
             return new MathOperatorAddView(this, charHeight, spacing, font);
         }

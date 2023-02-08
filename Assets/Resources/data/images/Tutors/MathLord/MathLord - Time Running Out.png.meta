@@ -94,7 +94,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -167,10 +167,10 @@ TextureImporter:
       name: MathLord - Time Running Out_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1358
-        width: 162
-        height: 365
+        x: 0
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: MathLord - Time Running Out_1
       rect:
         serializedVersion: 2
-        x: 557
-        y: 1358
-        width: 189
-        height: 362
+        x: 440
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: MathLord - Time Running Out_2
       rect:
         serializedVersion: 2
-        x: 982
-        y: 1358
-        width: 204
-        height: 362
+        x: 880
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: MathLord - Time Running Out_3
       rect:
         serializedVersion: 2
-        x: 1417
-        y: 1358
-        width: 209
-        height: 362
+        x: 1320
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: MathLord - Time Running Out_4
       rect:
         serializedVersion: 2
-        x: 110
-        y: 918
-        width: 196
-        height: 362
+        x: 0
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: MathLord - Time Running Out_5
       rect:
         serializedVersion: 2
-        x: 550
-        y: 918
-        width: 196
-        height: 362
+        x: 440
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,10 +293,10 @@ TextureImporter:
       name: MathLord - Time Running Out_6
       rect:
         serializedVersion: 2
-        x: 977
-        y: 918
-        width: 209
-        height: 362
+        x: 880
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: MathLord - Time Running Out_7
       rect:
         serializedVersion: 2
-        x: 1422
-        y: 918
-        width: 204
-        height: 362
+        x: 1320
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +335,10 @@ TextureImporter:
       name: MathLord - Time Running Out_8
       rect:
         serializedVersion: 2
-        x: 117
-        y: 478
-        width: 189
-        height: 362
+        x: 0
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +356,10 @@ TextureImporter:
       name: MathLord - Time Running Out_9
       rect:
         serializedVersion: 2
-        x: 542
-        y: 478
-        width: 204
-        height: 362
+        x: 440
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,10 +377,10 @@ TextureImporter:
       name: MathLord - Time Running Out_10
       rect:
         serializedVersion: 2
-        x: 977
-        y: 478
-        width: 209
-        height: 362
+        x: 880
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,10 +398,10 @@ TextureImporter:
       name: MathLord - Time Running Out_11
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 478
-        width: 196
-        height: 362
+        x: 1320
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +419,10 @@ TextureImporter:
       name: MathLord - Time Running Out_12
       rect:
         serializedVersion: 2
-        x: 110
-        y: 38
-        width: 196
-        height: 362
+        x: 0
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +440,10 @@ TextureImporter:
       name: MathLord - Time Running Out_13
       rect:
         serializedVersion: 2
-        x: 537
-        y: 38
-        width: 209
-        height: 362
+        x: 440
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,10 +461,10 @@ TextureImporter:
       name: MathLord - Time Running Out_14
       rect:
         serializedVersion: 2
-        x: 982
-        y: 38
-        width: 204
-        height: 362
+        x: 880
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,10 +482,10 @@ TextureImporter:
       name: MathLord - Time Running Out_15
       rect:
         serializedVersion: 2
-        x: 1463
-        y: 38
-        width: 162
-        height: 365
+        x: 1320
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

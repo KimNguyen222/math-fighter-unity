@@ -100,7 +100,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -173,10 +173,10 @@ TextureImporter:
       name: Einstein Times Running out_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 2238
-        width: 183
-        height: 352
+        x: 0
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Einstein Times Running out_1
       rect:
         serializedVersion: 2
-        x: 567
-        y: 2238
-        width: 183
-        height: 352
+        x: 440
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: Einstein Times Running out_2
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 2238
-        width: 183
-        height: 352
+        x: 880
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: Einstein Times Running out_3
       rect:
         serializedVersion: 2
-        x: 78
-        y: 1799
-        width: 232
-        height: 352
+        x: 0
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: Einstein Times Running out_4
       rect:
         serializedVersion: 2
-        x: 549
-        y: 1799
-        width: 202
-        height: 352
+        x: 440
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: Einstein Times Running out_5
       rect:
         serializedVersion: 2
-        x: 988
-        y: 1799
-        width: 202
-        height: 352
+        x: 880
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: Einstein Times Running out_6
       rect:
         serializedVersion: 2
-        x: 109
-        y: 1359
-        width: 201
-        height: 351
+        x: 0
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +320,10 @@ TextureImporter:
       name: Einstein Times Running out_7
       rect:
         serializedVersion: 2
-        x: 549
-        y: 1359
-        width: 201
-        height: 351
+        x: 440
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +341,10 @@ TextureImporter:
       name: Einstein Times Running out_8
       rect:
         serializedVersion: 2
-        x: 988
-        y: 1359
-        width: 202
-        height: 351
+        x: 880
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,10 +362,10 @@ TextureImporter:
       name: Einstein Times Running out_9
       rect:
         serializedVersion: 2
-        x: 109
-        y: 918
-        width: 201
-        height: 352
+        x: 0
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,10 +383,10 @@ TextureImporter:
       name: Einstein Times Running out_10
       rect:
         serializedVersion: 2
-        x: 549
-        y: 918
-        width: 201
-        height: 352
+        x: 440
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: Einstein Times Running out_11
       rect:
         serializedVersion: 2
-        x: 988
-        y: 918
-        width: 202
-        height: 352
+        x: 880
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,10 +425,10 @@ TextureImporter:
       name: Einstein Times Running out_12
       rect:
         serializedVersion: 2
-        x: 109
-        y: 479
-        width: 201
-        height: 352
+        x: 0
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: Einstein Times Running out_13
       rect:
         serializedVersion: 2
-        x: 549
-        y: 479
-        width: 202
-        height: 352
+        x: 440
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,10 +467,10 @@ TextureImporter:
       name: Einstein Times Running out_14
       rect:
         serializedVersion: 2
-        x: 957
-        y: 479
-        width: 233
-        height: 352
+        x: 880
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,10 +488,10 @@ TextureImporter:
       name: Einstein Times Running out_15
       rect:
         serializedVersion: 2
-        x: 127
-        y: 39
-        width: 183
-        height: 351
+        x: 0
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,10 +509,10 @@ TextureImporter:
       name: Einstein Times Running out_16
       rect:
         serializedVersion: 2
-        x: 568
-        y: 39
-        width: 182
-        height: 351
+        x: 440
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,10 +530,10 @@ TextureImporter:
       name: Einstein Times Running out_17
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 39
-        width: 183
-        height: 351
+        x: 880
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

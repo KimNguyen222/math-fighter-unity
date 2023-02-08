@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,12 +143,12 @@ TextureImporter:
       name: Super Attack - Nuclear Blast_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 569
-        width: 409
-        height: 409
+        x: 0
+        y: 550
+        width: 440
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,12 +164,12 @@ TextureImporter:
       name: Super Attack - Nuclear Blast_1
       rect:
         serializedVersion: 2
-        x: 455
-        y: 605
-        width: 410
-        height: 409
+        x: 440
+        y: 550
+        width: 440
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,12 +185,12 @@ TextureImporter:
       name: Super Attack - Nuclear Blast_2
       rect:
         serializedVersion: 2
-        x: 902
-        y: 599
-        width: 396
-        height: 431
+        x: 880
+        y: 550
+        width: 440
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: Super Attack - Nuclear Blast_3
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 598
-        width: 396
-        height: 447
+        x: 1320
+        y: 550
+        width: 440
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,12 +227,12 @@ TextureImporter:
       name: Super Attack - Nuclear Blast_4
       rect:
         serializedVersion: 2
-        x: 22
-        y: 45
-        width: 396
-        height: 466
+        x: 0
+        y: 0
+        width: 440
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: Super Attack - Nuclear Blast_5
       rect:
         serializedVersion: 2
-        x: 462
-        y: 44
-        width: 396
-        height: 482
+        x: 440
+        y: 0
+        width: 440
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: Super Attack - Nuclear Blast_6
       rect:
         serializedVersion: 2
-        x: 902
-        y: 50
-        width: 396
-        height: 492
+        x: 880
+        y: 0
+        width: 440
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,12 +290,12 @@ TextureImporter:
       name: Super Attack - Nuclear Blast_7
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 39
-        width: 396
-        height: 504
+        x: 1320
+        y: 0
+        width: 440
+        height: 550
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -112,7 +112,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -185,10 +185,10 @@ TextureImporter:
       name: MathLord - Impatient_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1358
-        width: 162
-        height: 365
+        x: 0
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +206,10 @@ TextureImporter:
       name: MathLord - Impatient_1
       rect:
         serializedVersion: 2
-        x: 575
-        y: 1358
-        width: 171
-        height: 362
+        x: 440
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: MathLord - Impatient_2
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 1358
-        width: 181
-        height: 362
+        x: 880
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: MathLord - Impatient_3
       rect:
         serializedVersion: 2
-        x: 1439
-        y: 1358
-        width: 192
-        height: 362
+        x: 1320
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: MathLord - Impatient_4
       rect:
         serializedVersion: 2
-        x: 206
-        y: 1282
-        width: 23
-        height: 19
+        x: 0
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +290,10 @@ TextureImporter:
       name: MathLord - Impatient_5
       rect:
         serializedVersion: 2
-        x: 645
-        y: 1281
-        width: 26
-        height: 26
+        x: 440
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,10 +311,10 @@ TextureImporter:
       name: MathLord - Impatient_6
       rect:
         serializedVersion: 2
-        x: 1080
-        y: 1282
-        width: 33
-        height: 36
+        x: 880
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,10 +332,10 @@ TextureImporter:
       name: MathLord - Impatient_7
       rect:
         serializedVersion: 2
-        x: 1521
-        y: 1280
-        width: 30
-        height: 36
+        x: 1320
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,10 +353,10 @@ TextureImporter:
       name: MathLord - Impatient_8
       rect:
         serializedVersion: 2
-        x: 117
-        y: 918
-        width: 199
-        height: 362
+        x: 0
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +374,10 @@ TextureImporter:
       name: MathLord - Impatient_9
       rect:
         serializedVersion: 2
-        x: 557
-        y: 918
-        width: 199
-        height: 362
+        x: 440
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,10 +395,10 @@ TextureImporter:
       name: MathLord - Impatient_10
       rect:
         serializedVersion: 2
-        x: 997
-        y: 918
-        width: 199
-        height: 362
+        x: 880
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,10 +416,10 @@ TextureImporter:
       name: MathLord - Impatient_11
       rect:
         serializedVersion: 2
-        x: 1437
-        y: 918
-        width: 199
-        height: 362
+        x: 1320
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: MathLord - Impatient_12
       rect:
         serializedVersion: 2
-        x: 210
-        y: 854
-        width: 13
-        height: 18
+        x: 0
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: MathLord - Impatient_13
       rect:
         serializedVersion: 2
-        x: 651
-        y: 852
-        width: 10
-        height: 22
+        x: 440
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,10 +479,10 @@ TextureImporter:
       name: MathLord - Impatient_14
       rect:
         serializedVersion: 2
-        x: 117
-        y: 478
-        width: 199
-        height: 362
+        x: 880
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,10 +500,10 @@ TextureImporter:
       name: MathLord - Impatient_15
       rect:
         serializedVersion: 2
-        x: 557
-        y: 478
-        width: 199
-        height: 362
+        x: 1320
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,132 +513,6 @@ TextureImporter:
       bones: []
       spriteID: 4adae790582435d80800000000000000
       internalID: -8263187752137347676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MathLord - Impatient_16
-      rect:
-        serializedVersion: 2
-        x: 997
-        y: 478
-        width: 199
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4d8934b05906caf0800000000000000
-      internalID: -376603276613153461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MathLord - Impatient_17
-      rect:
-        serializedVersion: 2
-        x: 1437
-        y: 478
-        width: 199
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b0c0aa67689c44b0800000000000000
-      internalID: -5454817478714539854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MathLord - Impatient_18
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 38
-        width: 192
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c280acaa90a7e85f0800000000000000
-      internalID: -752529905785632724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MathLord - Impatient_19
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 38
-        width: 181
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40253ed5ffebc1300800000000000000
-      internalID: 224264085462798852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MathLord - Impatient_20
-      rect:
-        serializedVersion: 2
-        x: 1015
-        y: 38
-        width: 171
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfa4949878da6d670800000000000000
-      internalID: 8563222539127048957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MathLord - Impatient_21
-      rect:
-        serializedVersion: 2
-        x: 1463
-        y: 38
-        width: 162
-        height: 365
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f6e63e8f72e460e0800000000000000
-      internalID: -2277446474067941647
       vertices: []
       indices: 
       edges: []

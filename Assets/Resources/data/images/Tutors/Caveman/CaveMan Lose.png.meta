@@ -239,10 +239,10 @@ TextureImporter:
       name: CaveMan Lose_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1795
-        width: 294
-        height: 370
+        x: 0
+        y: 1796
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: CaveMan Lose_1
       rect:
         serializedVersion: 2
-        x: 559
-        y: 1795
-        width: 248
-        height: 370
+        x: 440
+        y: 1796
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,9 +281,9 @@ TextureImporter:
       name: CaveMan Lose_2
       rect:
         serializedVersion: 2
-        x: 1005
-        y: 1795
-        width: 242
+        x: 880
+        y: 1796
+        width: 440
         height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: CaveMan Lose_3
       rect:
         serializedVersion: 2
-        x: 1460
-        y: 1795
-        width: 232
-        height: 375
+        x: 1320
+        y: 1796
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: CaveMan Lose_4
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1355
-        width: 232
-        height: 381
+        x: 0
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: CaveMan Lose_5
       rect:
         serializedVersion: 2
-        x: 271
-        y: 1723
-        width: 39
-        height: 28
+        x: 440
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: CaveMan Lose_6
       rect:
         serializedVersion: 2
-        x: 315
-        y: 1689
-        width: 59
-        height: 68
+        x: 880
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,9 +386,9 @@ TextureImporter:
       name: CaveMan Lose_7
       rect:
         serializedVersion: 2
-        x: 565
-        y: 1355
-        width: 242
+        x: 1320
+        y: 1356
+        width: 440
         height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: CaveMan Lose_8
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1355
-        width: 247
-        height: 380
+        x: 0
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: CaveMan Lose_9
       rect:
         serializedVersion: 2
-        x: 1393
-        y: 1355
-        width: 294
-        height: 380
+        x: 440
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: CaveMan Lose_10
       rect:
         serializedVersion: 2
-        x: 73
-        y: 915
-        width: 294
-        height: 379
+        x: 880
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: CaveMan Lose_11
       rect:
         serializedVersion: 2
-        x: 513
-        y: 915
-        width: 294
-        height: 379
+        x: 1320
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: CaveMan Lose_12
       rect:
         serializedVersion: 2
-        x: 953
-        y: 915
-        width: 294
-        height: 380
+        x: 0
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: CaveMan Lose_13
       rect:
         serializedVersion: 2
-        x: 1393
-        y: 915
-        width: 294
-        height: 380
+        x: 440
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: CaveMan Lose_14
       rect:
         serializedVersion: 2
-        x: 73
-        y: 474
-        width: 294
-        height: 380
+        x: 880
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: CaveMan Lose_15
       rect:
         serializedVersion: 2
-        x: 513
-        y: 474
-        width: 294
-        height: 380
+        x: 1320
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: CaveMan Lose_16
       rect:
         serializedVersion: 2
-        x: 953
-        y: 474
-        width: 294
-        height: 381
+        x: 0
+        y: 36
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: CaveMan Lose_17
       rect:
         serializedVersion: 2
-        x: 1393
-        y: 474
-        width: 294
-        height: 381
+        x: 440
+        y: 36
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,48 +609,6 @@ TextureImporter:
       bones: []
       spriteID: 6e0f7b3346a7d7260800000000000000
       internalID: 7096963158588780774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CaveMan Lose_18
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 39
-        width: 343
-        height: 298
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d51dc40290851390800000000000000
-      internalID: -7848225410989091372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CaveMan Lose_19
-      rect:
-        serializedVersion: 2
-        x: 510
-        y: 42
-        width: 356
-        height: 170
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28aa91a68b9bc4300800000000000000
-      internalID: 237769082048981634
       vertices: []
       indices: 
       edges: []

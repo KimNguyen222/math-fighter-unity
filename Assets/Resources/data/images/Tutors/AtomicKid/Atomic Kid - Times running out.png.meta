@@ -179,10 +179,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_0
       rect:
         serializedVersion: 2
-        x: 144
+        x: 0
         y: 1350
-        width: 162
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_1
       rect:
         serializedVersion: 2
-        x: 575
+        x: 440
         y: 1350
-        width: 189
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_2
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 880
         y: 1350
-        width: 162
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_3
       rect:
         serializedVersion: 2
-        x: 1464
+        x: 1320
         y: 1350
-        width: 162
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_4
       rect:
         serializedVersion: 2
-        x: 1895
+        x: 1760
         y: 1350
-        width: 189
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_5
       rect:
         serializedVersion: 2
-        x: 119
+        x: 0
         y: 910
-        width: 232
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_6
       rect:
         serializedVersion: 2
-        x: 559
+        x: 440
         y: 910
-        width: 231
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_7
       rect:
         serializedVersion: 2
-        x: 999
+        x: 880
         y: 910
-        width: 231
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_8
       rect:
         serializedVersion: 2
-        x: 1439
+        x: 1320
         y: 910
-        width: 231
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_9
       rect:
         serializedVersion: 2
-        x: 1878
+        x: 1760
         y: 910
-        width: 232
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +389,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_10
       rect:
         serializedVersion: 2
-        x: 119
+        x: 0
         y: 470
-        width: 232
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_11
       rect:
         serializedVersion: 2
-        x: 558
+        x: 440
         y: 470
-        width: 232
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +431,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_12
       rect:
         serializedVersion: 2
-        x: 999
+        x: 880
         y: 470
-        width: 231
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +452,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_13
       rect:
         serializedVersion: 2
-        x: 1439
+        x: 1320
         y: 470
-        width: 231
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,10 +473,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_14
       rect:
         serializedVersion: 2
-        x: 1878
+        x: 1760
         y: 470
-        width: 232
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,10 +494,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_15
       rect:
         serializedVersion: 2
-        x: 136
+        x: 0
         y: 30
-        width: 188
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,10 +515,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_16
       rect:
         serializedVersion: 2
-        x: 584
+        x: 440
         y: 30
-        width: 162
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_17
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 880
         y: 30
-        width: 161
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,10 +557,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_18
       rect:
         serializedVersion: 2
-        x: 1455
+        x: 1320
         y: 30
-        width: 189
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
       name: Atomic Kid - Times running out_19
       rect:
         serializedVersion: 2
-        x: 1904
+        x: 1760
         y: 30
-        width: 162
-        height: 321
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

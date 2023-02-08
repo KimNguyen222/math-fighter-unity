@@ -155,10 +155,10 @@ TextureImporter:
       name: Robot win_0
       rect:
         serializedVersion: 2
-        x: 113
+        x: 0
         y: 908
-        width: 209
-        height: 308
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: Robot win_1
       rect:
         serializedVersion: 2
-        x: 476
+        x: 440
         y: 908
-        width: 286
-        height: 308
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Robot win_2
       rect:
         serializedVersion: 2
-        x: 911
+        x: 880
         y: 908
-        width: 291
-        height: 308
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Robot win_3
       rect:
         serializedVersion: 2
-        x: 1427
+        x: 1320
         y: 908
-        width: 215
-        height: 369
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Robot win_4
       rect:
         serializedVersion: 2
-        x: 107
+        x: 0
         y: 468
-        width: 242
-        height: 324
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Robot win_5
       rect:
         serializedVersion: 2
-        x: 547
+        x: 440
         y: 468
-        width: 242
-        height: 324
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Robot win_6
       rect:
         serializedVersion: 2
-        x: 987
+        x: 880
         y: 468
-        width: 215
-        height: 369
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Robot win_7
       rect:
         serializedVersion: 2
-        x: 1427
+        x: 1320
         y: 468
-        width: 215
-        height: 369
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: Robot win_8
       rect:
         serializedVersion: 2
-        x: 107
+        x: 0
         y: 28
-        width: 215
-        height: 369
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: Robot win_9
       rect:
         serializedVersion: 2
-        x: 471
+        x: 440
         y: 28
-        width: 291
-        height: 308
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Robot win_10
       rect:
         serializedVersion: 2
-        x: 916
+        x: 880
         y: 28
-        width: 286
-        height: 308
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Robot win_11
       rect:
         serializedVersion: 2
-        x: 1433
+        x: 1320
         y: 28
-        width: 209
-        height: 308
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

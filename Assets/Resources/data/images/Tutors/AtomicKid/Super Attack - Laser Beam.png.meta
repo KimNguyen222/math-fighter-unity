@@ -137,12 +137,12 @@ TextureImporter:
       name: Super Attack - Laser Beam_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 0
         y: 37
-        width: 393
-        height: 499
+        width: 440
+        height: 513
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: Super Attack - Laser Beam_1
       rect:
         serializedVersion: 2
-        x: 466
+        x: 440
         y: 37
-        width: 401
-        height: 510
+        width: 440
+        height: 513
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,12 +179,12 @@ TextureImporter:
       name: Super Attack - Laser Beam_2
       rect:
         serializedVersion: 2
-        x: 906
+        x: 880
         y: 37
-        width: 412
-        height: 499
+        width: 440
+        height: 513
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,12 +200,12 @@ TextureImporter:
       name: Super Attack - Laser Beam_3
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 1320
         y: 37
-        width: 393
-        height: 510
+        width: 440
+        height: 513
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: Super Attack - Laser Beam_4
       rect:
         serializedVersion: 2
-        x: 1786
+        x: 1760
         y: 37
-        width: 401
-        height: 499
+        width: 440
+        height: 513
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,12 +242,12 @@ TextureImporter:
       name: Super Attack - Laser Beam_5
       rect:
         serializedVersion: 2
-        x: 2226
+        x: 2200
         y: 37
-        width: 412
-        height: 510
+        width: 440
+        height: 513
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -124,7 +124,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -197,10 +197,10 @@ TextureImporter:
       name: Einstein - WIN_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 2666
-        width: 391
-        height: 412
+        x: 0
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Einstein - WIN_1
       rect:
         serializedVersion: 2
-        x: 466
-        y: 2666
-        width: 389
-        height: 412
+        x: 440
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Einstein - WIN_2
       rect:
         serializedVersion: 2
-        x: 905
-        y: 2666
-        width: 391
-        height: 412
+        x: 880
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Einstein - WIN_3
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 2666
-        width: 389
-        height: 412
+        x: 1320
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Einstein - WIN_4
       rect:
         serializedVersion: 2
-        x: 25
-        y: 2227
-        width: 391
-        height: 411
+        x: 0
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Einstein - WIN_5
       rect:
         serializedVersion: 2
-        x: 466
-        y: 2227
-        width: 389
-        height: 411
+        x: 440
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: Einstein - WIN_6
       rect:
         serializedVersion: 2
-        x: 905
-        y: 2227
-        width: 391
-        height: 411
+        x: 880
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: Einstein - WIN_7
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 2227
-        width: 389
-        height: 411
+        x: 1320
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Einstein - WIN_8
       rect:
         serializedVersion: 2
-        x: 25
-        y: 1786
-        width: 391
-        height: 412
+        x: 0
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Einstein - WIN_9
       rect:
         serializedVersion: 2
-        x: 466
-        y: 1786
-        width: 389
-        height: 412
+        x: 440
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: Einstein - WIN_10
       rect:
         serializedVersion: 2
-        x: 905
-        y: 1786
-        width: 391
-        height: 412
+        x: 880
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: Einstein - WIN_11
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 1786
-        width: 389
-        height: 412
+        x: 1320
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: Einstein - WIN_12
       rect:
         serializedVersion: 2
-        x: 25
-        y: 1347
-        width: 391
-        height: 410
+        x: 0
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: Einstein - WIN_13
       rect:
         serializedVersion: 2
-        x: 466
-        y: 1347
-        width: 389
-        height: 410
+        x: 440
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: Einstein - WIN_14
       rect:
         serializedVersion: 2
-        x: 905
-        y: 1347
-        width: 391
-        height: 410
+        x: 880
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Einstein - WIN_15
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 1347
-        width: 389
-        height: 410
+        x: 1320
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: Einstein - WIN_16
       rect:
         serializedVersion: 2
-        x: 25
-        y: 906
-        width: 391
-        height: 412
+        x: 0
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: Einstein - WIN_17
       rect:
         serializedVersion: 2
-        x: 466
-        y: 906
-        width: 389
-        height: 412
+        x: 440
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: Einstein - WIN_18
       rect:
         serializedVersion: 2
-        x: 905
-        y: 906
-        width: 391
-        height: 412
+        x: 880
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: Einstein - WIN_19
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 906
-        width: 389
-        height: 412
+        x: 1320
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: Einstein - WIN_20
       rect:
         serializedVersion: 2
-        x: 25
-        y: 466
-        width: 391
-        height: 412
+        x: 0
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +638,10 @@ TextureImporter:
       name: Einstein - WIN_21
       rect:
         serializedVersion: 2
-        x: 466
-        y: 466
-        width: 389
-        height: 412
+        x: 440
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: Einstein - WIN_22
       rect:
         serializedVersion: 2
-        x: 905
-        y: 466
-        width: 391
-        height: 412
+        x: 880
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,10 +680,10 @@ TextureImporter:
       name: Einstein - WIN_23
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 466
-        width: 389
-        height: 412
+        x: 1320
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: Einstein - WIN_24
       rect:
         serializedVersion: 2
-        x: 25
-        y: 26
-        width: 391
-        height: 412
+        x: 0
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: Einstein - WIN_25
       rect:
         serializedVersion: 2
-        x: 466
-        y: 26
-        width: 389
-        height: 412
+        x: 440
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

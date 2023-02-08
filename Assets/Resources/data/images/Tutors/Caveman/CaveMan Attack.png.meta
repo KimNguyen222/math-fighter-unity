@@ -152,10 +152,10 @@ TextureImporter:
       name: CaveMan Attack_0
       rect:
         serializedVersion: 2
-        x: 74
+        x: 0
         y: 1356
-        width: 292
-        height: 368
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: CaveMan Attack_1
       rect:
         serializedVersion: 2
-        x: 563
+        x: 440
         y: 1356
-        width: 248
-        height: 339
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: CaveMan Attack_2
       rect:
         serializedVersion: 2
-        x: 997
+        x: 880
         y: 1356
-        width: 255
-        height: 328
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: CaveMan Attack_3
       rect:
         serializedVersion: 2
-        x: 117
+        x: 0
         y: 916
-        width: 255
-        height: 328
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: CaveMan Attack_4
       rect:
         serializedVersion: 2
-        x: 552
+        x: 440
         y: 916
-        width: 255
-        height: 357
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: CaveMan Attack_5
       rect:
         serializedVersion: 2
-        x: 980
+        x: 880
         y: 916
-        width: 304
-        height: 397
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: CaveMan Attack_6
       rect:
         serializedVersion: 2
-        x: 100
+        x: 0
         y: 476
-        width: 304
-        height: 397
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: CaveMan Attack_7
       rect:
         serializedVersion: 2
-        x: 540
+        x: 440
         y: 476
-        width: 304
-        height: 397
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +320,10 @@ TextureImporter:
       name: CaveMan Attack_8
       rect:
         serializedVersion: 2
-        x: 980
+        x: 880
         y: 476
-        width: 304
-        height: 397
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +341,10 @@ TextureImporter:
       name: CaveMan Attack_9
       rect:
         serializedVersion: 2
-        x: 112
+        x: 0
         y: 36
-        width: 255
-        height: 357
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,10 +362,10 @@ TextureImporter:
       name: CaveMan Attack_10
       rect:
         serializedVersion: 2
-        x: 514
+        x: 440
         y: 36
-        width: 292
-        height: 368
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

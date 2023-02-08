@@ -122,12 +122,12 @@ TextureImporter:
       name: Robot Setup - freehand - VS SCREEN_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 36
         y: 57
-        width: 454
+        width: 418
         height: 620
-      alignment: 9
-      pivot: {x: 0.31366417, y: 0.0031731697}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

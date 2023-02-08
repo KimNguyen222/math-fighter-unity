@@ -179,10 +179,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_0
       rect:
         serializedVersion: 2
-        x: 144
-        y: 2231
-        width: 162
-        height: 321
+        x: 0
+        y: 2230
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_1
       rect:
         serializedVersion: 2
-        x: 473
-        y: 2231
-        width: 386
-        height: 314
+        x: 440
+        y: 2230
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_2
       rect:
         serializedVersion: 2
-        x: 941
-        y: 2231
-        width: 334
-        height: 304
+        x: 880
+        y: 2230
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_3
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1791
-        width: 378
-        height: 315
+        x: 0
+        y: 1790
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_4
       rect:
         serializedVersion: 2
-        x: 538
-        y: 1791
-        width: 276
-        height: 317
+        x: 440
+        y: 1790
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_5
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 1791
-        width: 194
-        height: 319
+        x: 880
+        y: 1790
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_6
       rect:
         serializedVersion: 2
-        x: 1230
-        y: 1970
-        width: 8
-        height: 13
+        x: 0
+        y: 1350
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_7
       rect:
         serializedVersion: 2
-        x: 1185
-        y: 1934
-        width: 38
-        height: 29
+        x: 440
+        y: 1350
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_8
       rect:
         serializedVersion: 2
-        x: 143
+        x: 880
         y: 1350
-        width: 163
-        height: 346
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_9
       rect:
         serializedVersion: 2
-        x: 570
-        y: 1350
-        width: 181
-        height: 391
+        x: 0
+        y: 910
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +389,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_10
       rect:
         serializedVersion: 2
-        x: 967
-        y: 1350
-        width: 243
-        height: 406
+        x: 440
+        y: 910
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_11
       rect:
         serializedVersion: 2
-        x: 73
-        y: 911
-        width: 279
-        height: 405
+        x: 880
+        y: 910
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +431,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_12
       rect:
         serializedVersion: 2
-        x: 516
-        y: 911
-        width: 276
-        height: 405
+        x: 0
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +452,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_13
       rect:
         serializedVersion: 2
-        x: 967
-        y: 911
-        width: 243
-        height: 405
+        x: 440
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,10 +473,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_14
       rect:
         serializedVersion: 2
-        x: 73
-        y: 471
-        width: 279
-        height: 405
+        x: 880
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,10 +494,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_15
       rect:
         serializedVersion: 2
-        x: 516
-        y: 471
-        width: 276
-        height: 405
+        x: 0
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,10 +515,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_16
       rect:
         serializedVersion: 2
-        x: 995
-        y: 471
-        width: 215
-        height: 405
+        x: 440
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: Atomic Kid - Super Attack_17
       rect:
         serializedVersion: 2
-        x: 146
+        x: 880
         y: 30
-        width: 160
-        height: 319
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,48 +549,6 @@ TextureImporter:
       bones: []
       spriteID: 9ca952d4902360be0800000000000000
       internalID: -1511465609405818167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atomic Kid - Super Attack_18
-      rect:
-        serializedVersion: 2
-        x: 585
-        y: 30
-        width: 161
-        height: 319
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e04652207cfc9c30800000000000000
-      internalID: 4367643297185153253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Atomic Kid - Super Attack_19
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 30
-        width: 161
-        height: 321
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1274d0ac7c0bae4f0800000000000000
-      internalID: -798631611769993439
       vertices: []
       indices: 
       edges: []

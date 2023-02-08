@@ -82,7 +82,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,10 +155,10 @@ TextureImporter:
       name: MathLord - Attack_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1358
-        width: 162
-        height: 365
+        x: 0
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: MathLord - Attack_1
       rect:
         serializedVersion: 2
-        x: 437
-        y: 1354
-        width: 446
-        height: 404
+        x: 440
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: MathLord - Attack_2
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 1362
-        width: 316
-        height: 396
+        x: 880
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: MathLord - Attack_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 913
-        width: 364
-        height: 405
+        x: 0
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: MathLord - Attack_4
       rect:
         serializedVersion: 2
-        x: 437
-        y: 473
-        width: 338
-        height: 410
+        x: 440
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: MathLord - Attack_5
       rect:
         serializedVersion: 2
-        x: 554
-        y: 910
-        width: 266
-        height: 387
+        x: 880
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: MathLord - Attack_6
       rect:
         serializedVersion: 2
-        x: 877
-        y: 481
-        width: 441
-        height: 402
+        x: 0
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: MathLord - Attack_7
       rect:
         serializedVersion: 2
-        x: 992
-        y: 917
-        width: 213
-        height: 384
+        x: 440
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: MathLord - Attack_8
       rect:
         serializedVersion: 2
-        x: 2
-        y: 477
-        width: 325
-        height: 387
+        x: 880
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: MathLord - Attack_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 32
-        width: 312
-        height: 378
+        x: 0
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: MathLord - Attack_10
       rect:
         serializedVersion: 2
-        x: 437
-        y: 36
-        width: 441
-        height: 367
+        x: 440
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: MathLord - Attack_11
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 38
-        width: 162
-        height: 365
+        x: 880
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

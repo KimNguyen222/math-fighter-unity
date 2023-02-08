@@ -38,7 +38,7 @@ namespace MathFighter.Scenes
         [SerializeField]
         private TMP_Text QuestionTitle;
         [SerializeField]
-        private GameObject QuestionBar;
+        private RawImage QuestionBar;
         [SerializeField]
         private TMP_Text QuestionCat;
         [SerializeField]
@@ -66,7 +66,10 @@ namespace MathFighter.Scenes
         [SerializeField]
         private TMP_Text DamageAmountTxt;
         [SerializeField]
+        private TMP_Text YouWinLoseTxt;
+        [SerializeField]
         private Image KOScreen;
+        
 
         /******** Additional Buttons  **********/
         [SerializeField]
@@ -238,6 +241,7 @@ namespace MathFighter.Scenes
                     StartCoroutine(DrawSpotlightRed());
                     AnswerButtons[anserIndex].sprite = _wrongSprites[anserIndex];
                 }
+                //Test();
             }
         }
 
@@ -252,6 +256,11 @@ namespace MathFighter.Scenes
         public void OnHintButtonClicked()
         {
             onHint = !onHint;
+            StartCoroutine(DisplayHint());
+        }
+
+        private IEnumerator DisplayHint()
+        {
             if (isQuestionShown)
             {
                 if (!onHint)
@@ -259,10 +268,11 @@ namespace MathFighter.Scenes
                     animator1.SetTrigger("freeze");
                     HintPanel.SetActive(true);
                     HintText.text = question.Hint;
+                    yield return new WaitForSeconds(2);
+                    animator1.SetTrigger("unFreeze");
                 }
                 else
                 {
-                    animator1.SetTrigger("unFreeze");
                     HintPanel.SetActive(false);
                 }
             }
@@ -298,6 +308,7 @@ namespace MathFighter.Scenes
                 isTimer = false;
                 if (question.LevelName == null) return;
                 StartCoroutine(ShowQuestionTitle());
+
             }
 
             if (currentTime > 0 && isTimer)
@@ -305,6 +316,54 @@ namespace MathFighter.Scenes
 
         }
 
+        private void Test()
+        {
+            Debug.Log("Question " + question.Question);
+            ApplyTexture(QuestionBar, MathTextRenderer.Instance.RenderText(question.Question));
+            //ApplyTexture(AnswerRawImages[0], MathTextRenderer.Instance.RenderText(question.Question));
+            //ApplyTexture(AnswerRawImages[1], MathTextRenderer.Instance.RenderText(question.Question));
+            //ApplyTexture(AnswerRawImages[2], MathTextRenderer.Instance.RenderText(question.Question));
+            //ApplyTexture(AnswerRawImages[3], MathTextRenderer.Instance.RenderText(question.Question));
+            //AnswerRawImages[0].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[0]);
+            //AnswerRawImages[1].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[1]);
+            //AnswerRawImages[2].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[2]);
+            //AnswerRawImages[3].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[3]);
+
+
+
+
+            //Debug.Log("Text");
+            //Camera camera = Camera.main;
+            //int resWidth = Screen.width;
+            //int resHeight = Screen.height;
+
+            //RenderTexture rt = new RenderTexture(resWidth, resHeight, 24);
+            //camera.targetTexture = rt; //Create new renderTexture and assign to camera
+            //Texture2D screenShot = new Texture2D(resWidth, resHeight, TextureFormat.RGB24, false); //Create new texture
+
+            //camera.Render();
+
+            //RenderTexture.active = rt;
+            //screenShot.ReadPixels(new Rect(0, 0, resWidth, resHeight), 0, 0); //Apply pixels from camera onto Texture2D
+            //screenShot.Apply();
+            //QuestionBar.GetComponent<RawImage>().texture = screenShot;
+            //camera.targetTexture = null;
+            //RenderTexture.active = null; //Clean
+            //Destroy(rt); //Free memory
+        }
+        private void ApplyTexture(RawImage rawImage, Texture2D texture)
+        {
+            //gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(texture.width, texture.height);
+            rawImage.texture = MathTextRenderer.Instance.RenderText(question.Question);
+            foreach (var gameObject in FindObjectsOfType(typeof(GameObject)) as GameObject[])
+            {
+                if (gameObject.name == "New Game Object")
+                {
+                    Destroy(gameObject);
+                }
+            }
+
+        }
         private void UpdateTimer()
         {
             Timer.text = currentTime.ToString("0");
@@ -336,7 +395,7 @@ namespace MathFighter.Scenes
             Animator spotAnim = SpotlightGreen.GetComponent<Animator>();
             spotAnim.SetTrigger("appear");
             Spotlight1.SetActive(false);
-
+            Correct1.gameObject.SetActive(true);
             // Appear XNumber
             if (currentTime > maxTime / 2f)
                 xNumber++;
@@ -363,17 +422,20 @@ namespace MathFighter.Scenes
                 animator1.SetTrigger("superAttack");
                 xNumber = 0;
             }
-            Debug.Log("damage: " + damage);
 
-            yield return new WaitForSeconds(1f);
-            animator2.SetTrigger("takingDamage");
+            yield return new WaitForSeconds(0.5f);
             if (!isSuperAttack)
             {
+                animator2.SetTrigger("takingDamage");
+                yield return new WaitForSeconds(0.5f);
                 attackDamage1.SetActive(true);
 
             }
             else
             {
+                yield return new WaitForSeconds(1.0f);
+                animator2.SetTrigger("takingDamage");
+                yield return new WaitForSeconds(0.3f);
                 superAttackDamage1.SetActive(true);
             }
 
@@ -396,6 +458,7 @@ namespace MathFighter.Scenes
             yield return new WaitForSeconds(2);
             attackDamage1.SetActive(false);
             superAttackDamage1.SetActive(false);
+            Correct1.gameObject.SetActive(false);
             XNumberTxt.gameObject.SetActive(false);
             DamageAmountTxt.gameObject.SetActive(false);
             questionNum++;
@@ -422,6 +485,8 @@ namespace MathFighter.Scenes
                 yield return new WaitForSeconds(1);
                 //player2.SetActive(false);
                 animator1.SetTrigger("win");
+                YouWinLoseTxt.text = "YOU WIN";
+                YouWinLoseTxt.gameObject.SetActive(true);
                 yield return new WaitForSeconds(5);
                 if (settings.playerNum2 < 5)
                 {
@@ -446,9 +511,8 @@ namespace MathFighter.Scenes
             ContentTexts[2].text = question.Answers[2];
             ContentTexts[3].text = question.Answers[3];
 
-            MathTextRenderer mathTextRenderer = new MathTextRenderer();
 
-            //QuestionBar.GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Question);
+            //QuestionBar.GetComponent<RawImage>().texture = MathTextRenderer.Instance.RenderText(question.Question);
             //AnswerRawImages[0].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[0]);
             //AnswerRawImages[1].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[1]);
             //AnswerRawImages[2].GetComponent<RawImage>().texture = mathTextRenderer.RenderText(question.Answers[2]);

@@ -145,7 +145,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -218,10 +218,10 @@ TextureImporter:
       name: Einstein Impatient_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 2678
-        width: 184
-        height: 353
+        x: 0
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Einstein Impatient_1
       rect:
         serializedVersion: 2
-        x: 567
-        y: 2678
-        width: 184
-        height: 353
+        x: 440
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Einstein Impatient_2
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 2678
-        width: 183
-        height: 353
+        x: 880
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Einstein Impatient_3
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 2678
-        width: 184
-        height: 353
+        x: 1320
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Einstein Impatient_4
       rect:
         serializedVersion: 2
-        x: 1887
-        y: 2678
-        width: 184
-        height: 353
+        x: 1760
+        y: 2680
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: Einstein Impatient_5
       rect:
         serializedVersion: 2
-        x: 127
-        y: 2239
-        width: 184
-        height: 351
+        x: 0
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: Einstein Impatient_6
       rect:
         serializedVersion: 2
-        x: 567
-        y: 2239
-        width: 184
-        height: 351
+        x: 440
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Einstein Impatient_7
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 2239
-        width: 183
-        height: 351
+        x: 880
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Einstein Impatient_8
       rect:
         serializedVersion: 2
-        x: 1447
-        y: 2239
-        width: 184
-        height: 351
+        x: 1320
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: Einstein Impatient_9
       rect:
         serializedVersion: 2
-        x: 1887
-        y: 2239
-        width: 184
-        height: 351
+        x: 1760
+        y: 2240
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: Einstein Impatient_10
       rect:
         serializedVersion: 2
-        x: 91
-        y: 1798
-        width: 220
-        height: 353
+        x: 0
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: Einstein Impatient_11
       rect:
         serializedVersion: 2
-        x: 550
-        y: 1798
-        width: 201
-        height: 353
+        x: 440
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: Einstein Impatient_12
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 1798
-        width: 189
-        height: 353
+        x: 880
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: Einstein Impatient_13
       rect:
         serializedVersion: 2
-        x: 1443
-        y: 1798
-        width: 188
-        height: 353
+        x: 1320
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Einstein Impatient_14
       rect:
         serializedVersion: 2
-        x: 1873
-        y: 1798
-        width: 198
-        height: 353
+        x: 1760
+        y: 1800
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: Einstein Impatient_15
       rect:
         serializedVersion: 2
-        x: 117
-        y: 1359
-        width: 194
-        height: 352
+        x: 0
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: Einstein Impatient_16
       rect:
         serializedVersion: 2
-        x: 560
-        y: 1359
-        width: 191
-        height: 352
+        x: 440
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: Einstein Impatient_17
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 1359
-        width: 188
-        height: 352
+        x: 880
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: Einstein Impatient_18
       rect:
         serializedVersion: 2
-        x: 1434
-        y: 1359
-        width: 197
-        height: 352
+        x: 1320
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: Einstein Impatient_19
       rect:
         serializedVersion: 2
-        x: 1877
-        y: 1359
-        width: 194
-        height: 352
+        x: 1760
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +638,10 @@ TextureImporter:
       name: Einstein Impatient_20
       rect:
         serializedVersion: 2
-        x: 120
-        y: 918
-        width: 191
-        height: 353
+        x: 0
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: Einstein Impatient_21
       rect:
         serializedVersion: 2
-        x: 562
-        y: 918
-        width: 189
-        height: 353
+        x: 440
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,10 +680,10 @@ TextureImporter:
       name: Einstein Impatient_22
       rect:
         serializedVersion: 2
-        x: 993
-        y: 918
-        width: 197
-        height: 353
+        x: 880
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: Einstein Impatient_23
       rect:
         serializedVersion: 2
-        x: 1437
-        y: 918
-        width: 194
-        height: 353
+        x: 1320
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: Einstein Impatient_24
       rect:
         serializedVersion: 2
-        x: 1880
-        y: 918
-        width: 191
-        height: 353
+        x: 1760
+        y: 920
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -743,10 +743,10 @@ TextureImporter:
       name: Einstein Impatient_25
       rect:
         serializedVersion: 2
-        x: 123
-        y: 478
-        width: 188
-        height: 353
+        x: 0
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,10 +764,10 @@ TextureImporter:
       name: Einstein Impatient_26
       rect:
         serializedVersion: 2
-        x: 553
-        y: 478
-        width: 198
-        height: 353
+        x: 440
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -785,10 +785,10 @@ TextureImporter:
       name: Einstein Impatient_27
       rect:
         serializedVersion: 2
-        x: 998
-        y: 478
-        width: 192
-        height: 353
+        x: 880
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -806,10 +806,10 @@ TextureImporter:
       name: Einstein Impatient_28
       rect:
         serializedVersion: 2
-        x: 1431
-        y: 478
-        width: 200
-        height: 353
+        x: 1320
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -827,10 +827,10 @@ TextureImporter:
       name: Einstein Impatient_29
       rect:
         serializedVersion: 2
-        x: 1850
-        y: 478
-        width: 221
-        height: 353
+        x: 1760
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -848,10 +848,10 @@ TextureImporter:
       name: Einstein Impatient_30
       rect:
         serializedVersion: 2
-        x: 127
-        y: 38
-        width: 184
-        height: 352
+        x: 0
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -869,10 +869,10 @@ TextureImporter:
       name: Einstein Impatient_31
       rect:
         serializedVersion: 2
-        x: 567
-        y: 38
-        width: 184
-        height: 352
+        x: 440
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,10 +890,10 @@ TextureImporter:
       name: Einstein Impatient_32
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 38
-        width: 183
-        height: 352
+        x: 880
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

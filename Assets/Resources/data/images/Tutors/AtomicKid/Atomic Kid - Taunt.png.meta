@@ -155,10 +155,10 @@ TextureImporter:
       name: Atomic Kid - Taunt_0
       rect:
         serializedVersion: 2
-        x: 145
-        y: 911
-        width: 160
-        height: 319
+        x: 0
+        y: 910
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: Atomic Kid - Taunt_1
       rect:
         serializedVersion: 2
-        x: 570
-        y: 915
-        width: 182
-        height: 304
+        x: 440
+        y: 910
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Atomic Kid - Taunt_2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 475
-        width: 195
-        height: 299
+        x: 0
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Atomic Kid - Taunt_3
       rect:
         serializedVersion: 2
-        x: 550
-        y: 475
-        width: 196
-        height: 299
+        x: 440
+        y: 470
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Atomic Kid - Taunt_4
       rect:
         serializedVersion: 2
-        x: 130
-        y: 35
-        width: 182
-        height: 304
+        x: 0
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Atomic Kid - Taunt_5
       rect:
         serializedVersion: 2
-        x: 585
-        y: 31
-        width: 160
-        height: 319
+        x: 440
+        y: 30
+        width: 440
+        height: 410
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

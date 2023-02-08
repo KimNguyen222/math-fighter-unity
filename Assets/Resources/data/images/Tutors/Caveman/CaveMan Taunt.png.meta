@@ -161,10 +161,10 @@ TextureImporter:
       name: CaveMan Taunt_0
       rect:
         serializedVersion: 2
-        x: 74
+        x: 0
         y: 1356
-        width: 292
-        height: 368
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: CaveMan Taunt_1
       rect:
         serializedVersion: 2
-        x: 581
+        x: 440
         y: 1356
-        width: 262
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: CaveMan Taunt_2
       rect:
         serializedVersion: 2
-        x: 1021
+        x: 880
         y: 1356
-        width: 262
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: CaveMan Taunt_3
       rect:
         serializedVersion: 2
-        x: 1398
+        x: 1320
         y: 1356
-        width: 308
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,10 +245,10 @@ TextureImporter:
       name: CaveMan Taunt_4
       rect:
         serializedVersion: 2
-        x: 78
+        x: 0
         y: 916
-        width: 308
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: CaveMan Taunt_5
       rect:
         serializedVersion: 2
-        x: 581
+        x: 440
         y: 916
-        width: 262
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +287,10 @@ TextureImporter:
       name: CaveMan Taunt_6
       rect:
         serializedVersion: 2
-        x: 1021
+        x: 880
         y: 916
-        width: 262
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +308,10 @@ TextureImporter:
       name: CaveMan Taunt_7
       rect:
         serializedVersion: 2
-        x: 1398
+        x: 1320
         y: 916
-        width: 308
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +329,10 @@ TextureImporter:
       name: CaveMan Taunt_8
       rect:
         serializedVersion: 2
-        x: 78
+        x: 0
         y: 476
-        width: 308
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +350,10 @@ TextureImporter:
       name: CaveMan Taunt_9
       rect:
         serializedVersion: 2
-        x: 581
+        x: 440
         y: 476
-        width: 262
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: CaveMan Taunt_10
       rect:
         serializedVersion: 2
-        x: 1021
+        x: 880
         y: 476
-        width: 262
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: CaveMan Taunt_11
       rect:
         serializedVersion: 2
-        x: 1398
+        x: 1320
         y: 476
-        width: 308
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +413,10 @@ TextureImporter:
       name: CaveMan Taunt_12
       rect:
         serializedVersion: 2
-        x: 78
+        x: 0
         y: 36
-        width: 308
-        height: 371
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +434,10 @@ TextureImporter:
       name: CaveMan Taunt_13
       rect:
         serializedVersion: 2
-        x: 514
+        x: 440
         y: 36
-        width: 292
-        height: 368
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

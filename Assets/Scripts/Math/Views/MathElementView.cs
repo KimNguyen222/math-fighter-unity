@@ -57,6 +57,7 @@ namespace MathFighter.Math.Views
 
             // render text to texture
             // spriteBatch.Begin();
+            Debug.Log("DrawStringToTexture: " + text + ", Size: " + textSize);
             lrt.DrawString(font, text, Vector2.zero, Color.white, 0.0f, Vector2.zero, textSize.z, 0.0f);
             // spriteBatch.End();
 

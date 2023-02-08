@@ -94,7 +94,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -167,10 +167,10 @@ TextureImporter:
       name: Einstein Attack_0
       rect:
         serializedVersion: 2
-        x: 129
+        x: 0
         y: 1360
-        width: 180
-        height: 350
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: Einstein Attack_1
       rect:
         serializedVersion: 2
-        x: 554
-        y: 1361
-        width: 212
-        height: 367
+        x: 440
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: Einstein Attack_2
       rect:
         serializedVersion: 2
-        x: 988
-        y: 1361
-        width: 219
-        height: 367
+        x: 880
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: Einstein Attack_3
       rect:
         serializedVersion: 2
-        x: 1412
-        y: 1361
-        width: 253
-        height: 367
+        x: 1320
+        y: 1360
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: Einstein Attack_4
       rect:
         serializedVersion: 2
-        x: 57
+        x: 0
         y: 920
-        width: 328
-        height: 367
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: Einstein Attack_5
       rect:
         serializedVersion: 2
-        x: 497
+        x: 440
         y: 920
-        width: 328
-        height: 367
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,10 +293,10 @@ TextureImporter:
       name: Einstein Attack_6
       rect:
         serializedVersion: 2
-        x: 937
+        x: 880
         y: 920
-        width: 328
-        height: 367
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: Einstein Attack_7
       rect:
         serializedVersion: 2
-        x: 1377
+        x: 1320
         y: 920
-        width: 328
-        height: 367
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +335,10 @@ TextureImporter:
       name: Einstein Attack_8
       rect:
         serializedVersion: 2
-        x: 57
-        y: 478
-        width: 328
-        height: 367
+        x: 0
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +356,10 @@ TextureImporter:
       name: Einstein Attack_9
       rect:
         serializedVersion: 2
-        x: 497
-        y: 478
-        width: 328
-        height: 367
+        x: 440
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,10 +377,10 @@ TextureImporter:
       name: Einstein Attack_10
       rect:
         serializedVersion: 2
-        x: 937
-        y: 478
-        width: 328
-        height: 367
+        x: 880
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,10 +398,10 @@ TextureImporter:
       name: Einstein Attack_11
       rect:
         serializedVersion: 2
-        x: 1372
-        y: 478
-        width: 335
-        height: 367
+        x: 1320
+        y: 480
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +419,10 @@ TextureImporter:
       name: Einstein Attack_12
       rect:
         serializedVersion: 2
-        x: 54
-        y: 39
-        width: 333
-        height: 367
+        x: 0
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +440,10 @@ TextureImporter:
       name: Einstein Attack_13
       rect:
         serializedVersion: 2
-        x: 548
-        y: 39
-        width: 222
-        height: 367
+        x: 440
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,10 +461,10 @@ TextureImporter:
       name: Einstein Attack_14
       rect:
         serializedVersion: 2
-        x: 978
-        y: 39
-        width: 246
-        height: 367
+        x: 880
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,10 +482,10 @@ TextureImporter:
       name: Einstein Attack_15
       rect:
         serializedVersion: 2
-        x: 1449
-        y: 39
-        width: 180
-        height: 367
+        x: 1320
+        y: 40
+        width: 440
+        height: 400
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

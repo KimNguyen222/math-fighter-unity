@@ -161,10 +161,10 @@ TextureImporter:
       name: School Teacher - Taunt_0
       rect:
         serializedVersion: 2
-        x: 174
+        x: 0
         y: 1795
-        width: 106
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: School Teacher - Taunt_1
       rect:
         serializedVersion: 2
-        x: 512
+        x: 440
         y: 1795
-        width: 208
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: School Teacher - Taunt_2
       rect:
         serializedVersion: 2
-        x: 961
+        x: 880
         y: 1795
-        width: 199
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: School Teacher - Taunt_3
       rect:
         serializedVersion: 2
-        x: 119
+        x: 0
         y: 1355
-        width: 161
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,10 +245,10 @@ TextureImporter:
       name: School Teacher - Taunt_4
       rect:
         serializedVersion: 2
-        x: 604
+        x: 440
         y: 1355
-        width: 116
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: School Teacher - Taunt_5
       rect:
         serializedVersion: 2
-        x: 1043
+        x: 880
         y: 1355
-        width: 117
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +287,10 @@ TextureImporter:
       name: School Teacher - Taunt_6
       rect:
         serializedVersion: 2
-        x: 118
+        x: 0
         y: 915
-        width: 162
-        height: 376
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +308,10 @@ TextureImporter:
       name: School Teacher - Taunt_7
       rect:
         serializedVersion: 2
-        x: 520
+        x: 440
         y: 915
-        width: 200
-        height: 376
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +329,10 @@ TextureImporter:
       name: School Teacher - Taunt_8
       rect:
         serializedVersion: 2
-        x: 961
+        x: 880
         y: 915
-        width: 199
-        height: 376
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +350,10 @@ TextureImporter:
       name: School Teacher - Taunt_9
       rect:
         serializedVersion: 2
-        x: 119
-        y: 474
-        width: 161
-        height: 376
+        x: 0
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: School Teacher - Taunt_10
       rect:
         serializedVersion: 2
-        x: 604
-        y: 474
-        width: 116
-        height: 376
+        x: 440
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: School Teacher - Taunt_11
       rect:
         serializedVersion: 2
-        x: 1043
-        y: 474
-        width: 117
-        height: 376
+        x: 880
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +413,10 @@ TextureImporter:
       name: School Teacher - Taunt_12
       rect:
         serializedVersion: 2
-        x: 72
+        x: 0
         y: 35
-        width: 208
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +434,10 @@ TextureImporter:
       name: School Teacher - Taunt_13
       rect:
         serializedVersion: 2
-        x: 614
+        x: 440
         y: 35
-        width: 106
-        height: 375
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

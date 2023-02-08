@@ -158,10 +158,10 @@ TextureImporter:
       name: School Teacher - win_0
       rect:
         serializedVersion: 2
-        x: 175
-        y: 1356
-        width: 104
-        height: 373
+        x: 0
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: School Teacher - win_1
       rect:
         serializedVersion: 2
-        x: 525
-        y: 1356
-        width: 229
-        height: 375
+        x: 440
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: School Teacher - win_2
       rect:
         serializedVersion: 2
-        x: 982
-        y: 1356
-        width: 283
-        height: 372
+        x: 880
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: School Teacher - win_3
       rect:
         serializedVersion: 2
-        x: 1505
-        y: 1356
-        width: 196
-        height: 360
+        x: 1320
+        y: 1355
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: School Teacher - win_4
       rect:
         serializedVersion: 2
-        x: 187
-        y: 916
-        width: 141
-        height: 368
+        x: 0
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: School Teacher - win_5
       rect:
         serializedVersion: 2
-        x: 566
-        y: 916
-        width: 142
-        height: 379
+        x: 440
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: School Teacher - win_6
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 916
-        width: 141
-        height: 366
+        x: 880
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: School Teacher - win_7
       rect:
         serializedVersion: 2
-        x: 1428
-        y: 916
-        width: 233
-        height: 360
+        x: 1320
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: School Teacher - win_8
       rect:
         serializedVersion: 2
-        x: 187
-        y: 476
-        width: 141
-        height: 368
+        x: 0
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: School Teacher - win_9
       rect:
         serializedVersion: 2
-        x: 625
-        y: 476
-        width: 196
-        height: 360
+        x: 440
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: School Teacher - win_10
       rect:
         serializedVersion: 2
-        x: 982
-        y: 476
-        width: 283
-        height: 372
+        x: 880
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +389,10 @@ TextureImporter:
       name: School Teacher - win_11
       rect:
         serializedVersion: 2
-        x: 1405
-        y: 476
-        width: 229
-        height: 375
+        x: 1320
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: School Teacher - win_12
       rect:
         serializedVersion: 2
-        x: 175
-        y: 36
-        width: 104
-        height: 373
+        x: 0
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

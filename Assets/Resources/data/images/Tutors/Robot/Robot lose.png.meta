@@ -212,10 +212,10 @@ TextureImporter:
       name: Robot lose_0
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1787
-        width: 211
-        height: 310
+        x: 0
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +233,10 @@ TextureImporter:
       name: Robot lose_1
       rect:
         serializedVersion: 2
-        x: 553
-        y: 1787
-        width: 210
-        height: 310
+        x: 440
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: Robot lose_2
       rect:
         serializedVersion: 2
-        x: 993
-        y: 1787
-        width: 210
-        height: 310
+        x: 880
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: Robot lose_3
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 1787
-        width: 211
-        height: 310
+        x: 1320
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,10 +296,10 @@ TextureImporter:
       name: Robot lose_4
       rect:
         serializedVersion: 2
-        x: 1873
-        y: 1787
-        width: 209
-        height: 310
+        x: 1760
+        y: 1788
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: Robot lose_5
       rect:
         serializedVersion: 2
-        x: 113
+        x: 0
         y: 1348
-        width: 210
-        height: 309
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: Robot lose_6
       rect:
         serializedVersion: 2
-        x: 553
+        x: 440
         y: 1348
-        width: 210
-        height: 309
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,10 +359,10 @@ TextureImporter:
       name: Robot lose_7
       rect:
         serializedVersion: 2
-        x: 993
+        x: 880
         y: 1348
-        width: 210
-        height: 309
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: Robot lose_8
       rect:
         serializedVersion: 2
-        x: 1432
+        x: 1320
         y: 1348
-        width: 211
-        height: 309
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,10 +401,10 @@ TextureImporter:
       name: Robot lose_9
       rect:
         serializedVersion: 2
-        x: 1873
+        x: 1760
         y: 1348
-        width: 209
-        height: 309
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +422,10 @@ TextureImporter:
       name: Robot lose_10
       rect:
         serializedVersion: 2
-        x: 53
-        y: 907
-        width: 301
-        height: 326
+        x: 0
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +443,10 @@ TextureImporter:
       name: Robot lose_11
       rect:
         serializedVersion: 2
-        x: 460
-        y: 907
-        width: 395
-        height: 382
+        x: 440
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +464,10 @@ TextureImporter:
       name: Robot lose_12
       rect:
         serializedVersion: 2
-        x: 900
-        y: 907
-        width: 382
-        height: 388
+        x: 880
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +485,10 @@ TextureImporter:
       name: Robot lose_13
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 907
-        width: 381
-        height: 389
+        x: 1320
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +506,10 @@ TextureImporter:
       name: Robot lose_14
       rect:
         serializedVersion: 2
-        x: 1781
-        y: 907
-        width: 385
-        height: 397
+        x: 1760
+        y: 908
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,10 +527,10 @@ TextureImporter:
       name: Robot lose_15
       rect:
         serializedVersion: 2
-        x: 20
-        y: 467
-        width: 382
-        height: 389
+        x: 0
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +548,10 @@ TextureImporter:
       name: Robot lose_16
       rect:
         serializedVersion: 2
-        x: 460
-        y: 467
-        width: 382
-        height: 388
+        x: 440
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: Robot lose_17
       rect:
         serializedVersion: 2
-        x: 900
-        y: 467
-        width: 395
-        height: 396
+        x: 880
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: Robot lose_18
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 467
-        width: 327
-        height: 379
+        x: 1320
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -611,10 +611,10 @@ TextureImporter:
       name: Robot lose_19
       rect:
         serializedVersion: 2
-        x: 1912
-        y: 467
-        width: 164
-        height: 378
+        x: 1760
+        y: 468
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +632,10 @@ TextureImporter:
       name: Robot lose_23
       rect:
         serializedVersion: 2
-        x: 152
-        y: 27
-        width: 164
-        height: 292
+        x: 1320
+        y: 28
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -653,10 +653,10 @@ TextureImporter:
       name: Robot lose_24
       rect:
         serializedVersion: 2
-        x: 591
-        y: 27
-        width: 165
-        height: 292
+        x: 1760
+        y: 28
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -671,13 +671,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot lose_25
+      name: Robot lose_20
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 27
-        width: 164
-        height: 278
+        x: 0
+        y: 28
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,20 +685,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2fc7cd43e738d940800000000000000
-      internalID: 5321064409140285227
+      spriteID: ff51c2962a15d7af0800000000000000
+      internalID: -397071434147686913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot lose_26
+      name: Robot lose_21
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 27
-        width: 163
-        height: 285
+        x: 440
+        y: 28
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,20 +706,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb62cfad9145bd220800000000000000
-      internalID: 2511693687214057147
+      spriteID: 13a6dbf9b9bedbfe0800000000000000
+      internalID: -1171521274414011855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot lose_30
+      name: Robot lose_22
       rect:
         serializedVersion: 2
-        x: 1912
-        y: 27
-        width: 164
-        height: 292
+        x: 880
+        y: 28
+        width: 440
+        height: 412
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,8 +727,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7b47a6d0c3258c30800000000000000
-      internalID: 4360931125320174460
+      spriteID: 1cc368864a0c03e10800000000000000
+      internalID: 2175450432380746945
       vertices: []
       indices: 
       edges: []

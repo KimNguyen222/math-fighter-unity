@@ -158,10 +158,10 @@ TextureImporter:
       name: CaveMan impatient_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1795
-        width: 294
-        height: 370
+        x: 0
+        y: 1796
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: CaveMan impatient_1
       rect:
         serializedVersion: 2
-        x: 513
-        y: 1795
-        width: 316
-        height: 373
+        x: 440
+        y: 1796
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: CaveMan impatient_2
       rect:
         serializedVersion: 2
-        x: 953
-        y: 1795
-        width: 317
-        height: 375
+        x: 880
+        y: 1796
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: CaveMan impatient_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1355
-        width: 317
-        height: 375
+        x: 0
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: CaveMan impatient_4
       rect:
         serializedVersion: 2
-        x: 513
-        y: 1355
-        width: 318
-        height: 375
+        x: 440
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: CaveMan impatient_5
       rect:
         serializedVersion: 2
-        x: 953
-        y: 1355
-        width: 317
-        height: 375
+        x: 880
+        y: 1356
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: CaveMan impatient_6
       rect:
         serializedVersion: 2
-        x: 73
-        y: 915
-        width: 317
-        height: 375
+        x: 0
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: CaveMan impatient_7
       rect:
         serializedVersion: 2
-        x: 513
-        y: 915
-        width: 318
-        height: 375
+        x: 440
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: CaveMan impatient_8
       rect:
         serializedVersion: 2
-        x: 953
-        y: 915
-        width: 317
-        height: 375
+        x: 880
+        y: 916
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: CaveMan impatient_9
       rect:
         serializedVersion: 2
-        x: 73
-        y: 475
-        width: 317
-        height: 375
+        x: 0
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: CaveMan impatient_10
       rect:
         serializedVersion: 2
-        x: 513
-        y: 474
-        width: 318
-        height: 376
+        x: 440
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +389,10 @@ TextureImporter:
       name: CaveMan impatient_11
       rect:
         serializedVersion: 2
-        x: 953
-        y: 474
-        width: 316
-        height: 374
+        x: 880
+        y: 476
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: CaveMan impatient_12
       rect:
         serializedVersion: 2
-        x: 73
-        y: 35
-        width: 294
-        height: 370
+        x: 0
+        y: 36
+        width: 440
+        height: 404
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

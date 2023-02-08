@@ -15,14 +15,19 @@ namespace MathFighter.GamePlay
 
     public class MathTextRenderer
     {
-        //======================================================
-        #region Static methods, fields, constructors
-        #endregion
+        private static MathTextRenderer _instance;
+        public static MathTextRenderer Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = new MathTextRenderer();
+                }
 
-        //======================================================
-        #region Constructors
-        #endregion
-
+                return _instance;
+            }
+        }
         //======================================================
         #region Public properties, operators, constants, and enums
 
@@ -189,36 +194,9 @@ namespace MathFighter.GamePlay
         //}
         public Texture2D RenderText(string text)
         {
-            // if not invalidated then nothing to do here - just return
-            //if (!_invalidated) return null;
-
-            //_invalidated = false;
-
-            // else we need to build our texture and up date our owner sprite with it
-
+            Debug.Log("RenderText: " + text);
             // get the font
-            _font = Resources.Load("Fonts/arial1") as Font; 
-
-            // get the surface format if we haven't already
-            //if (_surfaceformat == SurfaceFormat.Unknown)
-            //{
-            //    _surfaceformat = ((_sprite.Material as SimpleMaterial).Texture.Instance as Texture2D).Format;
-            //}
-
-            // create a new material if we haven't already
-            //if (_material == null)
-            //{
-            //    _material = new Material(new Shader());
-
-            //    // and set it as the sprite's material (this is the material instance that we will set the texture on later)
-            //    _sprite.Material = _material;
-            //}
-
-            //// setup the spritebatch
-            //if (_spriteBatch == null)
-            //{
-            //    _spriteBatch = Game.SpriteBatch;//new SpriteBatch(TorqueEngineComponent.Instance.Game.GraphicsDevice);
-            //}
+            _font = Resources.Load("Fonts/arial1") as Font;
 
             // reset global modifiers
             _heightScale = 1.0f;
@@ -259,6 +237,7 @@ namespace MathFighter.GamePlay
 
             foreach (string w in words)
             {
+                Debug.Log("w: " + w);
                 // ignore empty strings (multiple consecutive spaces can cause this)
                 if (w.Length == 0) continue;
 
@@ -272,8 +251,10 @@ namespace MathFighter.GamePlay
                     texture = RenderNormalText(w);
                 }
 
+                //return texture.Texture;
+                Debug.Log("Texture is Null?");
                 if (texture == null) continue;  // some text is there to apply global modifiers, for example, rather than actually rendering stuff
-
+                Debug.Log("Texture is not Null");
                 // if this word doesn't take us beyond the end of the line (or the current line is empty) then just add the texture to the line
                 if (currentWidth + texture.Width <= _maxLineWidth || currentLine.Count == 0) // note: the first line can be empty of course so we wouldn't want to create *another* line in that situation
                 {
@@ -299,7 +280,7 @@ namespace MathFighter.GamePlay
                 currentLine.Add(spaceTexture);
                 currentWidth += spaceTexture.Width;
             }
-
+            Debug.Log("CurrentLineCount: " + currentLine.Count);
             // make sure to add the final line to the list
             if (currentLine.Count > 0)
             {
@@ -332,7 +313,7 @@ namespace MathFighter.GamePlay
                         lineHeight = tex.Height;
                     }
                 }
-
+                Debug.Log("LineHeight: " + lineHeight);
                 textureHeight += lineHeight;
 
                 if (lineWidth > textureWidth)
@@ -343,10 +324,12 @@ namespace MathFighter.GamePlay
                 lineSizes[i] = new Vector2(lineWidth, lineHeight);
                 i++;
             }
-
+            Debug.Log("TextureHeight: " + lines.Count + "," + _lineSpacing + "," + _heightScale);
             // adjust for linespacing
-            textureHeight += (lines.Count - 1) * (_lineSpacing * _heightScale);
+            if (lines.Count > 1)
+                textureHeight += (lines.Count - 1) * (_lineSpacing * _heightScale);
 
+            Debug.Log("TextureWidthHeight1: " + textureWidth + ", " + textureHeight);
             // if not centered then force textureWidth to original width so that we can do text alignment stuff
             // But only force it if not shrinking to fit or the texture would be smaller than the original size
             if ((FitMode != EnumFitMode.SquashTextIfTooBig || textureWidth < _originalSize.x))
@@ -358,61 +341,19 @@ namespace MathFighter.GamePlay
             if ((int)textureWidth == 0) textureWidth = 1.0f;
             if ((int)textureHeight == 0) textureHeight = 1.0f;
 
-            //// create a render target of the right size (dispose the existing one if there is one)
-            //if (_renderTarget != null)
-            //{
-            //    _material.Texture.Instance.Dispose();
-            //    _renderTarget.Dispose();
-            //}
-
-            //// create rendertarget - do silliness check to make sure not bigger than backbuffer et al.
-            //if (textureWidth > 1280)
-            //{
-            //    _renderTarget = Util.CreateRenderTarget2D(Game.Instance.GraphicsDevice, 1280, (int)textureHeight, 1, _surfaceformat);
-            //}
-            //else
-            //{
-            //    _renderTarget = Util.CreateRenderTarget2D(Game.Instance.GraphicsDevice, (int)textureWidth, (int)textureHeight, 1, _surfaceformat);
-            //}
-
-            //// setup the device stuff
-            //TorqueEngineComponent.Instance.Game.GraphicsDevice.SetRenderTarget(0, _renderTarget);
-            //TorqueEngineComponent.Instance.Game.GraphicsDevice.Clear(ClearOptions.Target, _bgcolor, 0.0f, 0);
-
-            //// start the spritebatch
-            //_spriteBatch.Begin();
-
             // render the text-line textures to the 'master' texture
             float linePosY = 0.0f;
             float posX;
             float posY;
             i = 0;
-
+            Debug.Log("TextureWidthHeight2: " + textureWidth + ", " + textureHeight);
             LogicalRenderTexture lrt = LRTPool.Instance.AcquireLRT((int)textureWidth, (int)textureHeight);
-
+            Debug.Log("Lines Count: " + lines.Count);
             foreach (List<LogicalRenderTexture> line in lines)
             {
                 //      workout where to start the line horizontally
                 Vector2 lineSize = lineSizes[i];
 
-                //switch (_align)
-                //{
-                //    case TextMaterial.Alignment.left:
-                //        posX = 0.0f;
-                //        break;
-
-                //    case TextMaterial.Alignment.right:
-                //        posX = textureWidth - lineSize.X;
-                //        break;
-
-                //    case TextMaterial.Alignment.centered:
-                //        posX = (textureWidth - lineSize.X) * 0.5f;
-                //        break;
-
-                //    default:    // this isn't going to happen, but keeps the compiler happy (else gives a use of undefined var posX error further down)
-                //        posX = 0.0f;
-                //        break;
-                //}
                 posX = (textureWidth - lineSize.x) * 0.5f;
 
                 //      render all the textures for this line
@@ -436,41 +377,9 @@ namespace MathFighter.GamePlay
                 linePosY += lineSize.y + (_lineSpacing * _heightScale);
                 i++;
             }
-
-            //// end the spritebatch
-            //_spriteBatch.End();
-
-            //// reset device stuff
-            //TorqueEngineComponent.Instance.Game.GraphicsDevice.SetRenderTarget(0, null);
-
+            Debug.Log("Lrt Texture: " + lrt.Texture.width + ", " + lrt.Texture.height);
             // assign the texture to the sprite's material
-            return lrt.Texture;
-            //_material.SetTexture(finalTexture);
-
-            //switch (_fitMode)
-            //{
-            //    case EnumFitMode.None:
-            //        _sprite.Size = new Vector2(finalTexture.Width, finalTexture.Height);
-            //        break;
-
-            //    case EnumFitMode.SquashTextIfTooBig:
-            //        if (finalTexture.Width > (int)_originalSize.X)
-            //        {
-            //            _sprite.Size = new Vector2(_originalSize.X, finalTexture.Height);
-            //        }
-            //        else
-            //        {
-            //            _sprite.Size = new Vector2(finalTexture.Width, finalTexture.Height);
-            //        }
-            //        break;
-
-            //    default:
-            //        Debug.Log("Fit mode not handled yet: " + _fitMode);
-            //        break;
-            //}
-
-            // cleanup
-            //LRTPool.Instance.ReleaseLRT(spaceTexture);            
+            return lrt.Texture;                
         }
 
         #endregion
@@ -510,6 +419,7 @@ namespace MathFighter.GamePlay
         }
         private LogicalRenderTexture RenderSpecialText(string text)
         {
+            Debug.Log("RenderSpecialText:"  + text);
             if (text.StartsWith("@math{"))
             {
                 return RenderMathExpression(text.Substring(6, text.Length - 7));
@@ -535,7 +445,7 @@ namespace MathFighter.GamePlay
 
         private LogicalRenderTexture RenderNormalText(string text)
         {
-            return RenderNormalText(text, 1.0f);
+            return RenderNormalText(text, 32f);
         }
 
         private LogicalRenderTexture RenderNormalText(string text, float scaleFactor)
@@ -555,6 +465,7 @@ namespace MathFighter.GamePlay
 
             //// render text to texture
             //_spriteBatch.Begin();
+            Debug.Log("RenderNormalText: " + text + ", Size: " + textSize);
             lrt.DrawString(_font, text, Vector2.zero, _color, 0.0f, Vector2.zero, textSize.z, 0.0f);
             //_spriteBatch.End();
 
@@ -568,6 +479,7 @@ namespace MathFighter.GamePlay
 
         private LogicalRenderTexture RenderMathExpression(string text)
         {
+            Debug.Log("RenderMathExpression:" + text);
             string expressionstring; 
             float charHeightModifier;
 
@@ -617,6 +529,7 @@ namespace MathFighter.GamePlay
 
             //// render text to texture (draw an empty string)
             //_spriteBatch.Begin();
+            Debug.Log("RenderNewLine: " + text + ", Size: " + w + ", " + h);
             lrt.DrawString(_font, " ", Vector2.zero, _color, 0.0f, Vector2.zero, 1.0f, 0.0f);
             //_spriteBatch.End();
 
@@ -630,6 +543,7 @@ namespace MathFighter.GamePlay
 
         private LogicalRenderTexture RenderMathLimit(string text)
         {
+            Debug.Log("RenderMathLimit:" + text);
             //Assert.Fatal(_surfaceformat != SurfaceFormat.Unknown, "Unknown surface format");
 
             // get the parameters to use in the math limit symbol display
@@ -755,9 +669,9 @@ namespace MathFighter.GamePlay
         private Vector4 _background_rgba;
         private Color _bgcolor;
         //private bool _invalidated;
-        private float _maxLineWidth;
-        private float _charHeight;
-        private float _lineSpacing;
+        private float _maxLineWidth = 1000f;
+        private float _charHeight = 50;
+        private float _lineSpacing = 2;
         //private SurfaceFormat _surfaceformat;
         //private Material _material;
         //private RenderTarget2D _renderTarget;

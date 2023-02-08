@@ -155,10 +155,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_0
       rect:
         serializedVersion: 2
-        x: 175
-        y: 916
-        width: 104
-        height: 373
+        x: 0
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_1
       rect:
         serializedVersion: 2
-        x: 534
-        y: 916
-        width: 185
-        height: 373
+        x: 440
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_2
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 916
-        width: 107
-        height: 373
+        x: 880
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_3
       rect:
         serializedVersion: 2
-        x: 1492
-        y: 916
-        width: 107
-        height: 373
+        x: 1320
+        y: 915
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_4
       rect:
         serializedVersion: 2
-        x: 172
-        y: 476
-        width: 107
-        height: 373
+        x: 0
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_5
       rect:
         serializedVersion: 2
-        x: 612
-        y: 476
-        width: 107
-        height: 373
+        x: 440
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_6
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 476
-        width: 107
-        height: 373
+        x: 880
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_7
       rect:
         serializedVersion: 2
-        x: 1492
-        y: 476
-        width: 107
-        height: 373
+        x: 1320
+        y: 475
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_8
       rect:
         serializedVersion: 2
-        x: 172
-        y: 36
-        width: 107
-        height: 373
+        x: 0
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_9
       rect:
         serializedVersion: 2
-        x: 612
-        y: 36
-        width: 107
-        height: 373
+        x: 440
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_10
       rect:
         serializedVersion: 2
-        x: 974
-        y: 36
-        width: 185
-        height: 373
+        x: 880
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: SchoolTeacher Time Running out_11
       rect:
         serializedVersion: 2
-        x: 1495
-        y: 36
-        width: 104
-        height: 373
+        x: 1320
+        y: 35
+        width: 440
+        height: 405
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
